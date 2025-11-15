@@ -12,8 +12,9 @@ Here is Peng Lai (赖鹏). I’m a second-year M.Phil. student in the Department
 
 🔥 News
 ======
-[2025.09] — Three papers were submitted to ICLR 2026 and are currently under review.
-[2025.09] — Our paper “Title of the Paper” was accepted to Neurips 2025.
+[**2025.09**] — Three papers were submitted to ICLR 2026 and are currently under review.
+
+[**2025.09**] — Our paper “Title of the Paper” was accepted to Neurips 2025.
 
 🧾 Publications
 ======
