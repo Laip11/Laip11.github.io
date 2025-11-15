@@ -24,11 +24,11 @@ repository               : "Laip11/Laip11.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "M.Phil. student @SUSTech"
+  name             : "Peng LAI"
   pronouns         : # example: "she/her"  
-  bio              : "Department of Statistics and Data Science"
+  bio              : "M.Phil. student@SUSTech"
   location         : "Shenzhen Guangdong"
-  employer         : "Southern University of Science and Technology"
+  employer         : 
   uri              : # URL
   email            : "12432270@mail.sustech.edu.cn" 
 
