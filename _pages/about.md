@@ -1,16 +1,16 @@
 ---
 permalink: /
-title: "About me"
+title: "🔍 About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Here is Peng Lai (赖鹏). I’m a second-year M.Phil. student in Statistics and Data Science at **Southern University of Science and Technology**, advised by Prof. [Guanhua Chen](https://ghchen.me/). I previously received my Bachelor of Science (B.Sc.) degree from **Sichuan Normal University**. My current research primarily focuses on **LLM-as-a-judge**, **reward modeling**, and **reinforcement learning**. I am dedicated to enhancing model evaluation capabilities to enable models to identify their own limitations and progressively improve, aiming to advance a paradigm of self-reflective and continuously improving language models. I am currently doing an internship at **Alibaba International**.
+Here is Peng Lai (赖鹏). I’m a second-year M.Phil. student in the Department of Statistics and Data Science at **Southern University of Science and Technology**, advised by Prof. [Guanhua Chen](https://ghchen.me/). I previously received my Bachelor of Science (B.Sc.) degree from **Sichuan Normal University**. My current research primarily focuses on **LLM-as-a-judge**, **reward modeling**, and **reinforcement learning**. I am dedicated to enhancing model evaluation capabilities to enable models to identify their own limitations and progressively improve, aiming to advance a paradigm of self-reflective and continuously improving language models. I am currently doing an internship at **Alibaba International**.
 
 
-A data-driven personal website
+🔥 News
 ======
 Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
@@ -21,7 +21,7 @@ For those users that need more advanced functionality, the template also support
 - [Mermaid](https://mermaid.js.org/) for diagraming
 - [Plotly](https://plotly.com/javascript/) for plotting
 
-Getting started
+🧾 Publications
 ======
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
 1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
