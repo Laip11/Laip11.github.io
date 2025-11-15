@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: 
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
@@ -18,7 +18,7 @@ I am currently doing an internship at **Alibaba International**.
 ## 🔥 News
 
 - **2025.09** — Three papers were **submitted to ICLR 2026** and are currently **under review**.
-- **2025.09** — Our paper *“Title of the Paper”* was **accepted to NeurIPS 2025**.
+- **2025.09** — Our paper *“[Beyond the Surface: Enhancing LLM-as-a-Judge Alignment with Human via Internal Representations](https://arxiv.org/abs/2508.03550)”* was **accepted to NeurIPS 2025**.
 
 ## 🧾 Publications
 
