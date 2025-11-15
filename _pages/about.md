@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
+   
 ## 🔍 About Me
 
 Here is **Peng Lai (赖鹏)**. I’m a second-year **M.Phil. student** in the Department of Statistics and Data Science at **Southern University of Science and Technology**, advised by Prof. [Guanhua Chen](https://ghchen.me/). I previously received my B.Sc. degree from **Sichuan Normal University**.
