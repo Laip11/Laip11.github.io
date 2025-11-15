@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I’m a second-year M.Phil. student in Statistics and Data Science at **Southern University of Science and Technology**, advised by Prof. [Guanhua Chen](https://ghchen.me/). I previously received my Bachelor of Science (B.Sc.) degree from **Sichuan Normal University**. My current research primarily focuses on **LLM-as-a-judge**, **reward modeling**, and **reinforcement learning**. I am dedicated to enhancing model evaluation capabilities to enable models to identify their own limitations and progressively improve, aiming to advance a paradigm of self-reflective and continuously improving language models. I am currently doing an internship at **Alibaba International**.
+Here is Peng Lai (赖鹏). I’m a second-year M.Phil. student in Statistics and Data Science at **Southern University of Science and Technology**, advised by Prof. [Guanhua Chen](https://ghchen.me/). I previously received my Bachelor of Science (B.Sc.) degree from **Sichuan Normal University**. My current research primarily focuses on **LLM-as-a-judge**, **reward modeling**, and **reinforcement learning**. I am dedicated to enhancing model evaluation capabilities to enable models to identify their own limitations and progressively improve, aiming to advance a paradigm of self-reflective and continuously improving language models. I am currently doing an internship at **Alibaba International**.
 
 
 A data-driven personal website
