@@ -23,3 +23,19 @@ I am currently doing an internship at **Alibaba International**.
 ## 🧾 Publications
 
 Coming soon.
+
+
+
+## Teaching Experience
+served as a Teaching Assistant at **Southern University of Science and Technology**. 
+
+- Engineering Probability and Statistics (Undergraduate), Fall 2024
+- Probability Theory and Mathematical Statistics (Undergraduate), Spring 2025
+- Advanced Natural Language Processing (Graduate), Fall 2025
+
+## Awards & Honors
+
+- Graduate Academic Scholarship (Special Class), Southern University of Science and Technology (Top 20%)  *2025*
+- Sichuan Provincial First Prize, National College Student Market Research and Analysis Competition (Team Leader)  *2022*
+- Sichuan Provincial First Prize, National College Student Mathematical Modeling Competition (Team Leader)  *2021*
+- Academic and Technological Innovation Competition Award, Sichuan Normal University (Three-time Recipient)  *2021–2024*
