@@ -29,9 +29,10 @@ Coming soon.
 ## Teaching Experience
 served as a Teaching Assistant at **Southern University of Science and Technology**. 
 
-- Engineering Probability and Statistics (Undergraduate), Fall 2024
-- Probability Theory and Mathematical Statistics (Undergraduate), Spring 2025
 - Advanced Natural Language Processing (Graduate), Fall 2025
+- Probability Theory and Mathematical Statistics (Undergraduate), Spring 2025
+- Engineering Probability and Statistics (Undergraduate), Fall 2024
+
 
 ## Awards & Honors
 
