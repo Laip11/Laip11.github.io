@@ -24,7 +24,7 @@
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "     Peng LAI"
+  name             : <h1 style="text-align: center;">Peng LAI</h1>
   pronouns         : # example: "she/her"  
   bio              : "M.Phil. student@SUSTech"
   location         : "Shenzhen Guangdong"
