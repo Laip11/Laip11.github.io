@@ -11,7 +11,7 @@ redirect_from:
 
 Here is **Peng Lai (赖鹏)**. I’m a second-year **M.Phil. student** in the Department of Statistics and Data Science at **Southern University of Science and Technology**, advised by Prof. [Guanhua Chen](https://ghchen.me/).
 
-My current research focuses on **LLM-as-a-judge**, **reward modeling**, and **reinforcement learning**. I aim to enhance model evaluation capabilities, enabling models to understand their own limitations and progressively improve—advancing the paradigm of **self-reflective and continuously improving language models**.
+My current research focuses on **LLM-as-a-judge**, **reward model**, and **reinforcement learning**. I aim to enhance model evaluation capabilities, enabling models to understand their own limitations and progressively improve—advancing the paradigm of **self-reflective and continuously improving language models**.
 
 I am currently doing a research internship at **Alibaba International**.
 
@@ -44,8 +44,8 @@ served as a Teaching Assistant at **Southern University of Science and Technolog
 - Engineering Probability and Statistics (Undergraduate), Fall 2024
 
 ## 🤝 Service
-
-- ARR Reviewer (2025)
+- ACL ARR 2026 January —— Upcoming Reviewer
+- ACL ARR 2025 October Reviewer
 
 ## ✨ Awards & Honors
 
