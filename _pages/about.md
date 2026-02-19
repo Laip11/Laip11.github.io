@@ -85,6 +85,8 @@ He Zhu<sup>*</sup>, Junyou Su<sup>*</sup>, **Peng Lai<sup>*</sup>**, Ren Ma, Wen
 # 📖 Educations
 - *2024 – Present*: M.Phil. in Statistics and Data Science, Southern University of Science and Technology  
   - Ph.D. in Statistics and Data Science (Starting Fall 2026), advised by Prof. Guanhua Chen
+- *2020 – 2024*: B.Sc. in Statistics, School of Mathematical Sciences, Sichuan Normal University
+
   
 # 📚 Teaching Experience
 served as a Teaching Assistant at **Southern University of Science and Technology**. 
