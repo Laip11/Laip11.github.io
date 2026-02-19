@@ -32,17 +32,6 @@ I am currently doing a research internship at **Alibaba Cloud**.
 
 (	<sup>*</sup> indicates equal contribution.)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='images/lager_fig.png' alt="paper" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Beyond the Surface: Enhancing LLM-as-a-Judge Alignment with Human via Internal Representations](https://arxiv.org/abs/2508.03550)
-
-**Peng Lai**, Jianjie Zheng, Sijie Cheng, Yun Chen, Peng Li, Yang Liu, Guanhua Chen  
-
-- Accepted to **NeurIPS 2025 (Poster)**. 
-</div>
-</div>
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/biasscope_fig.png' alt="paper" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -62,6 +51,17 @@ I am currently doing a research internship at **Alibaba Cloud**.
 He Zhu<sup>*</sup>, Junyou Su<sup>*</sup>, **Peng Lai<sup>*</sup>**, Ren Ma, Wenjia Zhang, Linyi Yang, Guanhua Chen 
 
 - Accepted to **ICLR 2026 (Poster)**. 
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='images/lager_fig.png' alt="paper" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Beyond the Surface: Enhancing LLM-as-a-Judge Alignment with Human via Internal Representations](https://arxiv.org/abs/2508.03550)
+
+**Peng Lai**, Jianjie Zheng, Sijie Cheng, Yun Chen, Peng Li, Yang Liu, Guanhua Chen  
+
+- Accepted to **NeurIPS 2025 (Poster)**. 
 </div>
 </div>
 
