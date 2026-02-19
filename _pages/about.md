@@ -26,7 +26,7 @@ I am currently doing a research internship at **Alibaba Cloud**.
 # 🔥 News
 - *2026.01*: Two papers (*AlignScal* and *UniRRM*) were submitted to **ICML 2026** and are currently under review.
 - *2026.01*: 🎉🎉 Two papers — *“BiasScope: Towards Automated Detection of Bias in LLM-as-a-Judge Evaluation”* and *“Anchored Supervised Fine-Tuning”* — were accepted to **ICLR 2026 (Poster)**.  
-- *2025.09*: 🎉🎉 Our paper *Beyond the Surface: Enhancing LLM-as-a-Judge Alignment with Human via Internal Representations* was accepted to **NeurIPS 2025 (Poster)**.
+- *2025.09*: 🎉🎉 Our paper *"Beyond the Surface: Enhancing LLM-as-a-Judge Alignment with Human via Internal Representations"* was accepted to **NeurIPS 2025 (Poster)**.
   
 # 📝 Publications 
 
