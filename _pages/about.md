@@ -78,7 +78,8 @@ He Zhu<sup>*</sup>, Junyou Su<sup>*</sup>, **Peng Lai<sup>*</sup>**, Ren Ma, Wen
 - *2021*: Sichuan Provincial First Prize, National College Student Mathematical Modeling Competition (Team Leader)
 
 # 💻 Internships
-- *2025 – Present*: Research Intern, Alibaba Cloud
+- *2026.01 – Present*: Research Intern, Alibaba Cloud
+- *2025.10 – 2026.01*: Research Intern, Alibaba International Digital Commerce
 
 
 # 📖 Educations
