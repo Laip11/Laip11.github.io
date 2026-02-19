@@ -83,7 +83,7 @@ He Zhu<sup>*</sup>, Junyou Su<sup>*</sup>, **Peng Lai<sup>*</sup>**, Ren Ma, Wen
 
 
 # 📖 Educations
-- *2024 – Present*: Integrated M.Phil.–Ph.D. program (Mathematics → Computer Science), Department of Statistics and Data Science, Southern University of Science and Technology (Ph.D. status from Fall 2026).
+- *2024 – Present*: Integrated M.Phil.–Ph.D. program (Mathematics → Computer Science), Department of Statistics and Data Science, Southern University of Science and Technology (Ph.D. student status from Fall 2026).
 - *2020 – 2024*: B.Sc. in Statistics, School of Mathematical Sciences, Sichuan Normal University
 
   
