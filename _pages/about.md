@@ -52,7 +52,16 @@ I am currently doing a research internship at **Alibaba Cloud**.
 </div>
 </div>
 
-- **[Anchored Supervised Fine-Tuning](https://arxiv.org/abs/2509.23753)**, He Zhu, Junyou Su, **Peng Lai**, Ren Ma, Wenjia Zhang, Linyi Yang, Guanhua Chen  - Accepted to **ICLR 2026 (Poster)**.
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/asft.png' alt="paper" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Anchored Supervised Fine-Tuning](https://arxiv.org/abs/2509.23753)
+
+He Zhu, Junyou Su, **Peng Lai**, Ren Ma, Wenjia Zhang, Linyi Yang, Guanhua Chen 
+
+- Accepted to **ICLR 2026 (Poster)**. 
+</div>
+</div>
 
 - **AlignScal: Enhancing Preference Alignment via Data Selection Using Model Internal Signals**, **Peng Lai**, He Zhu, Zhiwen Ruan, Dongdong Zhang, Yun Chen, Peng Li, Furu Wei, Yang Liu, Guanhua Chen — *Under review at ICML 2026*  
 - **UniRRM: Unified Reasoning Reward Models Across Languages and Evaluation Paradigms**, **Peng Lai**, Yichao Du, Junchao Wu, Weibo Gao, Linan Yue, Longyue Wang, Weihua Luo, Derek F. Wong, Guanhua Chen — *Under review at ICML 2026*
