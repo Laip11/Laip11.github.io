@@ -82,3 +82,14 @@ He Zhu, Junyou Su, **Peng Lai**, Ren Ma, Wenjia Zhang, Linyi Yang, Guanhua Chen
 # 📖 Educations
 - *2024 – Present*: M.Phil. in Statistics and Data Science, Southern University of Science and Technology  
   - Ph.D. in Statistics and Data Science (Starting Fall 2026), advised by Prof. Guanhua Chen
+  
+# 📚 Teaching Experience
+served as a Teaching Assistant at **Southern University of Science and Technology**. 
+
+- Advanced Natural Language Processing (Graduate), Fall 2025
+- Probability Theory and Mathematical Statistics (Undergraduate), Spring 2025
+- Engineering Probability and Statistics (Undergraduate), Fall 2024
+
+# 🤝 Service
+- ICLR 2026 Workshop LLA Reviewer
+- ACL ARR 2025 October Reviewer
