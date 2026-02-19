@@ -30,7 +30,7 @@ I am currently doing a research internship at **Alibaba Cloud**.
   
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='images/lager_fig.pdf' alt="paper" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='images/lager_fig.png' alt="paper" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Beyond the Surface: Enhancing LLM-as-a-Judge Alignment with Human via Internal Representations](https://arxiv.org/abs/2508.03550)
@@ -41,7 +41,7 @@ I am currently doing a research internship at **Alibaba Cloud**.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/biasscope_fig.pdf' alt="paper" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/biasscope_fig.png' alt="paper" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [BiasScope: Towards Automated Detection of Bias in LLM-as-a-Judge Evaluation](https://arxiv.org/abs/2602.09383v1)
