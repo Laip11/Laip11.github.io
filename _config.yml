@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Peng Lai (赖鹏)"
-# description              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. "
+description              : ""
 repository               : "Laip11/Laip11.github.io"
 google_scholar_stats_use_cdn : true
 
