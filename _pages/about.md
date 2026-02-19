@@ -46,7 +46,7 @@ I am currently doing a research internship at **Alibaba Cloud**.
 
 [BiasScope: Towards Automated Detection of Bias in LLM-as-a-Judge Evaluation](https://arxiv.org/abs/2602.09383v1)
 
-**Peng Lai**, Zhihao Ou, Yong Wang, Longyue Wang, Jian Yang, Yun Chen, Guanhua Chen  
+**Peng Lai<sup>*</sup>**, Zhihao Ou<sup>*</sup>, Yong Wang, Longyue Wang, Jian Yang, Yun Chen, Guanhua Chen  
 
 - Accepted to **ICLR 2026 (Poster)**. 
 </div>
@@ -57,7 +57,7 @@ I am currently doing a research internship at **Alibaba Cloud**.
 
 [Anchored Supervised Fine-Tuning](https://arxiv.org/abs/2509.23753)
 
-He Zhu, Junyou Su, **Peng Lai**, Ren Ma, Wenjia Zhang, Linyi Yang, Guanhua Chen 
+He Zhu<sup>*</sup>, Junyou Su<sup>*</sup>, **Peng Lai<sup>*</sup>**, Ren Ma, Wenjia Zhang, Linyi Yang, Guanhua Chen 
 
 - Accepted to **ICLR 2026 (Poster)**. 
 </div>
