@@ -94,6 +94,6 @@ served as a Teaching Assistant at **Southern University of Science and Technolog
 - Probability Theory and Mathematical Statistics (Undergraduate), Spring 2025
 - Engineering Probability and Statistics (Undergraduate), Fall 2024
 
-# 🤝 Service
+# 🤝 Academic Services
 - ICLR 2026 Workshop LLA Reviewer
 - ACL ARR 2025 October Reviewer
