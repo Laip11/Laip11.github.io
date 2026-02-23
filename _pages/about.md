@@ -17,11 +17,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Here is **Peng Lai (赖鹏)**. I am currently a second-year **M.Phil. student** in the Department of Statistics and Data Science at **Southern University of Science and Technology**, enrolled in an integrated M.Phil.–Ph.D. program (Mathematics → Computer Science), and will formally continue as a Ph.D. student under the supervision of Prof. [Guanhua Chen](https://ghchen.me/) starting in Fall 2026.
+Here is **Peng Lai (赖鹏)**. I am currently a second-year **M.Phil. student** in the Department of Statistics and Data Science at **Southern University of Science and Technology**, enrolled in an integrated M.Phil.–Ph.D. program (Mathematics → Computer Science), and will formally continue as a Ph.D. student under the supervision of Prof. [Guanhua Chen](https://ghchen.me/) starting in Fall 2026. I am currently doing a research internship at **Alibaba Cloud**.
 
 My current research focuses on **LLM-as-a-judge**, **reward model**, and **reinforcement learning**. I aim to enhance model evaluation capabilities, enabling models to understand their own limitations and progressively improve—advancing the paradigm of **self-reflective and continuously improving language models**.
 
-I am currently doing a research internship at **Alibaba Cloud**.
+I am interested in popular and exciting research directions, and I am willing to collaborate with outstanding researchers. You are welcome to reach out to me anytime to discuss related research~
 
 # 🔥 News
 - *2026.01*: Two papers (*AlignScal* and *UniRRM*) were submitted to **ICML 2026** and are currently under review.
