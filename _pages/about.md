@@ -21,6 +21,8 @@ Here is **Peng Lai (赖鹏)**. I am currently a second-year **M.Phil. student** 
 
 My current research focuses on **LLM-as-a-judge**, **reward model**, and **reinforcement learning**. I aim to enhance model evaluation capabilities, enabling models to understand their own limitations and progressively improve—advancing the paradigm of **self-reflective and continuously improving language models**.
 
+I usually enjoy singing and working out, and I’m also passionate about competitive gaming. I reached **Master tier in League of Legends (Season 14) and Immortal rank in Valorant**.
+
 I am interested in popular and exciting research directions, and I am willing to collaborate with outstanding researchers. You are welcome to reach out to me anytime to discuss related research~
 
 # 🔥 News
