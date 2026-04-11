@@ -67,12 +67,14 @@ He Zhu<sup>*</sup>, Junyou Su<sup>*</sup>, **Peng Lai<sup>*</sup>**, Ren Ma, Wen
 </div>
 </div>
 
-- **AlignScal: Enhancing Preference Alignment via Data Selection Using Model Internal Signals**
-  - **Peng Lai<sup>*</sup>**, He Zhu<sup>*</sup>, Zhiwen Ruan, Dongdong Zhang, Yun Chen, Peng Li, Furu Wei, Yang Liu, Guanhua Chen
-  - *Under review at ICML 2026*  
+## Working Papers
+
 - **UniRRM: Unified Reasoning Reward Models Across Languages and Evaluation Paradigms**
   - **Peng Lai**, Yichao Du, Junchao Wu, Weibo Gao, Linan Yue, Longyue Wang, Weihua Luo, Derek F. Wong, Guanhua Chen
   - *Under review at ICML 2026*
+- **AlignScal: Enhancing Preference Alignment via Data Selection Using Model Internal Signals**
+  - **Peng Lai<sup>*</sup>**, He Zhu<sup>*</sup>, Zhiwen Ruan, Dongdong Zhang, Yun Chen, Peng Li, Furu Wei, Yang Liu, Guanhua Chen
+  - *Under review at ICML 2026*  
 
 # 🎖 Honors and Awards
 - *2025*: Graduate Academic Scholarship (Special Class), Southern University of Science and Technology (Top 20%)  
