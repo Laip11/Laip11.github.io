@@ -34,15 +34,28 @@ I am interested in popular and exciting research directions, and I am willing to
 
 (	<sup>*</sup> indicates equal contribution.)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/biasscope_fig.png' alt="paper" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class="paper-box">
+  <div class="paper-box-image">
+    <img src='images/biasscope_fig.png'>
+    <div class="badge">ICLR 2026</div>
+  </div>
 
-[BiasScope: Towards Automated Detection of Bias in LLM-as-a-Judge Evaluation](https://arxiv.org/abs/2602.09383v1)
+  <div class="paper-box-text">
+    <h3>
+      <a href="https://arxiv.org/abs/2602.09383v1">
+        BiasScope: Towards Automated Detection of Bias in LLM-as-a-Judge Evaluation
+      </a>
+    </h3>
 
-**Peng Lai<sup>*</sup>**, Zhihao Ou<sup>*</sup>, Yong Wang, Longyue Wang, Jian Yang, Yun Chen, Guanhua Chen  
+    <p><b>Peng Lai*</b>, Zhihao Ou*, Yong Wang, Longyue Wang, Jian Yang, Yun Chen, Guanhua Chen</p>
 
-- Accepted to **ICLR 2026 (Poster)**. 
-</div>
+    <p class="venue">🎉 Accepted to <b>ICLR 2026 (Poster)</b></p>
+
+    <div class="paper-links">
+      <a href="#">📄 Paper</a>
+      <a href="#">💻 Code</a>
+    </div>
+  </div>
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/asft.png' alt="paper" width="100%"></div></div>
@@ -99,5 +112,6 @@ served as a Teaching Assistant at **Southern University of Science and Technolog
 - Engineering Probability and Statistics (Undergraduate), Fall 2024
 
 # 🤝 Academic Services
+- NeurIPS 2026 Reviewer (forthcoming)
 - ICLR 2026 Workshop LLA Reviewer
 - ACL ARR 2025 October Reviewer
