@@ -34,42 +34,16 @@ I am interested in popular and exciting research directions, and I am willing to
 
 (	<sup>*</sup> indicates equal contribution.)
 
-<style>
-.paper-box {
-  display: flex;
-  gap: 20px;
-  border-radius: 16px;
-  padding: 16px;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  background: #fff;
-}
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/biasscope_fig.png' alt="paper" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-.paper-box:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 12px 28px rgba(0,0,0,0.15);
-}
+[BiasScope: Towards Automated Detection of Bias in LLM-as-a-Judge Evaluation](https://arxiv.org/abs/2602.09383v1)
 
-.paper-box-image img {
-  border-radius: 12px;
-  transition: transform 0.3s ease;
-}
+**Peng Lai<sup>*</sup>**, Zhihao Ou<sup>*</sup>, Yong Wang, Longyue Wang, Jian Yang, Yun Chen, Guanhua Chen  
 
-.paper-box:hover img {
-  transform: scale(1.05);
-}
-
-.badge {
-  position: absolute;
-  background: linear-gradient(135deg, #6a11cb, #2575fc);
-  color: white;
-  padding: 4px 10px;
-  border-radius: 8px;
-  font-size: 12px;
-  top: 10px;
-  left: 10px;
-}
-</style>
+- Accepted to **ICLR 2026 (Poster)**. 
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/asft.png' alt="paper" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
