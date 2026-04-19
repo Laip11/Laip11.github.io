@@ -34,16 +34,172 @@ I am interested in popular and exciting research directions, and I am willing to
 
 (	<sup>*</sup> indicates equal contribution.)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/biasscope_fig.png' alt="paper" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[BiasScope: Towards Automated Detection of Bias in LLM-as-a-Judge Evaluation](https://arxiv.org/abs/2602.09383v1)
-
-**Peng Lai<sup>*</sup>**, Zhihao Ou<sup>*</sup>, Yong Wang, Longyue Wang, Jian Yang, Yun Chen, Guanhua Chen  
-
-- Accepted to **ICLR 2026 (Poster)**. 
-</div>
-</div>
+<style>
+    /* 卡片主容器：使用 Flexbox 实现图文并排排列，增加圆角和阴影 */
+    .paper-card {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      background: #ffffff;
+      border: 1px solid #eaeaea;
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 24px;
+      transition: box-shadow 0.3s ease, transform 0.3s ease;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+      gap: 28px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+  
+    /* 鼠标悬停时的浮动和阴影加深效果 */
+    .paper-card:hover {
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+      transform: translateY(-2px);
+    }
+  
+    /* 左侧图片容器设定固定宽度 */
+    .paper-image-container {
+      flex: 0 0 220px; 
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid #f0f0f0;
+    }
+  
+    .paper-image-container img {
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: transform 0.4s ease;
+    }
+  
+    /* 图片悬停时微微放大 */
+    .paper-card:hover .paper-image-container img {
+      transform: scale(1.03);
+    }
+  
+    /* 右侧文本内容区 */
+    .paper-content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    /* 论文标题：学术蓝，加粗 */
+    .paper-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #1a73e8; 
+      text-decoration: none;
+      line-height: 1.4;
+    }
+  
+    .paper-title:hover {
+      text-decoration: underline;
+    }
+  
+    /* 作者列表：柔和的深灰色，你的名字会高亮显示为全黑 */
+    .paper-authors {
+      font-size: 1rem;
+      color: #5f6368;
+      line-height: 1.5;
+    }
+  
+    .paper-authors strong {
+      color: #202124;
+    }
+  
+    /* 会议标签和状态信息 */
+    .paper-meta {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-top: 4px;
+    }
+  
+    /* 现代感的胶囊形会议徽章 */
+    .conf-badge {
+      background: #e8f0fe;
+      color: #1967d2;
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+  
+    .paper-status {
+      font-size: 0.95rem;
+      color: #5f6368;
+    }
+  
+    /* 快捷按钮区域（如 PDF、代码库） */
+    .paper-links {
+      margin-top: 8px;
+      display: flex;
+      gap: 12px;
+    }
+  
+    .paper-btn {
+      display: inline-flex;
+      align-items: center;
+      padding: 6px 16px;
+      border: 1px solid #dadce0;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: #3c4043;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      background: #ffffff;
+    }
+  
+    .paper-btn:hover {
+      background: #f8f9fa;
+      border-color: #bdc1c6;
+      color: #202124;
+    }
+  
+    /* 移动端适配：屏幕变窄时改为上下堆叠布局 */
+    @media (max-width: 768px) {
+      .paper-card {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+        gap: 20px;
+      }
+      .paper-image-container {
+        flex: 100%;
+        width: 100%;
+        max-width: 300px;
+      }
+    }
+  </style>
+  
+  <div class="paper-card">
+    <div class="paper-image-container">
+      <img src="images/biasscope_fig.png" alt="BiasScope Framework Figure">
+    </div>
+    
+    <div class="paper-content">
+      <a href="https://arxiv.org/abs/2602.09383v1" class="paper-title" target="_blank">
+        BiasScope: Towards Automated Detection of Bias in LLM-as-a-Judge Evaluation
+      </a>
+      
+      <div class="paper-authors">
+        <strong>Peng Lai<sup>*</sup></strong>, Zhihao Ou<sup>*</sup>, Yong Wang, Longyue Wang, Jian Yang, Yun Chen, Guanhua Chen
+      </div>
+      
+      <div class="paper-meta">
+        <span class="conf-badge">ICLR 2026</span>
+        <span class="paper-status">Accepted (Poster)</span>
+      </div>
+      
+      <div class="paper-links">
+        <a href="https://arxiv.org/abs/2602.09383v1" class="paper-btn" target="_blank">📄 arXiv</a>
+        </div>
+    </div>
+  </div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/asft.png' alt="paper" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
