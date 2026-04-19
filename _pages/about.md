@@ -48,32 +48,30 @@ redirect_from:
     gap: 8px;
   }
 
-  /* --- 现代感双栏列表 (适用于 News, Education, Internships 等) --- */
+  /* --- 现代感列表 (改为紧凑同行排版) --- */
   .modern-list {
-    list-style: none;
-    padding: 0;
+    list-style: disc; /* 经典的列表圆点 */
+    padding-left: 20px;
     margin: 0;
   }
 
   .modern-list li {
-    display: flex;
-    gap: 20px;
-    margin-bottom: 16px;
-    align-items: baseline;
+    margin-bottom: 12px;
     line-height: 1.6;
+    color: var(--secondary-text);
   }
 
   .modern-list-date {
-    flex: 0 0 110px;
+    display: inline-block;
     font-weight: 600;
     color: var(--accent-color);
     font-size: 0.95rem;
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    margin-right: 8px; /* 缩小时间与正文的间距 */
   }
 
   .modern-list-content {
-    flex: 1;
-    color: var(--secondary-text);
+    display: inline; /* 强制同行显示，自然换行 */
   }
 
   .modern-list-content strong {
@@ -120,7 +118,7 @@ redirect_from:
     color: #6b7280;
   }
 
-  /* --- 已发表论文卡片样式 (继承自前文) --- */
+  /* --- 已发表论文卡片样式 --- */
   .paper-card {
     display: flex;
     flex-direction: row;
@@ -243,13 +241,6 @@ redirect_from:
 
   /* 移动端适配 */
   @media (max-width: 768px) {
-    .modern-list li {
-      flex-direction: column;
-      gap: 4px;
-    }
-    .modern-list-date {
-      flex: auto;
-    }
     .paper-card {
       flex-direction: column;
       align-items: flex-start;
@@ -275,16 +266,16 @@ I am interested in popular and exciting research directions, and I am willing to
 <h1 class="section-title">🔥 News</h1>
 <ul class="modern-list">
   <li>
-    <div class="modern-list-date">2026.01</div>
-    <div class="modern-list-content">Two papers (<em>AlignScal</em> and <em>UniRRM</em>) were submitted to <strong>ICML 2026</strong> and are currently under review.</div>
+    <span class="modern-list-date">2026.01</span>
+    <span class="modern-list-content">Two papers (<em>AlignScal</em> and <em>UniRRM</em>) were submitted to <strong>ICML 2026</strong> and are currently under review.</span>
   </li>
   <li>
-    <div class="modern-list-date">2026.01</div>
-    <div class="modern-list-content">🎉🎉 Two papers — <em>“BiasScope: Towards Automated Detection of Bias in LLM-as-a-Judge Evaluation”</em> and <em>“Anchored Supervised Fine-Tuning”</em> — were accepted to <strong>ICLR 2026 (Poster)</strong>.</div>
+    <span class="modern-list-date">2026.01</span>
+    <span class="modern-list-content">🎉🎉 Two papers — <em>“BiasScope: Towards Automated Detection of Bias in LLM-as-a-Judge Evaluation”</em> and <em>“Anchored Supervised Fine-Tuning”</em> — were accepted to <strong>ICLR 2026 (Poster)</strong>.</span>
   </li>
   <li>
-    <div class="modern-list-date">2025.09</div>
-    <div class="modern-list-content">🎉🎉 Our paper <em>"Beyond the Surface: Enhancing LLM-as-a-Judge Alignment with Human via Internal Representations"</em> was accepted to <strong>NeurIPS 2025 (Poster)</strong>.</div>
+    <span class="modern-list-date">2025.09</span>
+    <span class="modern-list-content">🎉🎉 Our paper <em>"Beyond the Surface: Enhancing LLM-as-a-Judge Alignment with Human via Internal Representations"</em> was accepted to <strong>NeurIPS 2025 (Poster)</strong>.</span>
   </li>
 </ul>
 
@@ -374,40 +365,40 @@ I am interested in popular and exciting research directions, and I am willing to
 <h1 class="section-title">🎖 Honors and Awards</h1>
 <ul class="modern-list">
   <li>
-    <div class="modern-list-date">2025</div>
-    <div class="modern-list-content">Graduate Academic Scholarship (Special Class), <strong>Southern University of Science and Technology</strong> (Top 20%)</div>
+    <span class="modern-list-date">2025</span>
+    <span class="modern-list-content">Graduate Academic Scholarship (Special Class), <strong>Southern University of Science and Technology</strong> (Top 20%)</span>
   </li>
   <li>
-    <div class="modern-list-date">2022</div>
-    <div class="modern-list-content">Sichuan Provincial First Prize, National College Student Market Research and Analysis Competition (Team Leader)</div>
+    <span class="modern-list-date">2022</span>
+    <span class="modern-list-content">Sichuan Provincial First Prize, National College Student Market Research and Analysis Competition (Team Leader)</span>
   </li>
   <li>
-    <div class="modern-list-date">2021</div>
-    <div class="modern-list-content">Sichuan Provincial First Prize, National College Student Mathematical Modeling Competition (Team Leader)</div>
+    <span class="modern-list-date">2021</span>
+    <span class="modern-list-content">Sichuan Provincial First Prize, National College Student Mathematical Modeling Competition (Team Leader)</span>
   </li>
 </ul>
 
 <h1 class="section-title">💻 Internships</h1>
 <ul class="modern-list">
   <li>
-    <div class="modern-list-date">2026.01 – Now</div>
-    <div class="modern-list-content">Research Intern, <strong>Alibaba Cloud</strong></div>
+    <span class="modern-list-date">2026.01 – Now</span>
+    <span class="modern-list-content">Research Intern, <strong>Alibaba Cloud</strong></span>
   </li>
   <li>
-    <div class="modern-list-date">2025.10 – 2026.01</div>
-    <div class="modern-list-content">Research Intern, <strong>Alibaba International Digital Commerce</strong></div>
+    <span class="modern-list-date">2025.10 – 2026.01</span>
+    <span class="modern-list-content">Research Intern, <strong>Alibaba International Digital Commerce</strong></span>
   </li>
 </ul>
 
 <h1 class="section-title">📖 Educations</h1>
 <ul class="modern-list">
   <li>
-    <div class="modern-list-date">2024 – Present</div>
-    <div class="modern-list-content">Integrated M.Phil.–Ph.D. program (Mathematics → Computer Science)<br>Department of Statistics and Data Science, <strong>Southern University of Science and Technology</strong> (Ph.D. student status from Fall 2026).</div>
+    <span class="modern-list-date">2024 – Present</span>
+    <span class="modern-list-content">Integrated M.Phil.–Ph.D. program (Mathematics → Computer Science), Department of Statistics and Data Science, <strong>Southern University of Science and Technology</strong> (Ph.D. student status from Fall 2026).</span>
   </li>
   <li>
-    <div class="modern-list-date">2020 – 2024</div>
-    <div class="modern-list-content">B.Sc. in Statistics<br>School of Mathematical Sciences, <strong>Sichuan Normal University</strong></div>
+    <span class="modern-list-date">2020 – 2024</span>
+    <span class="modern-list-content">B.Sc. in Statistics, School of Mathematical Sciences, <strong>Sichuan Normal University</strong></span>
   </li>
 </ul>
 
@@ -415,31 +406,31 @@ I am interested in popular and exciting research directions, and I am willing to
 <p style="color: #4b5563; margin-bottom: 20px;">Served as a Teaching Assistant at <strong>Southern University of Science and Technology</strong>.</p>
 <ul class="modern-list">
   <li>
-    <div class="modern-list-date">Fall 2025</div>
-    <div class="modern-list-content">Advanced Natural Language Processing (Graduate)</div>
+    <span class="modern-list-date">Fall 2025</span>
+    <span class="modern-list-content">Advanced Natural Language Processing (Graduate)</span>
   </li>
   <li>
-    <div class="modern-list-date">Spring 2025</div>
-    <div class="modern-list-content">Probability Theory and Mathematical Statistics (Undergraduate)</div>
+    <span class="modern-list-date">Spring 2025</span>
+    <span class="modern-list-content">Probability Theory and Mathematical Statistics (Undergraduate)</span>
   </li>
   <li>
-    <div class="modern-list-date">Fall 2024</div>
-    <div class="modern-list-content">Engineering Probability and Statistics (Undergraduate)</div>
+    <span class="modern-list-date">Fall 2024</span>
+    <span class="modern-list-content">Engineering Probability and Statistics (Undergraduate)</span>
   </li>
 </ul>
 
 <h1 class="section-title">🤝 Academic Services</h1>
 <ul class="modern-list">
   <li>
-    <div class="modern-list-date">Reviewer</div>
-    <div class="modern-list-content">NeurIPS 2026 (forthcoming)</div>
+    <span class="modern-list-date">Reviewer</span>
+    <span class="modern-list-content">NeurIPS 2026 (forthcoming)</span>
   </li>
   <li>
-    <div class="modern-list-date">Reviewer</div>
-    <div class="modern-list-content">ICLR 2026 Workshop LLA</div>
+    <span class="modern-list-date">Reviewer</span>
+    <span class="modern-list-content">ICLR 2026 Workshop LLA</span>
   </li>
   <li>
-    <div class="modern-list-date">Reviewer</div>
-    <div class="modern-list-content">ACL ARR 2025 October</div>
+    <span class="modern-list-date">Reviewer</span>
+    <span class="modern-list-content">ACL ARR 2025 October</span>
   </li>
 </ul>
