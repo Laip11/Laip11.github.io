@@ -48,9 +48,9 @@ redirect_from:
     gap: 8px;
   }
 
-  /* --- 现代感列表 (改为紧凑同行排版) --- */
+  /* --- 现代感列表 (同行紧凑排版) --- */
   .modern-list {
-    list-style: disc; /* 经典的列表圆点 */
+    list-style: disc; 
     padding-left: 20px;
     margin: 0;
   }
@@ -67,18 +67,81 @@ redirect_from:
     color: var(--accent-color);
     font-size: 0.95rem;
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-    margin-right: 8px; /* 缩小时间与正文的间距 */
+    margin-right: 8px; 
   }
 
   .modern-list-content {
-    display: inline; /* 强制同行显示，自然换行 */
+    display: inline; 
   }
 
   .modern-list-content strong {
     color: var(--primary-text);
   }
 
-  /* --- 迷你卡片 (适用于 Working Papers) --- */
+  /* --- 经历与教育专属卡片 --- */
+  .exp-card {
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 16px;
+    transition: all 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .exp-card:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+    transform: translateY(-2px);
+    border-color: #e5e7eb;
+  }
+
+  .exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .exp-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--primary-text);
+  }
+
+  .exp-date {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-size: 0.85rem;
+    color: var(--accent-color);
+    background: var(--accent-bg);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .exp-org {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--secondary-text);
+  }
+
+  .exp-desc {
+    font-size: 0.95rem;
+    color: #6b7280;
+    line-height: 1.5;
+    margin-top: 4px;
+  }
+
+  @media (max-width: 600px) {
+    .exp-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 12px;
+    }
+  }
+
+  /* --- 迷你卡片 (Working Papers) --- */
   .mini-card {
     background: #ffffff;
     border: 1px solid var(--border-color);
@@ -362,6 +425,45 @@ I am interested in popular and exciting research directions, and I am willing to
   <div class="mini-card-status">Under review at ICML 2026</div>
 </div>
 
+<h1 class="section-title">💻 Internships</h1>
+
+<div class="exp-card">
+  <div class="exp-header">
+    <div class="exp-title">Research Intern</div>
+    <div class="exp-date">2026.01 – Present</div>
+  </div>
+  <div class="exp-org">Alibaba Cloud</div>
+</div>
+
+<div class="exp-card">
+  <div class="exp-header">
+    <div class="exp-title">Research Intern</div>
+    <div class="exp-date">2025.10 – 2026.01</div>
+  </div>
+  <div class="exp-org">Alibaba International Digital Commerce</div>
+</div>
+
+<h1 class="section-title">📖 Educations</h1>
+
+<div class="exp-card">
+  <div class="exp-header">
+    <div class="exp-title">Integrated M.Phil.–Ph.D. program</div>
+    <div class="exp-date">2024 – Present</div>
+  </div>
+  <div class="exp-org">Southern University of Science and Technology</div>
+  <div class="exp-desc">Department of Statistics and Data Science (Mathematics → Computer Science). Ph.D. student status from Fall 2026.</div>
+</div>
+
+<div class="exp-card">
+  <div class="exp-header">
+    <div class="exp-title">B.Sc. in Statistics</div>
+    <div class="exp-date">2020 – 2024</div>
+  </div>
+  <div class="exp-org">Sichuan Normal University</div>
+  <div class="exp-desc">School of Mathematical Sciences</div>
+</div>
+
+
 <h1 class="section-title">🎖 Honors and Awards</h1>
 <ul class="modern-list">
   <li>
@@ -378,32 +480,9 @@ I am interested in popular and exciting research directions, and I am willing to
   </li>
 </ul>
 
-<h1 class="section-title">💻 Internships</h1>
-<ul class="modern-list">
-  <li>
-    <span class="modern-list-date">2026.01 – Now</span>
-    <span class="modern-list-content">Research Intern, Alibaba Cloud</span>
-  </li>
-  <li>
-    <span class="modern-list-date">2025.10 – 2026.01</span>
-    <span class="modern-list-content">Research Intern, Alibaba International Digital Commerce</span>
-  </li>
-</ul>
-
-<h1 class="section-title">📖 Educations</h1>
-<ul class="modern-list">
-  <li>
-    <span class="modern-list-date">2024 – Present</span>
-    <span class="modern-list-content">Integrated M.Phil.–Ph.D. program (Mathematics → Computer Science), Department of Statistics and Data Science, Southern University of Science and Technology (Ph.D. student status from Fall 2026).</span>
-  </li>
-  <li>
-    <span class="modern-list-date">2020 – 2024</span>
-    <span class="modern-list-content">B.Sc. in Statistics, School of Mathematical Sciences, Sichuan Normal University</span>
-  </li>
-</ul>
 
 <h1 class="section-title">📚 Teaching Experience</h1>
-<p style="color: #4b5563; margin-bottom: 20px;">Served as a Teaching Assistant at Southern University of Science and Technology.</p>
+<p style="color: #4b5563; margin-bottom: 20px;">Served as a Teaching Assistant at <strong>Southern University of Science and Technology</strong>.</p>
 <ul class="modern-list">
   <li>
     <span class="modern-list-date">Fall 2025</span>
