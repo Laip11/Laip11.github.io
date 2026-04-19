@@ -34,29 +34,42 @@ I am interested in popular and exciting research directions, and I am willing to
 
 (	<sup>*</sup> indicates equal contribution.)
 
-<div class="paper-box">
-  <div class="paper-box-image">
-    <img src='images/biasscope_fig.png'>
-    <div class="badge">ICLR 2026</div>
-  </div>
+<style>
+.paper-box {
+  display: flex;
+  gap: 20px;
+  border-radius: 16px;
+  padding: 16px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  background: #fff;
+}
 
-  <div class="paper-box-text">
-    <h3>
-      <a href="https://arxiv.org/abs/2602.09383v1">
-        BiasScope: Towards Automated Detection of Bias in LLM-as-a-Judge Evaluation
-      </a>
-    </h3>
+.paper-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+}
 
-    <p><b>Peng Lai*</b>, Zhihao Ou*, Yong Wang, Longyue Wang, Jian Yang, Yun Chen, Guanhua Chen</p>
+.paper-box-image img {
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
 
-    <p class="venue">🎉 Accepted to <b>ICLR 2026 (Poster)</b></p>
+.paper-box:hover img {
+  transform: scale(1.05);
+}
 
-    <div class="paper-links">
-      <a href="#">📄 Paper</a>
-      <a href="#">💻 Code</a>
-    </div>
-  </div>
-</div>
+.badge {
+  position: absolute;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  top: 10px;
+  left: 10px;
+}
+</style>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/asft.png' alt="paper" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
