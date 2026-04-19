@@ -196,7 +196,7 @@ I am interested in popular and exciting research directions, and I am willing to
     </div>
     <div class="paper-links">
       <a href="https://arxiv.org/abs/2602.09383v1" class="paper-btn" target="_blank">📄 Paper</a>
-      <a href="#" class="paper-btn" target="_blank">💻 Code</a>
+      <a href="https://github.com/sustech-nlp/BiasScope" class="paper-btn" target="_blank">💻 Code</a>
     </div>
   </div>
 </div>
@@ -218,7 +218,7 @@ I am interested in popular and exciting research directions, and I am willing to
     </div>
     <div class="paper-links">
       <a href="https://arxiv.org/abs/2509.23753" class="paper-btn" target="_blank">📄 Paper</a>
-      <a href="#" class="paper-btn" target="_blank">💻 Code</a>
+      <a href="https://github.com/zhuchichi56/ASFT" class="paper-btn" target="_blank">💻 Code</a>
     </div>
   </div>
 </div>
@@ -240,7 +240,7 @@ I am interested in popular and exciting research directions, and I am willing to
     </div>
     <div class="paper-links">
       <a href="https://arxiv.org/abs/2508.03550" class="paper-btn" target="_blank">📄 Paper</a>
-      <a href="#" class="paper-btn" target="_blank">💻 Code</a>
+      <a href="https://github.com/sustech-nlp/LAGER" class="paper-btn" target="_blank">💻 Code</a>
     </div>
   </div>
 </div>
