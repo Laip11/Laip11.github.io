@@ -430,7 +430,7 @@ I am interested in popular and exciting research directions, and I am willing to
   <div class="mini-card-authors">Youxin Zhu, Yixuan Ding, <strong>Peng Lai</strong>, Longyue Wang, Bingyi Jing, Guanhua Chen</div>
   <div class="mini-card-status"> </div>
 </div>
-</ul>
+
 <h1 class="section-title">💻 Internships</h1>
 
 <div class="exp-card">
