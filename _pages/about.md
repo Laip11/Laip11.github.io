@@ -382,11 +382,11 @@ I am interested in popular and exciting research directions, and I am willing to
 <ul class="modern-list">
   <li>
     <span class="modern-list-date">2026.01 – Now</span>
-    <span class="modern-list-content">Research Intern, <strong>Alibaba Cloud</strong></span>
+    <span class="modern-list-content">Research Intern, Alibaba Cloud</span>
   </li>
   <li>
     <span class="modern-list-date">2025.10 – 2026.01</span>
-    <span class="modern-list-content">Research Intern, <strong>Alibaba International Digital Commerce</strong></span>
+    <span class="modern-list-content">Research Intern, Alibaba International Digital Commerce</span>
   </li>
 </ul>
 
@@ -394,16 +394,16 @@ I am interested in popular and exciting research directions, and I am willing to
 <ul class="modern-list">
   <li>
     <span class="modern-list-date">2024 – Present</span>
-    <span class="modern-list-content">Integrated M.Phil.–Ph.D. program (Mathematics → Computer Science), Department of Statistics and Data Science, <strong>Southern University of Science and Technology</strong> (Ph.D. student status from Fall 2026).</span>
+    <span class="modern-list-content">Integrated M.Phil.–Ph.D. program (Mathematics → Computer Science), Department of Statistics and Data Science, Southern University of Science and Technology (Ph.D. student status from Fall 2026).</span>
   </li>
   <li>
     <span class="modern-list-date">2020 – 2024</span>
-    <span class="modern-list-content">B.Sc. in Statistics, School of Mathematical Sciences, <strong>Sichuan Normal University</strong></span>
+    <span class="modern-list-content">B.Sc. in Statistics, School of Mathematical Sciences, Sichuan Normal University</span>
   </li>
 </ul>
 
 <h1 class="section-title">📚 Teaching Experience</h1>
-<p style="color: #4b5563; margin-bottom: 20px;">Served as a Teaching Assistant at <strong>Southern University of Science and Technology</strong>.</p>
+<p style="color: #4b5563; margin-bottom: 20px;">Served as a Teaching Assistant at Southern University of Science and Technology.</p>
 <ul class="modern-list">
   <li>
     <span class="modern-list-date">Fall 2025</span>
