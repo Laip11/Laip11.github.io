@@ -160,9 +160,14 @@
     }
 
     .profile-research {
-      margin: 0;
+      margin: 0 0 4px;
       color: #6b7280;
       font-size: 0.9rem;
+      line-height: 1.5;
+    }
+
+    .label-strong {
+      font-weight: 600;
     }
 
     .quick-links {
@@ -191,6 +196,25 @@
       background: #fdf2f8;
       color: #9d174d;
       text-decoration: none;
+    }
+
+    .hobby-block {
+      margin: 0;
+      padding: 0;
+      border: none;
+      border-radius: 0;
+      background: transparent;
+    }
+
+    .hobby-text {
+      margin: 0;
+      color: #6b7280;
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+
+    .hobby-text + .hobby-text {
+      margin-top: 4px;
     }
 
     h1, h2, h3 {
@@ -602,7 +626,11 @@
     <div>
       <h1 class="profile-name">Peng Lai (赖鹏)</h1>
       <p class="profile-role">M.Phil. Student at SUSTech</p>
-      <p class="profile-research">Research: LLM-as-a-judge · Reward Model · Reinforcement Learning</p>
+      <p class="profile-research"><span class="label-strong">Research:</span> LLM-as-a-judge · Reward Model · Reinforcement Learning</p>
+      <div class="hobby-block">
+        <p class="hobby-text"><span class="label-strong">Hobbies:</span> Singing · Workout · Competitive Gaming</p>
+        <p class="hobby-text"><span class="label-strong">Game Ranks:</span> League of Legends (Master, S14) · League of Legends: Wild Rift (Challenger) · Valorant (Diamond)</p>
+      </div>
       <div class="quick-links">
         <a class="quick-link" href="https://scholar.google.com/citations?user=20r-yPwAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Scholar</a>
         <a class="quick-link" href="mailto:12432270@mail.sustech.edu.cn">Email</a>

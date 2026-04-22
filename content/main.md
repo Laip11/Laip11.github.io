@@ -14,12 +14,6 @@
 </p>
 
 <p>
-  I usually enjoy singing, working out, and competitive gaming. I reached <strong>Master tier</strong> in League of Legends
-  (Season 14), achieved <strong>Challenger</strong> rank in League of Legends: Wild Rift, and attained
-  <strong>Diamond</strong> rank in Valorant.
-</p>
-
-<p>
   I am interested in popular and exciting research directions, and I am willing to collaborate with outstanding researchers.
   You are welcome to reach out to me anytime to discuss related research.
 </p>
