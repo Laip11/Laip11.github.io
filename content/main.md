@@ -93,11 +93,17 @@
 <h1 id="internships" class="section-title">💻 Internships</h1>
 <div class="exp-card">
   <div class="exp-header"><div class="exp-title">Research Intern</div><div class="exp-date">2026.01 - Present</div></div>
-  <div class="exp-org">Alibaba Cloud</div>
+  <div class="exp-org">
+    <img class="company-logo" src="https://img.alicdn.com/imgextra/i3/O1CN01MFtVzX1U9b7T38r3V_!!6000000002475-2-tps-200-200.png_.webp" alt="Alibaba Cloud logo" loading="lazy">
+    <span>Alibaba Cloud</span>
+  </div>
 </div>
 <div class="exp-card">
   <div class="exp-header"><div class="exp-title">Research Intern</div><div class="exp-date">2025.10 - 2026.01</div></div>
-  <div class="exp-org">Alibaba International Digital Commerce</div>
+  <div class="exp-org">
+    <img class="company-logo" src="images/logo-alibaba-idc.png" alt="Alibaba International Digital Commerce logo" loading="lazy">
+    <span>Alibaba International Digital Commerce</span>
+  </div>
 </div>
 
 <h1 id="educations" class="section-title">📖 Educations</h1>
