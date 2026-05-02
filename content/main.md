@@ -20,13 +20,26 @@
 
 <h1 id="news" class="section-title">🔥 News</h1>
 <ul class="modern-list">
-  <li><span class="modern-list-date">2026.01</span><span class="modern-list-content">Two papers (<em>AlignScal</em> and <em>UniRRM</em>) were submitted to <strong>ICML 2026</strong> and are currently under review.</span></li>
-  <li><span class="modern-list-date">2026.01</span><span class="modern-list-content">Two papers, <em>BiasScope</em> and <em>Anchored Supervised Fine-Tuning</em>, were accepted to <strong>ICLR 2026 (Poster)</strong>.</span></li>
+  <li><span class="modern-list-date">2026.05</span><span class="modern-list-content">Our paper <em>UniRRM: Unified Reasoning Reward Models Across Languages and Evaluation Paradigms</em> was accepted to <strong>ICML 2026 (Poster)</strong>.</span></li>
+  <li><span class="modern-list-date">2026.01</span><span class="modern-list-content">Our papers <em>BiasScope: Towards Automated Detection of Bias in LLM-as-a-Judge Evaluation</em> and <em>Anchored Supervised Fine-Tuning</em> were accepted to <strong>ICLR 2026 (Poster)</strong>.</span></li>
   <li><span class="modern-list-date">2025.09</span><span class="modern-list-content">Our paper <em>Beyond the Surface: Enhancing LLM-as-a-Judge Alignment with Human via Internal Representations</em> was accepted to <strong>NeurIPS 2025 (Poster)</strong>.</span></li>
 </ul>
 
 <h1 id="publications" class="section-title">📝 Publications</h1>
 <p class="muted-note">(<sup>*</sup> indicates equal contribution.)</p>
+
+<div class="paper-card">
+  <div class="paper-image-container"><img src="images/unirrm.png" alt="UniRRM Framework Figure"></div>
+  <div class="paper-content">
+    <div class="paper-title">UniRRM: Unified Reasoning Reward Models Across Languages and Evaluation Paradigms</div>
+    <div class="paper-authors"><strong>Peng Lai</strong>, Yichao Du, Junchao Wu, Weibo Gao, Linan Yue, Longyue Wang, Weihua Luo, Derek F. Wong, Guanhua Chen</div>
+    <div class="paper-meta"><span class="conf-badge">ICML 2026</span><span class="paper-status">Accepted (Poster)</span></div>
+    <div class="paper-links">
+      <a href="https://openreview.net/forum?id=laiK6TlhL2&referrer=%5Bthe%20profile%20of%20Peng%20Lai%5D(%2Fprofile%3Fid%3D~Peng_Lai3)" class="paper-btn paper-btn-primary" target="_blank" rel="noopener noreferrer">Paper</a>
+      <a href="https://github.com/Laip11/UniRRM/tree/main" class="paper-btn paper-btn-secondary" target="_blank" rel="noopener noreferrer">Code</a>
+    </div>
+  </div>
+</div>
 
 <div class="paper-card">
   <div class="paper-image-container"><img src="images/biasscope_fig.png" alt="BiasScope Framework Figure"></div>
@@ -69,14 +82,9 @@
 
 <h2 id="working-papers" class="section-title subsection-title">Working Papers</h2>
 <div class="mini-card">
-  <div class="mini-card-title">UniRRM: Unified Reasoning Reward Models Across Languages and Evaluation Paradigms</div>
-  <div class="mini-card-authors"><strong>Peng Lai</strong>, Yichao Du, Junchao Wu, Weibo Gao, Linan Yue, Longyue Wang, Weihua Luo, Derek F. Wong, Guanhua Chen</div>
-  <div class="mini-card-status">Under review at ICML 2026</div>
-</div>
-<div class="mini-card">
   <div class="mini-card-title">AlignScal: Enhancing Preference Alignment via Data Selection Using Model Internal Signals</div>
   <div class="mini-card-authors"><strong>Peng Lai<sup>*</sup></strong>, He Zhu<sup>*</sup>, Zhiwen Ruan, Dongdong Zhang, Yun Chen, Peng Li, Furu Wei, Yang Liu, Guanhua Chen</div>
-  <div class="mini-card-status">Under review at ICML 2026</div>
+  <div class="mini-card-status"> </div>
 </div>
 <div class="mini-card">
   <div class="mini-card-title">StatABench: Dataset and Framework for Evaluating Statistical Analysis Capabilities of LLMs</div>
