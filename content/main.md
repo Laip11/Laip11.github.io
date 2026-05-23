@@ -9,26 +9,33 @@
 </p>
 
 <p>
-  My current research focuses on <strong>LLM-as-a-judge</strong>, <strong>reward model</strong>, and <strong>reinforcement learning</strong>.
+  My current research focuses on <strong>LLM-as-a-judge</strong>, <strong>reward model</strong>, and <strong>Post-training</strong>.
   I aim to enhance model evaluation capabilities, enabling models to understand their own limitations and progressively improve.
 </p>
 
-<p>
+<div class="collab-callout">
   I am interested in popular and exciting research directions, and I am willing to collaborate with outstanding researchers.
   You are welcome to reach out to me anytime to discuss related research.
-</p>
+</div>
 
 <h1 id="news" class="section-title">🔥 News</h1>
 <ul class="modern-list">
-  <li><span class="modern-list-date">2026.05</span><span class="modern-list-content">Our paper <em>UniRRM: Unified Reasoning Reward Models Across Languages and Evaluation Paradigms</em> was accepted to <strong>ICML 2026 (Poster)</strong>.</span></li>
-  <li><span class="modern-list-date">2026.01</span><span class="modern-list-content">Our papers <em>BiasScope: Towards Automated Detection of Bias in LLM-as-a-Judge Evaluation</em> and <em>Anchored Supervised Fine-Tuning</em> were accepted to <strong>ICLR 2026 (Poster)</strong>.</span></li>
-  <li><span class="modern-list-date">2025.09</span><span class="modern-list-content">Our paper <em>Beyond the Surface: Enhancing LLM-as-a-Judge Alignment with Human via Internal Representations</em> was accepted to <strong>NeurIPS 2025 (Poster)</strong>.</span></li>
+  <li><span class="modern-list-date">2026.05</span><span class="modern-list-content">Our paper <a href="https://openreview.net/forum?id=laiK6TlhL2" target="_blank" rel="noopener noreferrer"><em>UniRRM: Unified Reasoning Reward Models Across Languages and Evaluation Paradigms</em></a> was accepted to <strong>ICML 2026 (Poster)</strong>.</span></li>
+  <li><span class="modern-list-date">2026.01</span><span class="modern-list-content">Our papers <a href="https://arxiv.org/abs/2602.09383v1" target="_blank" rel="noopener noreferrer"><em>BiasScope: Towards Automated Detection of Bias in LLM-as-a-Judge Evaluation</em></a> and <a href="https://arxiv.org/abs/2509.23753" target="_blank" rel="noopener noreferrer"><em>Anchored Supervised Fine-Tuning</em></a> were accepted to <strong>ICLR 2026 (Poster)</strong>.</span></li>
+  <li><span class="modern-list-date">2025.09</span><span class="modern-list-content">Our paper <a href="https://arxiv.org/abs/2508.03550" target="_blank" rel="noopener noreferrer"><em>Beyond the Surface: Enhancing LLM-as-a-Judge Alignment with Human via Internal Representations</em></a> was accepted to <strong>NeurIPS 2025 (Poster)</strong>.</span></li>
 </ul>
 
 <h1 id="publications" class="section-title">📝 Publications</h1>
-<p class="muted-note">(<sup>*</sup> indicates equal contribution.)</p>
+<div class="publications-toolbar">
+  <p class="muted-note">(<sup>*</sup> indicates equal contribution.)</p>
+  <div class="paper-toggle" role="tablist" aria-label="Publication filter">
+    <button type="button" class="paper-toggle-btn is-active" data-filter="selected" role="tab" aria-selected="true">Selected</button>
+    <button type="button" class="paper-toggle-btn" data-filter="all" role="tab" aria-selected="false">All</button>
+  </div>
+</div>
 
-<div class="paper-card">
+<div id="published-papers">
+<div class="paper-card" data-selected="true">
   <div class="paper-image-container"><img src="images/unirrm.png" alt="UniRRM Framework Figure"></div>
   <div class="paper-content">
     <div class="paper-title">UniRRM: Unified Reasoning Reward Models Across Languages and Evaluation Paradigms</div>
@@ -41,7 +48,7 @@
   </div>
 </div>
 
-<div class="paper-card">
+<div class="paper-card" data-selected="true">
   <div class="paper-image-container"><img src="images/biasscope_fig.png" alt="BiasScope Framework Figure"></div>
   <div class="paper-content">
     <div class="paper-title">BiasScope: Towards Automated Detection of Bias in LLM-as-a-Judge Evaluation</div>
@@ -67,7 +74,7 @@
   </div>
 </div>
 
-<div class="paper-card">
+<div class="paper-card" data-selected="true">
   <div class="paper-image-container"><img src="images/lager_fig.png" alt="LAGER Framework Figure"></div>
   <div class="paper-content">
     <div class="paper-title">Beyond the Surface: Enhancing LLM-as-a-Judge Alignment with Human via Internal Representations</div>
@@ -78,6 +85,8 @@
       <a href="https://github.com/sustech-nlp/LAGER" class="paper-btn paper-btn-secondary" target="_blank" rel="noopener noreferrer">Code</a>
     </div>
   </div>
+</div>
+
 </div>
 
 <h2 id="working-papers" class="section-title subsection-title">Working Papers</h2>
@@ -108,7 +117,7 @@
   </div>
 </div>
 
-<h1 id="educations" class="section-title">📖 Educations</h1>
+<h1 id="education" class="section-title">📖 Education</h1>
 <div class="exp-card">
   <div class="exp-header"><div class="exp-title">Integrated M.Phil.-Ph.D. program</div><div class="exp-date">2024 - Present</div></div>
   <div class="exp-org">Southern University of Science and Technology</div>
@@ -127,8 +136,7 @@
   <li><span class="modern-list-date">2021</span><span class="modern-list-content">Sichuan Provincial First Prize, National College Student Mathematical Modeling Competition (Team Leader)</span></li>
 </ul>
 
-<h1 id="teaching" class="section-title">📚 Teaching Experience</h1>
-<p class="teaching-note">Served as a Teaching Assistant at <strong>Southern University of Science and Technology</strong>.</p>
+<h1 id="teaching" class="section-title">📚 Teaching Assistantships</h1>
 <ul class="modern-list">
   <li><span class="modern-list-date">Fall 2025</span><span class="modern-list-content">Advanced Natural Language Processing (Graduate)</span></li>
   <li><span class="modern-list-date">Spring 2025</span><span class="modern-list-content">Probability Theory and Mathematical Statistics (Undergraduate)</span></li>
