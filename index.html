@@ -826,6 +826,19 @@
       }
     }
 
+    function sortPaperCards(container) {
+      const cards = Array.from(container.querySelectorAll(".paper-card"));
+      cards.sort((a, b) => {
+        const rankA = Number(a.dataset.authorRank) || 99;
+        const rankB = Number(b.dataset.authorRank) || 99;
+        if (rankA !== rankB) return rankA - rankB;
+        const yearA = Number(a.dataset.year) || 0;
+        const yearB = Number(b.dataset.year) || 0;
+        return yearB - yearA;
+      });
+      cards.forEach((card) => container.appendChild(card));
+    }
+
     function initPaperToggle() {
       const container = document.getElementById("published-papers");
       const buttons = Array.from(document.querySelectorAll(".paper-toggle-btn"));
@@ -834,6 +847,9 @@
       const setFilter = (filter, updateHash = true) => {
         const isSelectedOnly = filter === "selected";
         container.classList.toggle("is-selected-only", isSelectedOnly);
+        if (filter === "all") {
+          sortPaperCards(container);
+        }
         buttons.forEach((button) => {
           const active = button.dataset.filter === filter;
           button.classList.toggle("is-active", active);

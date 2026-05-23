@@ -35,7 +35,7 @@
 </div>
 
 <div id="published-papers">
-<div class="paper-card" data-selected="true">
+<div class="paper-card" data-selected="true" data-author-rank="1" data-year="2026">
   <div class="paper-image-container"><img src="images/unirrm.png" alt="UniRRM Framework Figure"></div>
   <div class="paper-content">
     <div class="paper-title">UniRRM: Unified Reasoning Reward Models Across Languages and Evaluation Paradigms</div>
@@ -48,7 +48,7 @@
   </div>
 </div>
 
-<div class="paper-card" data-selected="true">
+<div class="paper-card" data-selected="true" data-author-rank="1" data-year="2026">
   <div class="paper-image-container"><img src="images/biasscope_fig.png" alt="BiasScope Framework Figure"></div>
   <div class="paper-content">
     <div class="paper-title">BiasScope: Towards Automated Detection of Bias in LLM-as-a-Judge Evaluation</div>
@@ -61,20 +61,7 @@
   </div>
 </div>
 
-<div class="paper-card">
-  <div class="paper-image-container"><img src="images/asft.png" alt="ASFT Figure"></div>
-  <div class="paper-content">
-    <div class="paper-title">Anchored Supervised Fine-Tuning</div>
-    <div class="paper-authors">He Zhu<sup>*</sup>, Junyou Su<sup>*</sup>, <strong>Peng Lai<sup>*</sup></strong>, Ren Ma, Wenjia Zhang, Linyi Yang, Guanhua Chen</div>
-    <div class="paper-meta"><span class="conf-badge">ICLR 2026</span><span class="ccf-badge">CCF-A</span></div>
-    <div class="paper-links">
-      <a href="https://arxiv.org/abs/2509.23753" class="paper-btn paper-btn-primary" target="_blank" rel="noopener noreferrer">Paper</a>
-      <a href="https://github.com/zhuchichi56/ASFT" class="paper-btn paper-btn-secondary" target="_blank" rel="noopener noreferrer">Code</a>
-    </div>
-  </div>
-</div>
-
-<div class="paper-card" data-selected="true">
+<div class="paper-card" data-selected="true" data-author-rank="1" data-year="2025">
   <div class="paper-image-container"><img src="images/lager_fig.png" alt="LAGER Framework Figure"></div>
   <div class="paper-content">
     <div class="paper-title">Beyond the Surface: Enhancing LLM-as-a-Judge Alignment with Human via Internal Representations</div>
@@ -83,6 +70,19 @@
     <div class="paper-links">
       <a href="https://arxiv.org/abs/2508.03550" class="paper-btn paper-btn-primary" target="_blank" rel="noopener noreferrer">Paper</a>
       <a href="https://github.com/sustech-nlp/LAGER" class="paper-btn paper-btn-secondary" target="_blank" rel="noopener noreferrer">Code</a>
+    </div>
+  </div>
+</div>
+
+<div class="paper-card" data-author-rank="3" data-year="2026">
+  <div class="paper-image-container"><img src="images/asft.png" alt="ASFT Figure"></div>
+  <div class="paper-content">
+    <div class="paper-title">Anchored Supervised Fine-Tuning</div>
+    <div class="paper-authors">He Zhu<sup>*</sup>, Junyou Su<sup>*</sup>, <strong>Peng Lai<sup>*</sup></strong>, Ren Ma, Wenjia Zhang, Linyi Yang, Guanhua Chen</div>
+    <div class="paper-meta"><span class="conf-badge">ICLR 2026</span><span class="ccf-badge">CCF-A</span></div>
+    <div class="paper-links">
+      <a href="https://arxiv.org/abs/2509.23753" class="paper-btn paper-btn-primary" target="_blank" rel="noopener noreferrer">Paper</a>
+      <a href="https://github.com/zhuchichi56/ASFT" class="paper-btn paper-btn-secondary" target="_blank" rel="noopener noreferrer">Code</a>
     </div>
   </div>
 </div>
