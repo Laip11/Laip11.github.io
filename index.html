@@ -19,54 +19,47 @@
       --accent-border: #f0c4d4;
       --link-color: #1d4ed8;
       --border-color: #e2e8f0;
-      --bg-soft: #f8fafc;
+      --bg-page: #f3f4f6;
       --card-bg: #ffffff;
-      --callout-bg: linear-gradient(180deg, #faf7f2 0%, #f5efe6 100%);
-      --callout-border: #e8dcc8;
-      --callout-text: #4a4339;
+      --callout-bg: #eff6ff;
+      --callout-border: #bfdbfe;
+      --callout-text: #1e3a5f;
     }
 
     body {
-      max-width: 1120px;
       margin: 0 auto;
       padding: 16px 16px 28px;
       font-family: "Times New Roman", Times, "Liberation Serif", serif;
       font-size: 15px;
       color: var(--secondary-text);
       line-height: 1.6;
-      background:
-        radial-gradient(circle at 12% 8%, #fdf2f6 0%, rgba(253, 242, 246, 0) 32%),
-        radial-gradient(circle at 88% 12%, #eff6ff 0%, rgba(239, 246, 255, 0) 28%),
-        var(--bg-soft);
+      background: var(--bg-page);
     }
 
     .layout {
-      display: block;
+      --content-max: 960px;
+      --nav-width: 220px;
+      width: 100%;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, var(--content-max)) minmax(0, 1fr);
+      align-items: start;
     }
 
     .sidebar-nav {
-      position: fixed;
-      left: clamp(
-        16px,
-        calc(
-          (
-            (
-              ((100vw - min(100vw, 1120px)) / 2) +
-              ((min(100vw, 1120px) - 960px) / 2) +
-              56px - 220px
-            ) / 2
-          ) - 36px
-        ),
-        220px
-      );
+      grid-column: 1;
+      grid-row: 1;
+      justify-self: center;
+      position: sticky;
       top: 50vh;
       transform: translateY(-50%);
-      width: 220px;
-      border: 1px solid var(--border-color);
+      width: var(--nav-width);
+      max-width: 100%;
+      border: none;
       border-radius: 14px;
       padding: 14px 12px;
-      background: rgba(255, 255, 255, 0.95);
-      box-shadow: 0 4px 16px rgba(15, 23, 42, 0.06);
+      background: linear-gradient(165deg, #ffffff 0%, var(--accent-bg) 100%);
+      box-shadow: 0 4px 18px rgba(157, 54, 86, 0.08);
       text-align: center;
       z-index: 10;
     }
@@ -74,7 +67,7 @@
     .sidebar-title {
       margin: 0 0 10px;
       font-size: 0.78rem;
-      color: #64748b;
+      color: var(--accent-color);
       font-weight: 700;
       letter-spacing: 0.08em;
       text-transform: uppercase;
@@ -99,25 +92,25 @@
       justify-content: center;
       min-width: 200px;
       padding: 6px 10px;
-      color: var(--secondary-text);
+      color: #5c3d4a;
       font-size: 0.85rem;
       font-weight: 700;
       border-radius: 999px;
-      border: 1px solid transparent;
-      transition: all 0.18s ease;
+      border: none;
+      background: transparent;
+      transition: color 0.18s ease, background 0.18s ease;
     }
 
     .sidebar-nav a:hover {
       color: var(--accent-color);
-      background: var(--accent-bg);
-      border-color: var(--accent-border);
+      background: rgba(255, 255, 255, 0.7);
       text-decoration: none;
     }
 
     .sidebar-nav a.active {
-      color: var(--accent-color);
-      background: var(--accent-bg);
-      border-color: var(--accent-border);
+      color: #fff;
+      background: var(--accent-color);
+      text-decoration: none;
     }
 
     .mobile-nav {
@@ -131,8 +124,8 @@
       overflow-x: auto;
       -webkit-overflow-scrolling: touch;
       scrollbar-width: none;
-      background: rgba(255, 255, 255, 0.92);
-      border-bottom: 1px solid var(--border-color);
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.96) 0%, var(--accent-bg) 100%);
+      border-bottom: none;
       backdrop-filter: blur(4px);
       -webkit-backdrop-filter: blur(4px);
     }
@@ -144,37 +137,41 @@
     .mobile-nav a {
       flex: 0 0 auto;
       padding: 5px 12px;
-      border: 1px solid var(--border-color);
+      border: none;
       border-radius: 999px;
       font-size: 0.82rem;
       font-weight: 600;
-      color: var(--secondary-text);
+      color: #5c3d4a;
       text-decoration: none;
       white-space: nowrap;
-      background: #fff;
-      transition: all 0.18s ease;
+      background: transparent;
+      transition: color 0.18s ease, background 0.18s ease;
     }
 
-    .mobile-nav a:hover,
-    .mobile-nav a.active {
+    .mobile-nav a:hover {
       color: var(--accent-color);
-      background: var(--accent-bg);
-      border-color: var(--accent-border);
+      background: rgba(255, 255, 255, 0.75);
+      text-decoration: none;
+    }
+
+    .mobile-nav a.active {
+      color: #fff;
+      background: var(--accent-color);
       text-decoration: none;
     }
 
     .content {
+      grid-column: 2;
+      grid-row: 1;
       min-width: 0;
-      max-width: 960px;
-      margin: 0 auto;
-      transform: translateX(56px);
-      background: rgba(255, 255, 255, 0.78);
-      border: 1px solid #eceff3;
+      max-width: var(--content-max);
+      width: 100%;
+      margin: 0;
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
       border-radius: 16px;
       padding: 14px 16px 10px;
-      box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
-      -webkit-backdrop-filter: blur(2px);
-      backdrop-filter: blur(2px);
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
     }
 
     .profile-header {
@@ -714,7 +711,18 @@
       }
     }
 
-    @media (max-width: 1300px) {
+    @media (max-width: 1440px) {
+      .layout {
+        display: block;
+        max-width: var(--content-max);
+        margin: 0 auto;
+      }
+
+      .content {
+        grid-column: auto;
+        grid-row: auto;
+      }
+
       .sidebar-nav {
         display: none;
       }
@@ -723,9 +731,8 @@
         display: flex;
       }
 
-      .content {
-        max-width: 960px;
-        transform: none;
+      .content [id] {
+        scroll-margin-top: 56px;
       }
     }
   </style>
@@ -748,24 +755,7 @@
   </aside>
 
   <main class="content">
-  <header class="profile-header">
-    <img class="profile-avatar" src="images/1.jpg" alt="Peng Lai avatar">
-    <div>
-      <h1 class="profile-name">Peng Lai (赖鹏)</h1>
-      <p class="profile-role">M.Phil. Student at SUSTech</p>
-      <p class="profile-research"><span class="label-strong">Research:</span> LLM-as-a-judge · Reward Model · Reinforcement Learning</p>
-      <div class="hobby-block">
-        <p class="hobby-text"><span class="label-strong">Hobbies:</span> Singing · Workout · Competitive Gaming</p>
-        <p class="hobby-text"><span class="label-strong">Game Ranks:</span> League of Legends (Master, S14) · League of Legends: Wild Rift (Challenger) · Valorant (Diamond)</p>
-      </div>
-      <div class="quick-links">
-        <a class="quick-link" href="https://scholar.google.com/citations?user=20r-yPwAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Scholar</a>
-        <a class="quick-link" href="mailto:12432270@mail.sustech.edu.cn">Email</a>
-        <a class="quick-link" href="https://github.com/Laip11" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a class="quick-link" href="#publications">Publications</a>
-      </div>
-    </div>
-  </header>
+  <header class="profile-header" id="profile-header"></header>
 
   <nav class="mobile-nav" aria-label="Section navigation">
     <a href="#about-me">About</a>
@@ -798,21 +788,47 @@
 
       if (sections.length === 0) return;
 
-      const observer = new IntersectionObserver(
-        (entries) => {
+      let observer = null;
+
+      const setActiveSection = (id) => {
+        if (!id) return;
+        navLinks.forEach((link) => link.classList.remove("active"));
+        const activeLinks = sectionMap.get(`#${id}`) || [];
+        activeLinks.forEach((link) => link.classList.add("active"));
+      };
+
+      const getObserverOptions = () => {
+        const mobileNav = document.querySelector(".mobile-nav");
+        const stickyOffset =
+          mobileNav && getComputedStyle(mobileNav).display !== "none"
+            ? mobileNav.getBoundingClientRect().height + 12
+            : 0;
+        const top = Math.round(window.innerHeight * 0.22 + stickyOffset);
+        const bottom = Math.round(window.innerHeight * 0.42);
+        return {
+          rootMargin: `-${top}px 0px -${bottom}px 0px`,
+          threshold: [0, 0.12, 0.35, 0.6],
+        };
+      };
+
+      const bindObserver = () => {
+        if (observer) observer.disconnect();
+        observer = new IntersectionObserver((entries) => {
           const visible = entries
             .filter((entry) => entry.isIntersecting)
             .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
-          if (!visible) return;
+          if (visible) setActiveSection(visible.target.id);
+        }, getObserverOptions());
+        sections.forEach((section) => observer.observe(section));
+      };
 
-          navLinks.forEach((link) => link.classList.remove("active"));
-          const activeLinks = sectionMap.get(`#${visible.target.id}`) || [];
-          activeLinks.forEach((link) => link.classList.add("active"));
-        },
-        { rootMargin: "-30% 0px -55% 0px", threshold: [0.15, 0.4, 0.7] }
-      );
+      bindObserver();
 
-      sections.forEach((section) => observer.observe(section));
+      let resizeTimer;
+      window.addEventListener("resize", () => {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(bindObserver, 120);
+      });
     }
 
     function getPaperFilterFromHash() {
@@ -869,24 +885,37 @@
       });
     }
 
-    async function loadMainContent() {
-      const mountNode = document.getElementById("main-content");
+    async function loadMarkdown(path, mountNode, errorMessage) {
       if (!mountNode) return;
-
       try {
-        const response = await fetch("content/main.md");
+        const response = await fetch(path);
         if (!response.ok) {
-          throw new Error("Failed to load content/main.md");
+          throw new Error(`Failed to load ${path}`);
         }
-        const markdown = await response.text();
-        mountNode.innerHTML = marked.parse(markdown);
+        mountNode.innerHTML = marked.parse(await response.text());
       } catch (error) {
-        mountNode.innerHTML = "<p>Failed to load main content.</p>";
+        mountNode.innerHTML = `<p>${errorMessage}</p>`;
       }
     }
 
+    async function loadProfile() {
+      await loadMarkdown(
+        "content/profile.md",
+        document.getElementById("profile-header"),
+        "Failed to load profile."
+      );
+    }
+
+    async function loadMainContent() {
+      await loadMarkdown(
+        "content/main.md",
+        document.getElementById("main-content"),
+        "Failed to load main content."
+      );
+    }
+
     (async () => {
-      await loadMainContent();
+      await Promise.all([loadProfile(), loadMainContent()]);
       initPaperToggle();
       initNavObserver();
     })();

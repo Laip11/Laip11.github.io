@@ -5,7 +5,8 @@ This repository now uses a minimal static homepage setup.
 ## Files you only need to edit
 
 - `index.html`: layout, style, and page behavior
-- `content/main.md`: main homepage content (news, papers, experience, etc.)
+- `content/profile.md`: name, role, research, hobbies, and quick links in the header
+- `content/main.md`: main homepage content (about, news, papers, experience, etc.)
 - `images/`: your avatar and paper figures
 
 ## Why this is simpler
@@ -13,7 +14,7 @@ This repository now uses a minimal static homepage setup.
 - no Jekyll build dependency
 - no Ruby/Gem setup
 - no theme include/layout complexity
-- content updates from one markdown file
+- content updates from markdown files (`profile.md` + `main.md`)
 
 ## Local preview
 
