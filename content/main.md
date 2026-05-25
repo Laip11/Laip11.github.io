@@ -1,114 +1,151 @@
-# 🌟 About Me
+<h1 id="about-me" class="section-title">🌟 About Me</h1>
 
-Here is **Peng Lai (赖鹏)**. I am currently a second-year **M.Phil. student** in the Department of Statistics and Data Science at **Southern University of Science and Technology**, enrolled in an integrated M.Phil.-Ph.D. program (Mathematics to Computer Science), and will formally continue as a Ph.D. student under the supervision of Prof. [Guanhua Chen](https://ghchen.me/) starting in Fall 2026. I am currently doing a research internship at **Alibaba Cloud**.
+<p class="lead">
+  Here is <strong>Peng Lai (赖鹏)</strong>. I am currently a second-year <strong>M.Phil. student</strong> in the Department of
+  Statistics and Data Science at <strong>Southern University of Science and Technology</strong>, enrolled in an integrated M.Phil.-Ph.D.
+  program (Mathematics to Computer Science), and will formally continue as a Ph.D. student under the supervision of
+  Prof. <a href="https://ghchen.me/" target="_blank" rel="noopener noreferrer">Guanhua Chen</a> starting in Fall 2026.
+  I am currently doing a research internship at <strong>Alibaba Cloud</strong>.
+</p>
 
-My current research focuses on **LLM-as-a-judge**, **reward model**, and **Post-training**. I aim to enhance model evaluation capabilities, enabling models to understand their own limitations and progressively improve.
+<p>
+  My current research focuses on <strong>LLM-as-a-judge</strong>, <strong>reward model</strong>, and <strong>Post-training</strong>.
+  I aim to enhance model evaluation capabilities, enabling models to understand their own limitations and progressively improve.
+</p>
 
-I am interested in popular and exciting research directions, and I am willing to collaborate with outstanding researchers. You are welcome to reach out to me anytime to discuss related research～
+<div class="collab-callout">
+  I am interested in popular and exciting research directions, and I am willing to collaborate with outstanding researchers.
+  You are welcome to reach out to me anytime to discuss related research～
+</div>
 
-# 🔥 News
+<h1 id="news" class="section-title">🔥 News</h1>
+<ul class="modern-list">
+  <li><span class="modern-list-date">2026.05</span><span class="modern-list-content">Our paper <a href="https://openreview.net/forum?id=laiK6TlhL2" target="_blank" rel="noopener noreferrer"><em>UniRRM: Unified Reasoning Reward Models Across Languages and Evaluation Paradigms</em></a> was accepted to <strong>ICML 2026 (Poster)</strong>.</span></li>
+  <li><span class="modern-list-date">2026.01</span><span class="modern-list-content">Our papers <a href="https://arxiv.org/abs/2602.09383v1" target="_blank" rel="noopener noreferrer"><em>BiasScope: Towards Automated Detection of Bias in LLM-as-a-Judge Evaluation</em></a> and <a href="https://arxiv.org/abs/2509.23753" target="_blank" rel="noopener noreferrer"><em>Anchored Supervised Fine-Tuning</em></a> were accepted to <strong>ICLR 2026 (Poster)</strong>.</span></li>
+  <li><span class="modern-list-date">2025.09</span><span class="modern-list-content">Our paper <a href="https://arxiv.org/abs/2508.03550" target="_blank" rel="noopener noreferrer"><em>Beyond the Surface: Enhancing LLM-as-a-Judge Alignment with Human via Internal Representations</em></a> was accepted to <strong>NeurIPS 2025 (Poster)</strong>.</span></li>
+</ul>
 
-- 2026.05Our paper *[UniRRM: Unified Reasoning Reward Models Across Languages and Evaluation Paradigms](https://openreview.net/forum?id=laiK6TlhL2)* was accepted to **ICML 2026 (Poster)**.
-- 2026.01Our papers *[BiasScope: Towards Automated Detection of Bias in LLM-as-a-Judge Evaluation](https://arxiv.org/abs/2602.09383v1)* and *[Anchored Supervised Fine-Tuning](https://arxiv.org/abs/2509.23753)* were accepted to **ICLR 2026 (Poster)**.
-- 2025.09Our paper *[Beyond the Surface: Enhancing LLM-as-a-Judge Alignment with Human via Internal Representations](https://arxiv.org/abs/2508.03550)* was accepted to **NeurIPS 2025 (Poster)**.
+<h1 id="publications" class="section-title">📝 Publications</h1>
+<div class="publications-toolbar">
+  <p class="muted-note">(<sup>*</sup> indicates equal contribution.)</p>
+  <div class="paper-toggle" role="tablist" aria-label="Publication filter">
+    <button type="button" class="paper-toggle-btn is-active" data-filter="selected" role="tab" aria-selected="true">Selected</button>
+    <button type="button" class="paper-toggle-btn" data-filter="all" role="tab" aria-selected="false">All</button>
+  </div>
+</div>
 
-# 📝 Publications
+<div id="published-papers">
+<div class="paper-card" data-selected="true" data-author-rank="1" data-year="2026">
+  <div class="paper-image-container"><img src="images/unirrm.png" alt="UniRRM Framework Figure"></div>
+  <div class="paper-content">
+    <div class="paper-title">UniRRM: Unified Reasoning Reward Models Across Languages and Evaluation Paradigms</div>
+    <div class="paper-authors"><strong>Peng Lai</strong>, Yichao Du, Junchao Wu, Weibo Gao, Linan Yue, Longyue Wang, Weihua Luo, Derek F. Wong, Guanhua Chen</div>
+    <div class="paper-meta"><span class="conf-badge">ICML 2026</span><span class="ccf-badge">CCF-A</span></div>
+    <div class="paper-links">
+      <a href="https://openreview.net/forum?id=laiK6TlhL2&referrer=%5Bthe%20profile%20of%20Peng%20Lai%5D(%2Fprofile%3Fid%3D~Peng_Lai3)" class="paper-btn paper-btn-primary" target="_blank" rel="noopener noreferrer">Paper</a>
+      <a href="https://github.com/Laip11/UniRRM/tree/main" class="paper-btn paper-btn-secondary" target="_blank" rel="noopener noreferrer">Code</a>
+    </div>
+  </div>
+</div>
 
-(* indicates equal contribution.)
+<div class="paper-card" data-selected="true" data-author-rank="1" data-year="2026">
+  <div class="paper-image-container"><img src="images/biasscope_fig.png" alt="BiasScope Framework Figure"></div>
+  <div class="paper-content">
+    <div class="paper-title">BiasScope: Towards Automated Detection of Bias in LLM-as-a-Judge Evaluation</div>
+    <div class="paper-authors"><strong>Peng Lai<sup>*</sup></strong>, Zhihao Ou<sup>*</sup>, Yong Wang, Longyue Wang, Jian Yang, Yun Chen, Guanhua Chen</div>
+    <div class="paper-meta"><span class="conf-badge">ICLR 2026</span><span class="ccf-badge">CCF-A</span></div>
+    <div class="paper-links">
+      <a href="https://arxiv.org/abs/2602.09383v1" class="paper-btn paper-btn-primary" target="_blank" rel="noopener noreferrer">Paper</a>
+      <a href="https://github.com/sustech-nlp/BiasScope" class="paper-btn paper-btn-secondary" target="_blank" rel="noopener noreferrer">Code</a>
+    </div>
+  </div>
+</div>
 
-Selected All
+<div class="paper-card" data-selected="true" data-author-rank="1" data-year="2025">
+  <div class="paper-image-container"><img src="images/lager_fig.png" alt="LAGER Framework Figure"></div>
+  <div class="paper-content">
+    <div class="paper-title">Beyond the Surface: Enhancing LLM-as-a-Judge Alignment with Human via Internal Representations</div>
+    <div class="paper-authors"><strong>Peng Lai</strong>, Jianjie Zheng, Sijie Cheng, Yun Chen, Peng Li, Yang Liu, Guanhua Chen</div>
+    <div class="paper-meta"><span class="conf-badge">NeurIPS 2025</span><span class="ccf-badge">CCF-A</span></div>
+    <div class="paper-links">
+      <a href="https://arxiv.org/abs/2508.03550" class="paper-btn paper-btn-primary" target="_blank" rel="noopener noreferrer">Paper</a>
+      <a href="https://github.com/sustech-nlp/LAGER" class="paper-btn paper-btn-secondary" target="_blank" rel="noopener noreferrer">Code</a>
+    </div>
+  </div>
+</div>
 
-UniRRM: Unified Reasoning Reward Models Across Languages and Evaluation Paradigms
+<div class="paper-card" data-author-rank="3" data-year="2026">
+  <div class="paper-image-container"><img src="images/asft.png" alt="ASFT Figure"></div>
+  <div class="paper-content">
+    <div class="paper-title">Anchored Supervised Fine-Tuning</div>
+    <div class="paper-authors">He Zhu<sup>*</sup>, Junyou Su<sup>*</sup>, <strong>Peng Lai<sup>*</sup></strong>, Ren Ma, Wenjia Zhang, Linyi Yang, Guanhua Chen</div>
+    <div class="paper-meta"><span class="conf-badge">ICLR 2026</span><span class="ccf-badge">CCF-A</span></div>
+    <div class="paper-links">
+      <a href="https://arxiv.org/abs/2509.23753" class="paper-btn paper-btn-primary" target="_blank" rel="noopener noreferrer">Paper</a>
+      <a href="https://github.com/zhuchichi56/ASFT" class="paper-btn paper-btn-secondary" target="_blank" rel="noopener noreferrer">Code</a>
+    </div>
+  </div>
+</div>
 
-**Peng Lai**, Yichao Du, Junchao Wu, Weibo Gao, Linan Yue, Longyue Wang, Weihua Luo, Derek F. Wong, Guanhua Chen
+</div>
 
-ICML 2026CCF-A
+<h2 id="working-papers" class="section-title subsection-title">Working Papers</h2>
+<div class="mini-card">
+  <div class="mini-card-title">AlignScal: Enhancing Preference Alignment via Data Selection Using Model Internal Signals</div>
+  <div class="mini-card-authors"><strong>Peng Lai<sup>*</sup></strong>, He Zhu<sup>*</sup>, Zhiwen Ruan, Dongdong Zhang, Yun Chen, Peng Li, Furu Wei, Yang Liu, Guanhua Chen</div>
+  <div class="mini-card-status"> </div>
+</div>
+<div class="mini-card">
+  <div class="mini-card-title">StatABench: Dataset and Framework for Evaluating Statistical Analysis Capabilities of LLMs</div>
+  <div class="mini-card-authors">Youxin Zhu, Yixuan Ding, <strong>Peng Lai</strong>, Longyue Wang, Bingyi Jing, Guanhua Chen</div>
+  <div class="mini-card-status"></div>
+</div>
 
-[Paper](https://openreview.net/forum?id=laiK6TlhL2&referrer=%5Bthe%20profile%20of%20Peng%20Lai%5D(%2Fprofile%3Fid%3D~Peng_Lai3)) [Code](https://github.com/Laip11/UniRRM/tree/main)
+<h1 id="internships" class="section-title">💻 Internships</h1>
+<div class="exp-card">
+  <div class="exp-header"><div class="exp-title">Research Intern</div><div class="exp-date">2026.01 - Present</div></div>
+  <div class="exp-org">
+    <img class="company-logo" src="https://img.alicdn.com/imgextra/i3/O1CN01MFtVzX1U9b7T38r3V_!!6000000002475-2-tps-200-200.png_.webp" alt="Alibaba Cloud logo" loading="lazy">
+    <span>Alibaba Cloud</span>
+  </div>
+</div>
+<div class="exp-card">
+  <div class="exp-header"><div class="exp-title">Research Intern</div><div class="exp-date">2025.10 - 2026.01</div></div>
+  <div class="exp-org">
+    <img class="company-logo" src="images/logo-alibaba-idc.png" alt="Alibaba International Digital Commerce logo" loading="lazy">
+    <span>Alibaba International Digital Commerce</span>
+  </div>
+</div>
 
-BiasScope: Towards Automated Detection of Bias in LLM-as-a-Judge Evaluation
+<h1 id="education" class="section-title">📖 Education</h1>
+<div class="exp-card">
+  <div class="exp-header"><div class="exp-title">Integrated M.Phil.-Ph.D. program</div><div class="exp-date">2024 - Present</div></div>
+  <div class="exp-org">Southern University of Science and Technology</div>
+  <div class="exp-desc">Department of Statistics and Data Science (Mathematics to Computer Science). Ph.D. student status from Fall 2026.</div>
+</div>
+<div class="exp-card">
+  <div class="exp-header"><div class="exp-title">B.Sc. in Statistics</div><div class="exp-date">2020 - 2024</div></div>
+  <div class="exp-org">Sichuan Normal University</div>
+  <div class="exp-desc">School of Mathematical Sciences</div>
+</div>
 
-**Peng Lai***, Zhihao Ou*, Yong Wang, Longyue Wang, Jian Yang, Yun Chen, Guanhua Chen
+<h1 id="honors" class="section-title">🎖 Honors and Awards</h1>
+<ul class="modern-list">
+  <li><span class="modern-list-date">2025</span><span class="modern-list-content">Graduate Academic Scholarship (Special Class), <strong>Southern University of Science and Technology</strong> (Top 20%)</span></li>
+  <li><span class="modern-list-date">2022</span><span class="modern-list-content">Sichuan Provincial First Prize, National College Student Market Research and Analysis Competition (Team Leader)</span></li>
+  <li><span class="modern-list-date">2021</span><span class="modern-list-content">Sichuan Provincial First Prize, National College Student Mathematical Modeling Competition (Team Leader)</span></li>
+</ul>
 
-ICLR 2026CCF-A
+<h1 id="teaching" class="section-title">📚 Teaching Assistantships</h1>
+<ul class="modern-list">
+  <li><span class="modern-list-date">Fall 2025</span><span class="modern-list-content">Advanced Natural Language Processing (Graduate)</span></li>
+  <li><span class="modern-list-date">Spring 2025</span><span class="modern-list-content">Probability Theory and Mathematical Statistics (Undergraduate)</span></li>
+  <li><span class="modern-list-date">Fall 2024</span><span class="modern-list-content">Engineering Probability and Statistics (Undergraduate)</span></li>
+</ul>
 
-[Paper](https://arxiv.org/abs/2602.09383v1) [Code](https://github.com/sustech-nlp/BiasScope)
-
-Beyond the Surface: Enhancing LLM-as-a-Judge Alignment with Human via Internal Representations
-
-**Peng Lai**, Jianjie Zheng, Sijie Cheng, Yun Chen, Peng Li, Yang Liu, Guanhua Chen
-
-NeurIPS 2025CCF-A
-
-[Paper](https://arxiv.org/abs/2508.03550) [Code](https://github.com/sustech-nlp/LAGER)
-
-Anchored Supervised Fine-Tuning
-
-He Zhu*, Junyou Su*, **Peng Lai***, Ren Ma, Wenjia Zhang, Linyi Yang, Guanhua Chen
-
-ICLR 2026CCF-A
-
-[Paper](https://arxiv.org/abs/2509.23753) [Code](https://github.com/zhuchichi56/ASFT)
-
-
-
-## Working Papers
-
-AlignScal: Enhancing Preference Alignment via Data Selection Using Model Internal Signals
-
-**Peng Lai***, He Zhu*, Zhiwen Ruan, Dongdong Zhang, Yun Chen, Peng Li, Furu Wei, Yang Liu, Guanhua Chen
-
-StatABench: Dataset and Framework for Evaluating Statistical Analysis Capabilities of LLMs
-
-Youxin Zhu, Yixuan Ding, **Peng Lai**, Longyue Wang, Bingyi Jing, Guanhua Chen
-
-# 💻 Internships
-
-Research Intern
-
-2026.01 - Present
-
-Alibaba Cloud
-
-Research Intern
-
-2025.10 - 2026.01
-
-Alibaba International Digital Commerce
-
-# 📖 Education
-
-Integrated M.Phil.-Ph.D. program
-
-2024 - Present
-
-Southern University of Science and Technology
-
-Department of Statistics and Data Science (Mathematics to Computer Science). Ph.D. student status from Fall 2026.
-
-B.Sc. in Statistics
-
-2020 - 2024
-
-Sichuan Normal University
-
-School of Mathematical Sciences
-
-# 🎖 Honors and Awards
-
-- 2025Graduate Academic Scholarship (Special Class), **Southern University of Science and Technology** (Top 20%)
-- 2022Sichuan Provincial First Prize, National College Student Market Research and Analysis Competition (Team Leader)
-- 2021Sichuan Provincial First Prize, National College Student Mathematical Modeling Competition (Team Leader)
-
-# 📚 Teaching Assistantships
-
-- Fall 2025Advanced Natural Language Processing (Graduate)
-- Spring 2025Probability Theory and Mathematical Statistics (Undergraduate)
-- Fall 2024Engineering Probability and Statistics (Undergraduate)
-
-# 🤝 Academic Services
-
-- ReviewerNeurIPS 2026
-- ReviewerICLR 2026 Workshop LLA
-- ReviewerACL ARR 2025 October
-
+<h1 id="services" class="section-title">🤝 Academic Services</h1>
+<ul class="modern-list">
+  <li><span class="modern-list-date">Reviewer</span><span class="modern-list-content">NeurIPS 2026</span></li>
+  <li><span class="modern-list-date">Reviewer</span><span class="modern-list-content">ICLR 2026 Workshop LLA</span></li>
+  <li><span class="modern-list-date">Reviewer</span><span class="modern-list-content">ACL ARR 2025 October</span></li>
+</ul>

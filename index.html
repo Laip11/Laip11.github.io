@@ -885,32 +885,35 @@
       });
     }
 
-    async function loadMarkdown(path, mountNode, errorMessage) {
+    async function loadFragment(path, mountNode, errorMessage, useMarked = true) {
       if (!mountNode) return;
       try {
         const response = await fetch(path);
         if (!response.ok) {
           throw new Error(`Failed to load ${path}`);
         }
-        mountNode.innerHTML = marked.parse(await response.text());
+        const source = await response.text();
+        mountNode.innerHTML = useMarked ? marked.parse(source) : source;
       } catch (error) {
         mountNode.innerHTML = `<p>${errorMessage}</p>`;
       }
     }
 
     async function loadProfile() {
-      await loadMarkdown(
+      await loadFragment(
         "content/profile.md",
         document.getElementById("profile-header"),
-        "Failed to load profile."
+        "Failed to load profile.",
+        false
       );
     }
 
     async function loadMainContent() {
-      await loadMarkdown(
+      await loadFragment(
         "content/main.md",
         document.getElementById("main-content"),
-        "Failed to load main content."
+        "Failed to load main content.",
+        true
       );
     }
 

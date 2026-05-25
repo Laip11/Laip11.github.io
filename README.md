@@ -6,7 +6,7 @@ This repository now uses a minimal static homepage setup.
 
 - `index.html`: layout, style, and page behavior
 - `content/profile.md`: name, role, research, hobbies, and quick links in the header
-- `content/main.md`: main homepage content (about, news, papers, experience, etc.)
+- `content/main.md`: main homepage content (about, news, papers, experience, etc.). Keep the existing HTML blocks and class names (`section-title`, `paper-card`, `exp-card`, …); plain Markdown headings alone will break layout and navigation.
 - `images/`: your avatar and paper figures
 
 ## Why this is simpler
