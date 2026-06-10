@@ -91,6 +91,11 @@
 
 <h2 id="working-papers" class="section-title subsection-title">Working Papers</h2>
 <div class="mini-card">
+  <div class="mini-card-title">Bridging the Agent-World Gap: Text World Models for LLM-based Agents</div>
+  <div class="mini-card-authors">Yixia Li, Hongru Wang<sup>*</sup>, <strong>Peng Lai<sup>*</sup></strong>, Zhiwen Ruan<sup>*</sup>, He Zhu<sup>*</sup>, Youxin Zhu, ..., Guanhua Chen, et al.</div>
+  <div class="mini-card-status"></div>
+</div>
+<div class="mini-card">
   <div class="mini-card-title">AlignScal: Enhancing Preference Alignment via Data Selection Using Model Internal Signals</div>
   <div class="mini-card-authors"><strong>Peng Lai<sup>*</sup></strong>, He Zhu<sup>*</sup>, Zhiwen Ruan, Dongdong Zhang, Yun Chen, Peng Li, Furu Wei, Yang Liu, Guanhua Chen</div>
   <div class="mini-card-status"> </div>
