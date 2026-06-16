@@ -102,7 +102,7 @@
 </div>
 <div class="mini-card">
   <div class="mini-card-title">StatABench: Dataset and Framework for Evaluating Statistical Analysis Capabilities of LLMs</div>
-  <div class="mini-card-authors">Youxin Zhu, Yixuan Ding, <strong>Peng Lai</strong>, Longyue Wang, Bingyi Jing, Guanhua Chen</div>
+  <div class="mini-card-authors">Youxin Zhu<sup>*</sup>, Yixuan Ding<sup>*</sup>, <strong>Peng Lai<sup>*</sup></strong>, Longyue Wang, Bingyi Jing, Guanhua Chen</div>
   <div class="mini-card-status"></div>
 </div>
 
