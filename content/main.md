@@ -150,6 +150,7 @@
 
 <h1 id="services" class="section-title">🤝 Academic Services</h1>
 <ul class="modern-list">
+  <li><span class="modern-list-date">Reviewer</span><span class="modern-list-content">EMNLP 2026</span></li>
   <li><span class="modern-list-date">Reviewer</span><span class="modern-list-content">NeurIPS 2026</span></li>
   <li><span class="modern-list-date">Reviewer</span><span class="modern-list-content">ICLR 2026 Workshop LLA</span></li>
   <li><span class="modern-list-date">Reviewer</span><span class="modern-list-content">ACL ARR 2025 October</span></li>
