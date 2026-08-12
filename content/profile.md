@@ -1,7 +1,7 @@
 <img class="profile-avatar" src="images/1.jpg" alt="Peng Lai avatar">
 <div>
   <h1 class="profile-name">Peng Lai (赖鹏)</h1>
-  <p class="profile-role">M.Phil. Student at SUSTech</p>
+  <p class="profile-role">Ph.D. Student at SUSTech</p>
   <p class="profile-research"><span class="label-strong">Research:</span> LLM-as-a-judge&Reward Model · Post-training</p>
   <div class="hobby-block">
     <p class="hobby-text"><span class="label-strong">Hobbies:</span> Singing · Workout · Competitive Gaming</p>

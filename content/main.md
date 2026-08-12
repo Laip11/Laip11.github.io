@@ -1,10 +1,10 @@
 <h1 id="about-me" class="section-title">🌟 About Me</h1>
 
 <p class="lead">
-  Here is <strong>Peng Lai (赖鹏)</strong>. I am currently a second-year <strong>M.Phil. student</strong> in the Department of
+  Here is <strong>Peng Lai (赖鹏)</strong>. I am currently a <strong>Ph.D. student</strong> in the Department of
   Statistics and Data Science at <strong>Southern University of Science and Technology</strong>, enrolled in an integrated M.Phil.-Ph.D.
-  program (Mathematics to Computer Science), and will formally continue as a Ph.D. student under the supervision of
-  Prof. <a href="https://ghchen.me/" target="_blank" rel="noopener noreferrer">Guanhua Chen</a> starting in Fall 2026.
+  program (Mathematics to Computer Science), under the supervision of
+  Prof. <a href="https://ghchen.me/" target="_blank" rel="noopener noreferrer">Guanhua Chen</a>.
   I am currently doing a research internship at <strong>Alibaba Cloud</strong>.
 </p>
 
@@ -126,7 +126,7 @@
 <div class="exp-card">
   <div class="exp-header"><div class="exp-title">Integrated M.Phil.-Ph.D. program</div><div class="exp-date">2024 - Present</div></div>
   <div class="exp-org">Southern University of Science and Technology</div>
-  <div class="exp-desc">Department of Statistics and Data Science (Mathematics to Computer Science). Ph.D. student status from Fall 2026.</div>
+  <div class="exp-desc">Department of Statistics and Data Science (Mathematics to Computer Science). Ph.D. student under the supervision of Prof. Guanhua Chen.</div>
 </div>
 <div class="exp-card">
   <div class="exp-header"><div class="exp-title">B.Sc. in Statistics</div><div class="exp-date">2020 - 2024</div></div>
