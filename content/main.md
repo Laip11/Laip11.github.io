@@ -42,7 +42,7 @@
     <div class="paper-authors"><strong>Peng Lai</strong>, Yichao Du, Junchao Wu, Weibo Gao, Linan Yue, Longyue Wang, Weihua Luo, Derek F. Wong, Guanhua Chen</div>
     <div class="paper-meta"><span class="conf-badge">ICML 2026</span><span class="ccf-badge">CCF-A</span></div>
     <div class="paper-links">
-      <a href="https://openreview.net/forum?id=laiK6TlhL2&referrer=%5Bthe%20profile%20of%20Peng%20Lai%5D(%2Fprofile%3Fid%3D~Peng_Lai3)" class="paper-btn paper-btn-primary" target="_blank" rel="noopener noreferrer">Paper</a>
+      <a href="https://openreview.net/pdf?id=laiK6TlhL2" class="paper-btn paper-btn-primary" target="_blank" rel="noopener noreferrer">Paper</a>
       <a href="https://github.com/Laip11/UniRRM/tree/main" class="paper-btn paper-btn-secondary" target="_blank" rel="noopener noreferrer">Code</a>
     </div>
   </div>
