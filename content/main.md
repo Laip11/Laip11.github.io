@@ -20,6 +20,7 @@
 
 <h1 id="news" class="section-title">🔥 News</h1>
 <ul class="modern-list">
+  <li><span class="modern-list-date">2026.08</span><span class="modern-list-content">Our paper <a href="https://openreview.net/forum?id=4fclVIrUg2" target="_blank" rel="noopener noreferrer"><em>AlignDiff: Exploiting Model-Intrinsic Information for Better Preference Data Selection</em></a> was accepted to <strong>EMNLP 2027 (Findings)</strong>.</span></li>
   <li><span class="modern-list-date">2026.05</span><span class="modern-list-content">Our paper <a href="https://openreview.net/forum?id=laiK6TlhL2" target="_blank" rel="noopener noreferrer"><em>UniRRM: Unified Reasoning Reward Models Across Languages and Evaluation Paradigms</em></a> was accepted to <strong>ICML 2026 (Poster)</strong>.</span></li>
   <li><span class="modern-list-date">2026.01</span><span class="modern-list-content">Our papers <a href="https://arxiv.org/abs/2602.09383v1" target="_blank" rel="noopener noreferrer"><em>BiasScope: Towards Automated Detection of Bias in LLM-as-a-Judge Evaluation</em></a> and <a href="https://arxiv.org/abs/2509.23753" target="_blank" rel="noopener noreferrer"><em>Anchored Supervised Fine-Tuning</em></a> were accepted to <strong>ICLR 2026 (Poster)</strong>.</span></li>
   <li><span class="modern-list-date">2025.09</span><span class="modern-list-content">Our paper <a href="https://arxiv.org/abs/2508.03550" target="_blank" rel="noopener noreferrer"><em>Beyond the Surface: Enhancing LLM-as-a-Judge Alignment with Human via Internal Representations</em></a> was accepted to <strong>NeurIPS 2025 (Poster)</strong>.</span></li>
@@ -35,6 +36,18 @@
 </div>
 
 <div id="published-papers">
+<div class="paper-card" data-selected="true" data-author-rank="1" data-year="2027">
+  <div class="paper-image-container"><img src="images/aligndiff.png" alt="AlignDiff Framework Figure"></div>
+  <div class="paper-content">
+    <div class="paper-title">AlignDiff: Exploiting Model-Intrinsic Information for Better Preference Data Selection</div>
+    <div class="paper-authors"><strong>Peng Lai<sup>*</sup></strong>, He Zhu<sup>*</sup>, Zhiwen Ruan, Dongdong Zhang, Yun Chen, Peng Li, Furu Wei, Yang Liu, Guanhua Chen</div>
+    <div class="paper-meta"><span class="conf-badge">EMNLP 2027 Findings</span><span class="ccf-badge">CCF-B</span></div>
+    <div class="paper-links">
+      <a href="https://openreview.net/forum?id=4fclVIrUg2" class="paper-btn paper-btn-primary" target="_blank" rel="noopener noreferrer">Paper</a>
+    </div>
+  </div>
+</div>
+
 <div class="paper-card" data-selected="true" data-author-rank="1" data-year="2026">
   <div class="paper-image-container"><img src="images/unirrm.png" alt="UniRRM Framework Figure"></div>
   <div class="paper-content">
@@ -94,11 +107,6 @@
   <div class="mini-card-title">Bridging the Agent-World Gap: Text World Models for LLM-based Agents</div>
   <div class="mini-card-authors">Yixia Li, Hongru Wang<sup>*</sup>, <strong>Peng Lai<sup>*</sup></strong>, Zhiwen Ruan<sup>*</sup>, He Zhu<sup>*</sup>, Youxin Zhu, ..., Guanhua Chen, et al.</div>
   <div class="mini-card-status"></div>
-</div>
-<div class="mini-card">
-  <div class="mini-card-title">AlignScal: Enhancing Preference Alignment via Data Selection Using Model Internal Signals</div>
-  <div class="mini-card-authors"><strong>Peng Lai<sup>*</sup></strong>, He Zhu<sup>*</sup>, Zhiwen Ruan, Dongdong Zhang, Yun Chen, Peng Li, Furu Wei, Yang Liu, Guanhua Chen</div>
-  <div class="mini-card-status"> </div>
 </div>
 <div class="mini-card">
   <div class="mini-card-title">StatABench: Dataset and Framework for Evaluating Statistical Analysis Capabilities of LLMs</div>
