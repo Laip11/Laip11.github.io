@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Peng Lai (赖鹏)</title>
   <meta name="description" content="Peng Lai personal homepage.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
   <!-- GoatCounter analytics -->
   <script
     data-goatcounter="https://llllp.goatcounter.com/count"
@@ -12,6 +15,8 @@
     src="https://gc.zgo.at/count.js"></script>
   <style>
     :root {
+      --font-body: "DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+      --font-heading: "Source Serif 4", Georgia, "Times New Roman", serif;
       --primary-text: #1f2937;
       --secondary-text: #475569;
       --accent-color: #9d3656;
@@ -29,10 +34,10 @@
     body {
       margin: 0 auto;
       padding: 16px 16px 28px;
-      font-family: "Times New Roman", Times, "Liberation Serif", serif;
+      font-family: var(--font-body);
       font-size: 15px;
       color: var(--secondary-text);
-      line-height: 1.6;
+      line-height: 1.65;
       background: var(--bg-page);
     }
 
@@ -195,6 +200,7 @@
     .profile-name {
       margin: 0;
       line-height: 1.2;
+      font-family: var(--font-heading);
     }
 
     .profile-role {
@@ -263,6 +269,7 @@
 
     h1, h2, h3 {
       color: var(--primary-text);
+      font-family: var(--font-heading);
       font-weight: 700;
     }
 
@@ -371,6 +378,7 @@
     }
 
     .exp-title {
+      font-family: var(--font-heading);
       font-size: 1.03rem;
       font-weight: 700;
       color: var(--primary-text);
@@ -432,6 +440,7 @@
     }
 
     .mini-card-title {
+      font-family: var(--font-heading);
       font-size: 0.92rem;
       font-weight: 600;
       color: var(--primary-text);
@@ -501,6 +510,7 @@
     }
 
     .paper-title {
+      font-family: var(--font-heading);
       font-size: 1rem;
       font-weight: 700;
       color: var(--primary-text);
