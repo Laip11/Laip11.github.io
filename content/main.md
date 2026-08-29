@@ -20,7 +20,7 @@
 
 <h1 id="news" class="section-title">🔥 News</h1>
 <ul class="modern-list">
-  <li><span class="modern-list-date">2026.08</span><span class="modern-list-content">Our paper <a href="https://openreview.net/forum?id=4fclVIrUg2" target="_blank" rel="noopener noreferrer"><em>AlignDiff: Exploiting Model-Intrinsic Information for Better Preference Data Selection</em></a> was accepted to <strong>EMNLP 2027 (Findings)</strong>.</span></li>
+  <li><span class="modern-list-date">2026.08</span><span class="modern-list-content">Our paper <a href="https://openreview.net/forum?id=4fclVIrUg2" target="_blank" rel="noopener noreferrer"><em>AlignDiff: Exploiting Model-Intrinsic Information for Better Preference Data Selection</em></a> was accepted to <strong>EMNLP 2026 (Findings)</strong>.</span></li>
   <li><span class="modern-list-date">2026.05</span><span class="modern-list-content">Our paper <a href="https://openreview.net/forum?id=laiK6TlhL2" target="_blank" rel="noopener noreferrer"><em>UniRRM: Unified Reasoning Reward Models Across Languages and Evaluation Paradigms</em></a> was accepted to <strong>ICML 2026 (Poster)</strong>.</span></li>
   <li><span class="modern-list-date">2026.01</span><span class="modern-list-content">Our papers <a href="https://arxiv.org/abs/2602.09383v1" target="_blank" rel="noopener noreferrer"><em>BiasScope: Towards Automated Detection of Bias in LLM-as-a-Judge Evaluation</em></a> and <a href="https://arxiv.org/abs/2509.23753" target="_blank" rel="noopener noreferrer"><em>Anchored Supervised Fine-Tuning</em></a> were accepted to <strong>ICLR 2026 (Poster)</strong>.</span></li>
   <li><span class="modern-list-date">2025.09</span><span class="modern-list-content">Our paper <a href="https://arxiv.org/abs/2508.03550" target="_blank" rel="noopener noreferrer"><em>Beyond the Surface: Enhancing LLM-as-a-Judge Alignment with Human via Internal Representations</em></a> was accepted to <strong>NeurIPS 2025 (Poster)</strong>.</span></li>
@@ -36,12 +36,12 @@
 </div>
 
 <div id="published-papers">
-<div class="paper-card" data-selected="true" data-author-rank="1" data-year="2027">
+<div class="paper-card" data-selected="true" data-author-rank="1" data-year="2026">
   <div class="paper-image-container"><img src="images/aligndiff.png" alt="AlignDiff Framework Figure"></div>
   <div class="paper-content">
     <div class="paper-title">AlignDiff: Exploiting Model-Intrinsic Information for Better Preference Data Selection</div>
     <div class="paper-authors"><strong>Peng Lai<sup>*</sup></strong>, He Zhu<sup>*</sup>, Zhiwen Ruan, Dongdong Zhang, Yun Chen, Peng Li, Furu Wei, Yang Liu, Guanhua Chen</div>
-    <div class="paper-meta"><span class="conf-badge">EMNLP 2027 Findings</span><span class="ccf-badge">CCF-B</span></div>
+    <div class="paper-meta"><span class="conf-badge">EMNLP 2026 Findings</span></div>
     <div class="paper-links">
       <a href="https://openreview.net/forum?id=4fclVIrUg2" class="paper-btn paper-btn-primary" target="_blank" rel="noopener noreferrer">Paper</a>
     </div>
@@ -158,6 +158,7 @@
 
 <h1 id="services" class="section-title">🤝 Academic Services</h1>
 <ul class="modern-list">
+  <li><span class="modern-list-date">Reviewer</span><span class="modern-list-content">ICLR 2027</span></li>
   <li><span class="modern-list-date">Reviewer</span><span class="modern-list-content">EMNLP 2026</span></li>
   <li><span class="modern-list-date">Reviewer</span><span class="modern-list-content">NeurIPS 2026</span></li>
   <li><span class="modern-list-date">Reviewer</span><span class="modern-list-content">ICLR 2026 Workshop LLA</span></li>
