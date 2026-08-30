@@ -41,7 +41,7 @@
   <div class="paper-content">
     <div class="paper-title">AlignDiff: Exploiting Model-Intrinsic Information for Better Preference Data Selection</div>
     <div class="paper-authors"><strong>Peng Lai<sup>*</sup></strong>, He Zhu<sup>*</sup>, Zhiwen Ruan, Dongdong Zhang, Yun Chen, Peng Li, Furu Wei, Yang Liu, Guanhua Chen</div>
-    <div class="paper-meta"><span class="conf-badge">EMNLP 2026 Findings</span></div>
+    <div class="paper-meta"><span class="conf-badge">Findings of EMNLP 2026</span></div>
     <div class="paper-links">
       <a href="https://openreview.net/forum?id=4fclVIrUg2" class="paper-btn paper-btn-primary" target="_blank" rel="noopener noreferrer">Paper</a>
     </div>
