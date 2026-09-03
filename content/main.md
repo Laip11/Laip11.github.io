@@ -9,13 +9,21 @@
 </p>
 
 <p>
-  My current research focuses on <strong>LLM-as-a-judge</strong>, <strong>reward model</strong>, and <strong>Post-training</strong>.
-  I aim to enhance model evaluation capabilities, enabling models to understand their own limitations and progressively improve.
+  My research centers on <strong>agent harnesses and post-training</strong>, dedicated to empowering large language models to become <strong>closed-loop, self-evolving agents</strong> that continuously learn from complex environments and trustworthy feedback.
 </p>
 
+<p>
+  To enable agents to autonomously solve complex, long-horizon tasks, my research systematically investigates three foundational pillars:
+</p>
+
+<ul class="modern-list" style="margin-top: 8px; margin-bottom: 14px;">
+  <li><strong>Interaction & Harness:</strong> Developing verifiable agent harnesses, sandboxes, and interactive environments (e.g., text world models) to capture high-fidelity trajectories and facilitate reproducible rollouts.</li>
+  <li><strong>Supervision & Reward Modeling:</strong> Establishing trustworthy feedback mechanisms via LLM-as-a-judge, bias mitigation, and reasoning reward models.</li>
+  <li><strong>Policy Optimization & Credit Assignment:</strong> Advancing agent post-training by tackling the long-horizon <strong>credit assignment</strong> dilemma—mathematically and causally attributing sparse, delayed rewards to intermediate reasoning steps and tool invocations—complemented by principled data selection and fine-tuning strategies.</li>
+</ul>
+
 <div class="collab-callout">
-  I am interested in popular and exciting research directions, and I am willing to collaborate with outstanding researchers.
-  You are welcome to reach out to me anytime to discuss related research～
+  I am actively seeking research collaborations and intellectual discussions on <strong>Agent Harness & Benchmarking</strong>, <strong>Process Supervision</strong>, and <strong>Agent Reinforcement Learning</strong>. Feel free to reach out anytime!
 </div>
 
 <h1 id="news" class="section-title">🔥 News</h1>
@@ -44,6 +52,7 @@
     <div class="paper-meta"><span class="conf-badge">Findings of EMNLP 2026</span></div>
     <div class="paper-links">
       <a href="https://openreview.net/forum?id=4fclVIrUg2" class="paper-btn paper-btn-primary" target="_blank" rel="noopener noreferrer">Paper</a>
+      <a href="https://github.com/sustech-nlp/AlignDiff" class="paper-btn paper-btn-secondary" target="_blank" rel="noopener noreferrer">Code</a>
     </div>
   </div>
 </div>
