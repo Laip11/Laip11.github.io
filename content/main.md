@@ -158,13 +158,6 @@
   <li><span class="modern-list-date">2021</span><span class="modern-list-content">Sichuan Provincial First Prize, National College Student Mathematical Modeling Competition (Team Leader)</span></li>
 </ul>
 
-<h1 id="teaching" class="section-title">📚 Teaching Assistantships</h1>
-<ul class="modern-list">
-  <li><span class="modern-list-date">Fall 2025</span><span class="modern-list-content">Advanced Natural Language Processing (Graduate)</span></li>
-  <li><span class="modern-list-date">Spring 2025</span><span class="modern-list-content">Probability Theory and Mathematical Statistics (Undergraduate)</span></li>
-  <li><span class="modern-list-date">Fall 2024</span><span class="modern-list-content">Engineering Probability and Statistics (Undergraduate)</span></li>
-</ul>
-
 <h1 id="services" class="section-title">🤝 Academic Services</h1>
 <h2 class="section-title subsection-title" style="margin-top: 18px; margin-bottom: 12px; font-size: 1.05rem; color: #1e293b;">Conference Reviewer</h2>
 <div class="service-grid">
@@ -215,3 +208,10 @@
     <div class="tile-full-name">ACL Rolling Review</div>
   </div>
 </div>
+
+<h1 id="teaching" class="section-title">📚 Teaching Assistantships</h1>
+<ul class="modern-list">
+  <li><span class="modern-list-date">Fall 2025</span><span class="modern-list-content">Advanced Natural Language Processing (Graduate)</span></li>
+  <li><span class="modern-list-date">Spring 2025</span><span class="modern-list-content">Probability Theory and Mathematical Statistics (Undergraduate)</span></li>
+  <li><span class="modern-list-date">Fall 2024</span><span class="modern-list-content">Engineering Probability and Statistics (Undergraduate)</span></li>
+</ul>

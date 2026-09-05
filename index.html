@@ -28,9 +28,9 @@
       --link-color: #1d4ed8;
       --border-color: #cbd5e1;
       --border-light: #e2e8f0;
-      --bg-page: #f1f5f9;
+      --bg-page: #f1f4f9;
       --card-bg: #ffffff;
-      --callout-bg: #eff6ff;
+      --callout-bg: #f0f7ff;
       --callout-border: #bfdbfe;
       --callout-text: #1e3a5f;
       --max-width: 860px;
@@ -51,44 +51,59 @@
       font-size: 15.5px;
       color: var(--secondary-text);
       line-height: 1.7;
-      background: var(--bg-page);
+      background-color: var(--bg-page);
+      background-image:
+        radial-gradient(at 12% 12%, rgba(157, 54, 86, 0.09) 0px, transparent 42%),
+        radial-gradient(at 88% 14%, rgba(37, 99, 235, 0.09) 0px, transparent 42%),
+        radial-gradient(at 50% 60%, rgba(99, 102, 241, 0.05) 0px, transparent 50%),
+        radial-gradient(rgba(148, 163, 184, 0.35) 1.2px, transparent 1.2px);
+      background-size: 100% 100%, 100% 100%, 100% 100%, 28px 28px;
+      background-attachment: fixed, fixed, fixed, scroll;
       -webkit-font-smoothing: antialiased;
+      min-height: 100vh;
     }
 
-    /* Top Sticky Navigation with Glassmorphism */
+    /* Floating Dynamic Island Navigation (Apple / Linear style) */
     .site-nav {
       position: sticky;
-      top: 0;
+      top: 14px;
       z-index: 100;
-      background: rgba(255, 255, 255, 0.86);
-      backdrop-filter: blur(16px);
-      -webkit-backdrop-filter: blur(16px);
-      border-bottom: 1px solid rgba(210, 219, 229, 0.85);
-      box-shadow: 0 1px 4px rgba(15, 23, 42, 0.04);
-      transition: background-color 0.2s ease, border-color 0.2s ease;
+      width: fit-content;
+      max-width: min(calc(100% - 28px), var(--max-width));
+      margin: 0 auto;
+      background: rgba(255, 255, 255, 0.78);
+      -webkit-backdrop-filter: blur(24px) saturate(160%);
+      backdrop-filter: blur(24px) saturate(160%);
+      border: 1px solid rgba(226, 232, 240, 0.9);
+      border-radius: 999px;
+      box-shadow:
+        0 4px 6px -1px rgba(15, 23, 42, 0.04),
+        0 12px 28px -4px rgba(15, 23, 42, 0.08);
+      padding: 5px 8px;
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
     }
 
     .nav-inner {
-      max-width: var(--max-width);
-      margin: 0 auto;
-      padding: 0 20px;
-      height: 52px;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 16px;
+      gap: 12px;
+      height: 38px;
+      padding: 0 4px;
     }
 
     .nav-brand {
       display: inline-flex;
       align-items: center;
-      gap: 7px;
+      gap: 6px;
       font-family: var(--font-heading);
       font-weight: 700;
-      font-size: 1.05rem;
+      font-size: 0.95rem;
       color: var(--primary-text);
       text-decoration: none;
       white-space: nowrap;
+      padding: 4px 10px 4px 6px;
+      border-radius: 999px;
       transition: color 0.18s ease;
     }
 
@@ -110,7 +125,7 @@
     .nav-links {
       display: flex;
       align-items: center;
-      gap: 3px;
+      gap: 2px;
       overflow-x: auto;
       scrollbar-width: none;
       -webkit-overflow-scrolling: touch;
@@ -122,32 +137,43 @@
 
     .nav-links a {
       padding: 5px 11px;
-      font-size: 0.84rem;
+      font-size: 0.82rem;
       font-weight: 600;
-      color: #526177;
+      color: #64748b;
       border-radius: 999px;
       text-decoration: none;
       white-space: nowrap;
-      transition: all 0.18s ease;
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
     }
 
     .nav-links a:hover {
-      color: var(--accent-color);
-      background: var(--accent-bg);
+      color: var(--primary-text);
+      background: rgba(15, 23, 42, 0.05);
       text-decoration: none;
     }
 
     .nav-links a.active {
-      color: #fff;
-      background: var(--accent-color);
+      color: var(--accent-color);
+      background: var(--accent-bg);
+      box-shadow: inset 0 0 0 1px var(--accent-border);
       text-decoration: none;
     }
 
-    /* Main Container */
+    /* Main Container Card (Scheme A) */
     .main-container {
       max-width: var(--max-width);
-      margin: 0 auto;
-      padding: 32px 20px 80px;
+      margin: 32px auto 48px;
+      padding: 44px 50px 52px;
+      background: rgba(255, 255, 255, 0.96);
+      -webkit-backdrop-filter: blur(16px);
+      backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.95);
+      border-radius: 22px;
+      box-shadow:
+        0 0 0 1px rgba(203, 213, 225, 0.6),
+        0 4px 6px -1px rgba(15, 23, 42, 0.03),
+        0 20px 48px -8px rgba(15, 23, 42, 0.08);
+      position: relative;
     }
 
     /* Profile Header */
@@ -157,7 +183,7 @@
       align-items: center;
       margin-bottom: 32px;
       padding-bottom: 28px;
-      border-bottom: 1px solid var(--border-color);
+      border-bottom: 1px solid var(--border-light);
     }
 
     .profile-avatar {
@@ -267,23 +293,12 @@
       margin-top: 42px;
       margin-bottom: 16px;
       padding-bottom: 8px;
-      border-bottom: 1.5px solid #edf2f7;
+      border-bottom: 1.5px solid var(--border-light);
       position: relative;
       display: flex;
       align-items: center;
       gap: 8px;
-      scroll-margin-top: 70px;
-    }
-
-    .section-title::after {
-      content: "";
-      position: absolute;
-      bottom: -1.5px;
-      left: 0;
-      width: 32px;
-      height: 2px;
-      background: var(--accent-color);
-      border-radius: 999px;
+      scroll-margin-top: 88px;
     }
 
     .subsection-title {
@@ -376,22 +391,22 @@
 
     /* Experience Cards */
     .exp-card {
-      background: var(--card-bg);
-      border: 1px solid var(--border-color);
+      background: #ffffff;
+      border: 1px solid var(--border-light);
       border-radius: 14px;
       padding: 16px 20px;
       margin-bottom: 14px;
-      transition: all 0.22s ease;
+      transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
       display: flex;
       flex-direction: column;
       gap: 6px;
-      box-shadow: 0 2px 4px rgba(15, 23, 42, 0.04), 0 8px 24px -4px rgba(15, 23, 42, 0.07);
+      box-shadow: 0 1px 3px rgba(15, 23, 42, 0.03);
     }
 
     .exp-card:hover {
-      box-shadow: 0 6px 12px rgba(15, 23, 42, 0.06), 0 16px 32px -4px rgba(15, 23, 42, 0.10);
-      transform: translateY(-1.5px);
+      transform: translateY(-2px);
       border-color: #cbd5e1;
+      box-shadow: 0 8px 22px -4px rgba(15, 23, 42, 0.08);
     }
 
     .exp-header {
@@ -448,20 +463,21 @@
 
     /* Mini Cards (Working Papers) */
     .mini-card {
-      background: var(--card-bg);
-      border: 1px solid var(--border-color);
+      background: #ffffff;
+      border: 1px solid var(--border-light);
       border-left: 4px solid var(--accent-color);
       border-radius: 12px;
       padding: 14px 18px;
       margin-bottom: 12px;
-      transition: all 0.22s ease;
-      box-shadow: 0 2px 4px rgba(15, 23, 42, 0.04), 0 8px 24px -4px rgba(15, 23, 42, 0.07);
+      transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+      box-shadow: 0 1px 3px rgba(15, 23, 42, 0.03);
     }
 
     .mini-card:hover {
-      transform: translateX(3px);
-      box-shadow: 0 6px 16px -3px rgba(15, 23, 42, 0.10);
+      transform: translateX(4px);
+      box-shadow: 0 6px 18px -3px rgba(15, 23, 42, 0.08);
       border-left-color: var(--accent-hover);
+      border-color: #cbd5e1;
     }
 
     .mini-card-title {
@@ -488,18 +504,18 @@
       display: flex;
       flex-direction: row;
       align-items: center;
-      background: var(--card-bg);
-      border: 1px solid var(--border-color);
+      background: #ffffff;
+      border: 1px solid var(--border-light);
       border-radius: 14px;
       padding: 16px;
       margin-bottom: 16px;
       transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
-      box-shadow: 0 2px 4px rgba(15, 23, 42, 0.04), 0 8px 24px -4px rgba(15, 23, 42, 0.07);
+      box-shadow: 0 1px 3px rgba(15, 23, 42, 0.03);
       gap: 18px;
     }
 
     .paper-card:hover {
-      box-shadow: 0 6px 14px rgba(15, 23, 42, 0.06), 0 16px 36px -4px rgba(15, 23, 42, 0.12);
+      box-shadow: 0 8px 24px -4px rgba(15, 23, 42, 0.08);
       transform: translateY(-2px);
       border-color: #cbd5e1;
     }
@@ -514,8 +530,8 @@
     }
 
     .service-tile {
-      background: var(--card-bg);
-      border: 1px solid var(--border-color);
+      background: #ffffff;
+      border: 1px solid var(--border-light);
       border-radius: 12px;
       padding: 13px 16px;
       display: flex;
@@ -524,13 +540,13 @@
       gap: 6px;
       min-height: 80px;
       transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
-      box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04), 0 4px 12px -2px rgba(15, 23, 42, 0.03);
+      box-shadow: 0 1px 2px rgba(15, 23, 42, 0.03);
     }
 
     .service-tile:hover {
       transform: translateY(-2px);
       box-shadow: 0 6px 18px -2px rgba(15, 23, 42, 0.08);
-      border-color: #94a3b8;
+      border-color: #cbd5e1;
     }
 
     .tile-header {
@@ -590,8 +606,8 @@
       flex: 0 0 215px;
       border-radius: 8px;
       overflow: hidden;
-      border: 1px solid #edf2f7;
-      background: #fafafa;
+      border: 1px solid var(--border-light);
+      background: #ffffff;
     }
 
     .paper-image-container img {
@@ -735,9 +751,9 @@
       align-items: center;
       gap: 4px;
       padding: 3px;
-      border: 1px solid #e2e8f0;
+      border: 1px solid var(--border-light);
       border-radius: 999px;
-      background: #ffffff;
+      background: var(--card-inner-bg);
     }
 
     .paper-toggle-btn {
@@ -795,8 +811,21 @@
 
     /* Responsive */
     @media (max-width: 768px) {
+      .site-nav {
+        top: 10px;
+        width: calc(100% - 20px);
+        max-width: calc(100% - 20px);
+        padding: 4px 6px;
+      }
+
+      .nav-brand span {
+        display: none;
+      }
+
       .main-container {
-        padding: 24px 16px 60px;
+        margin: 14px 12px 32px;
+        padding: 24px 18px 36px;
+        border-radius: 16px;
       }
 
       .profile-header {
@@ -828,7 +857,7 @@
   <!-- Sticky Top Glassmorphism Navigation -->
   <nav class="site-nav" aria-label="Main Navigation">
     <div class="nav-inner">
-      <a href="#profile-header" class="nav-brand" aria-label="Back to top">
+      <a href="#" class="nav-brand" aria-label="Back to top">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
           <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
           <polyline points="9 22 9 12 15 12 15 22"/>
@@ -843,8 +872,8 @@
         <a href="#internships">Internships</a>
         <a href="#education">Education</a>
         <a href="#honors">Honors</a>
-        <a href="#teaching">Teaching</a>
         <a href="#services">Services</a>
+        <a href="#teaching">Teaching</a>
       </div>
     </div>
   </nav>
@@ -941,16 +970,25 @@
         if (!sectionMap.has(href)) sectionMap.set(href, []);
         sectionMap.get(href).push(link);
       });
-      const sections = [...sectionMap.keys()]
+
+      const sectionElements = [...sectionMap.keys()]
         .map((href) => document.querySelector(href))
         .filter(Boolean);
 
-      if (sections.length === 0) return;
+      if (sectionElements.length === 0) return;
 
-      let observer = null;
+      // Ensure sections are sorted strictly in vertical DOM order
+      sectionElements.sort((a, b) => {
+        return (a.getBoundingClientRect().top + window.pageYOffset) - (b.getBoundingClientRect().top + window.pageYOffset);
+      });
+
+      let isClickScrolling = false;
+      let scrollEndTimer = null;
+      let currentActiveId = null;
 
       const setActiveSection = (id) => {
-        if (!id) return;
+        if (!id || id === currentActiveId) return;
+        currentActiveId = id;
         navLinks.forEach((link) => link.classList.remove("active"));
         const activeLinks = sectionMap.get(`#${id}`) || [];
         activeLinks.forEach((link) => {
@@ -959,34 +997,117 @@
         });
       };
 
-      const getObserverOptions = () => {
-        const navHeight = document.querySelector(".site-nav")?.getBoundingClientRect().height || 52;
-        const top = Math.round(window.innerHeight * 0.15 + navHeight);
-        const bottom = Math.round(window.innerHeight * 0.45);
-        return {
-          rootMargin: `-${top}px 0px -${bottom}px 0px`,
-          threshold: [0, 0.15, 0.4],
-        };
-      };
+      // Handle smooth scroll clicks accurately
+      navLinks.forEach((link) => {
+        link.addEventListener("click", (e) => {
+          const href = link.getAttribute("href");
+          if (!href || !href.startsWith("#")) return;
+          const target = document.querySelector(href);
+          if (!target) return;
 
-      const bindObserver = () => {
-        if (observer) observer.disconnect();
-        observer = new IntersectionObserver((entries) => {
-          const visible = entries
-            .filter((entry) => entry.isIntersecting)
-            .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
-          if (visible) setActiveSection(visible.target.id);
-        }, getObserverOptions());
-        sections.forEach((section) => observer.observe(section));
-      };
+          e.preventDefault();
+          isClickScrolling = true;
+          setActiveSection(href.slice(1));
+          history.pushState(null, "", href);
 
-      bindObserver();
+          const nav = document.querySelector(".site-nav");
+          const navBottom = nav ? nav.getBoundingClientRect().bottom : 58;
+          const targetRect = target.getBoundingClientRect();
+          const targetY = window.pageYOffset + targetRect.top - (navBottom + 16);
 
-      let resizeTimer;
-      window.addEventListener("resize", () => {
-        clearTimeout(resizeTimer);
-        resizeTimer = setTimeout(bindObserver, 120);
+          window.scrollTo({
+            top: Math.max(0, targetY),
+            behavior: "smooth"
+          });
+        });
       });
+
+      // Handle brand click (Back to top)
+      const brand = document.querySelector(".site-nav .nav-brand");
+      if (brand) {
+        brand.addEventListener("click", (e) => {
+          e.preventDefault();
+          history.pushState(null, "", " ");
+          window.scrollTo({ top: 0, behavior: "smooth" });
+          navLinks.forEach((link) => link.classList.remove("active"));
+          currentActiveId = null;
+        });
+      }
+
+      const endClickScroll = () => {
+        if (!isClickScrolling) return;
+        isClickScrolling = false;
+        updateActiveSection();
+      };
+
+      if ("onscrollend" in window) {
+        window.addEventListener("scrollend", endClickScroll, { passive: true });
+      }
+      window.addEventListener("wheel", () => { isClickScrolling = false; }, { passive: true });
+      window.addEventListener("touchmove", () => { isClickScrolling = false; }, { passive: true });
+
+      // Continuous, deterministic scroll-spy for bidirectional scrolling (up and down)
+      const updateActiveSection = () => {
+        if (isClickScrolling) return;
+
+        const nav = document.querySelector(".site-nav");
+        const navBottom = nav ? nav.getBoundingClientRect().bottom : 58;
+        const vh = window.innerHeight;
+        const maxScroll = Math.max(0, document.documentElement.scrollHeight - vh);
+        const remainingScroll = Math.max(0, maxScroll - window.pageYOffset);
+
+        // Near the absolute bottom of the document
+        if (remainingScroll < 90) {
+          const lastEl = sectionElements[sectionElements.length - 1];
+          if (lastEl) setActiveSection(lastEl.id);
+          return;
+        }
+
+        // Dynamic probe line: normally 50px below the nav island.
+        // As the user nears the document bottom where content can't scroll any higher,
+        // dynamically lower probeY so bottom sections naturally activate.
+        const baseProbe = navBottom + 50;
+        let probeY = baseProbe;
+        const bottomZone = Math.max(340, vh * 0.4);
+        if (remainingScroll < bottomZone) {
+          const t = 1 - (remainingScroll / bottomZone);
+          probeY = baseProbe + t * (vh * 0.75 - baseProbe);
+        }
+
+        let activeId = null;
+        for (let i = 0; i < sectionElements.length; i++) {
+          const rect = sectionElements[i].getBoundingClientRect();
+          if (rect.top <= probeY) {
+            activeId = sectionElements[i].id;
+          } else {
+            break;
+          }
+        }
+
+        if (activeId) {
+          setActiveSection(activeId);
+        } else {
+          setActiveSection(sectionElements[0].id);
+        }
+      };
+
+      let ticking = false;
+      window.addEventListener("scroll", () => {
+        clearTimeout(scrollEndTimer);
+        scrollEndTimer = setTimeout(endClickScroll, 160);
+
+        if (!ticking) {
+          window.requestAnimationFrame(() => {
+            updateActiveSection();
+            ticking = false;
+          });
+          ticking = true;
+        }
+      }, { passive: true });
+
+      // Run on page load and window resize
+      updateActiveSection();
+      window.addEventListener("resize", updateActiveSection);
     }
 
     function getPaperFilterFromHash() {
