@@ -166,10 +166,52 @@
 </ul>
 
 <h1 id="services" class="section-title">🤝 Academic Services</h1>
-<ul class="modern-list">
-  <li><span class="modern-list-date">Reviewer</span><span class="modern-list-content">ICLR 2027</span></li>
-  <li><span class="modern-list-date">Reviewer</span><span class="modern-list-content">EMNLP 2026</span></li>
-  <li><span class="modern-list-date">Reviewer</span><span class="modern-list-content">NeurIPS 2026</span></li>
-  <li><span class="modern-list-date">Reviewer</span><span class="modern-list-content">ICLR 2026 Workshop LLA</span></li>
-  <li><span class="modern-list-date">Reviewer</span><span class="modern-list-content">ACL ARR 2025 October</span></li>
-</ul>
+<h2 class="section-title subsection-title" style="margin-top: 18px; margin-bottom: 12px; font-size: 1.05rem; color: #1e293b;">Conference Reviewer</h2>
+<div class="service-grid">
+  <div class="service-tile">
+    <div class="tile-header">
+      <span class="tile-conf-name">ICLR</span>
+      <div class="tile-years">
+        <span class="tile-year-pill">2027</span>
+        <span class="tile-year-pill">2026<small>(Workshop LLA)</small></span>
+      </div>
+    </div>
+    <div class="tile-full-name">International Conference on Learning Representations</div>
+  </div>
+  <div class="service-tile">
+    <div class="tile-header">
+      <span class="tile-conf-name">NeurIPS</span>
+      <div class="tile-years">
+        <span class="tile-year-pill">2026</span>
+      </div>
+    </div>
+    <div class="tile-full-name">Conference on Neural Information Processing Systems</div>
+  </div>
+  <div class="service-tile">
+    <div class="tile-header">
+      <span class="tile-conf-name">COLM</span>
+      <div class="tile-years">
+        <span class="tile-year-pill">2026<small>(Workshop LLA)</small></span>
+      </div>
+    </div>
+    <div class="tile-full-name">Conference on Language Modeling</div>
+  </div>
+  <div class="service-tile">
+    <div class="tile-header">
+      <span class="tile-conf-name">EMNLP</span>
+      <div class="tile-years">
+        <span class="tile-year-pill">2026</span>
+      </div>
+    </div>
+    <div class="tile-full-name">Empirical Methods in Natural Language Processing</div>
+  </div>
+  <div class="service-tile">
+    <div class="tile-header">
+      <span class="tile-conf-name">ACL ARR</span>
+      <div class="tile-years">
+        <span class="tile-year-pill">2025<small>(Oct)</small></span>
+      </div>
+    </div>
+    <div class="tile-full-name">ACL Rolling Review</div>
+  </div>
+</div>
