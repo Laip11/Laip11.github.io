@@ -1,0 +1,14 @@
+[
+  {
+    "slug": "agentic-rl-credit-assignment",
+    "title": "Agentic RL 中的信用分配：方法谱系与选型指南",
+    "summary": "系统整理面向 LLM 智能体强化学习的信用分配方法，从信号来源与分配粒度出发，给出方法谱系、横向比较与选型建议。",
+    "published": "2026-09-09",
+    "updated": "2026-09-09",
+    "status": "持续维护",
+    "paperCount": 90,
+    "familyCount": 8,
+    "readingTime": "45+ min",
+    "tags": ["Agentic RL", "Credit Assignment", "Reward Modeling"]
+  }
+]

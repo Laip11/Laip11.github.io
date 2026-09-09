@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research Blog · Peng Lai</title>
+  <meta name="description" content="Peng Lai 的论文调研、研究笔记与交互式可视化。">
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/blog.css">
+</head>
+<body>
+  <nav class="topbar" aria-label="Blog navigation">
+    <div class="topbar-inner">
+      <a class="brand" href="../">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Peng Lai</span>
+      </a>
+      <div class="nav-links">
+        <a href="../">Homepage</a>
+        <a class="active" href="./" aria-current="page">Research Blog</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <header class="intro">
+      <p class="eyebrow">Research notes · Visual surveys</p>
+      <h1>Research Blog</h1>
+      <p class="intro-copy">论文调研、方法谱系与可交互的研究可视化。这里记录仍在生长的理解，而不只是最终结论。</p>
+      <div class="search-wrap">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.7-3.7"></path></svg>
+        <label class="sr-only" for="post-search">搜索调研</label>
+        <input id="post-search" type="search" placeholder="搜索主题、方法或关键词…" autocomplete="off">
+      </div>
+    </header>
+
+    <section class="catalog" aria-labelledby="catalog-title">
+      <div class="catalog-head">
+        <div>
+          <p class="section-kicker">Archive</p>
+          <h2 id="catalog-title">调研目录</h2>
+        </div>
+        <p id="result-count" class="result-count" aria-live="polite"></p>
+      </div>
+      <div id="tag-filters" class="tag-filters" aria-label="按主题筛选"></div>
+      <div id="post-list" class="post-list" aria-live="polite">
+        <p class="loading">正在读取调研目录…</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© Peng Lai</span>
+    <a href="../">返回主页</a>
+  </footer>
+  <script src="assets/blog.js"></script>
+</body>
+</html>
