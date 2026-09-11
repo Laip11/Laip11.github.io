@@ -2,7 +2,7 @@
 
 每个报告页面放在 `blog/posts/<slug>/index.html`，并在 `blog/posts.json` 中登记一条元数据。HTML 模板由生成器统一渲染，模型不直接重写页面外壳。
 
-`report-template.html` 是模板外壳的可读副本，不能直接作为页面打开；真正可访问的文件始终是 `blog/posts/<slug>/index.html`。生成器会在输出前检查所有模板插槽是否已经替换，避免把 `{{TITLE}}` 一类变量带到线上。
+`report-template.html` 是可直接打开的完整可视化示例，用来预览最终页面结构；生成器内部使用的带插槽模板位于研究报告构建目录中。真正发布的文件始终是 `blog/posts/<slug>/index.html`。生成器会在输出前检查所有模板插槽是否已经替换，避免把 `{{TITLE}}` 一类变量带到线上。
 
 页面顶部导航固定为：左侧当前报告名称，右侧 `Homepage` 与 `Research Blog`。报告页从 `blog/posts/<slug>/` 出发时，链接分别使用 `../../../` 和 `../../`；移动端隐藏 `Homepage`，保留 `Research Blog`。
 
