@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "description": "Shared metadata contract for interactive research reports.",
+  "navigation": {
+    "homeLabel": "Homepage",
+    "blogLabel": "Research Blog",
+    "homeHrefFromPost": "../../../",
+    "blogHrefFromPost": "../../"
+  },
+  "requiredPostFields": [
+    "slug",
+    "title",
+    "summary",
+    "published",
+    "updated",
+    "status",
+    "paperCount",
+    "familyCount",
+    "readingTime",
+    "tags"
+  ],
+  "paperCardFields": [
+    "title",
+    "authors",
+    "first_public_date",
+    "venue",
+    "publication_status",
+    "arxiv",
+    "family",
+    "method_summary",
+    "experiments",
+    "results",
+    "limitations",
+    "figure"
+  ]
+}
