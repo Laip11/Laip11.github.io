@@ -10,5 +10,17 @@
     "familyCount": 8,
     "readingTime": "45+ min",
     "tags": ["Agentic RL", "Credit Assignment", "Reward Modeling"]
+  },
+  {
+    "slug": "on-policy-distillation",
+    "title": "On-Policy Distillation 相关工作：从学生分布蒸馏到推理能力边界",
+    "summary": "面向 post-training 的 OPD 全面调研，梳理 230 篇论文、18 类方法族、工业界实践与已中稿工作，覆盖稳定性、效率、自蒸馏、多教师、Agent 和多模态方向。",
+    "published": "2026-09-10",
+    "updated": "2026-09-10",
+    "status": "持续维护",
+    "paperCount": 230,
+    "familyCount": 18,
+    "readingTime": "90+ min",
+    "tags": ["On-Policy Distillation", "LLM Post-Training", "Reasoning"]
   }
 ]
