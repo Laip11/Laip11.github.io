@@ -28,10 +28,10 @@
 
 <h1 id="news" class="section-title">🔥 News</h1>
 <ul class="modern-list">
-  <li><span class="modern-list-date">2026.08</span><span class="modern-list-content">Our paper <a href="https://openreview.net/forum?id=4fclVIrUg2" target="_blank" rel="noopener noreferrer"><em>AlignDiff: Exploiting Model-Intrinsic Information for Better Preference Data Selection</em></a> was accepted to <strong>EMNLP 2026 (Findings)</strong>.</span></li>
-  <li><span class="modern-list-date">2026.05</span><span class="modern-list-content">Our paper <a href="https://openreview.net/forum?id=laiK6TlhL2" target="_blank" rel="noopener noreferrer"><em>UniRRM: Unified Reasoning Reward Models Across Languages and Evaluation Paradigms</em></a> was accepted to <strong>ICML 2026 (Poster)</strong>.</span></li>
-  <li><span class="modern-list-date">2026.01</span><span class="modern-list-content">Our papers <a href="https://arxiv.org/abs/2602.09383v1" target="_blank" rel="noopener noreferrer"><em>BiasScope: Towards Automated Detection of Bias in LLM-as-a-Judge Evaluation</em></a> and <a href="https://arxiv.org/abs/2509.23753" target="_blank" rel="noopener noreferrer"><em>Anchored Supervised Fine-Tuning</em></a> were accepted to <strong>ICLR 2026 (Poster)</strong>.</span></li>
-  <li><span class="modern-list-date">2025.09</span><span class="modern-list-content">Our paper <a href="https://arxiv.org/abs/2508.03550" target="_blank" rel="noopener noreferrer"><em>Beyond the Surface: Enhancing LLM-as-a-Judge Alignment with Human via Internal Representations</em></a> was accepted to <strong>NeurIPS 2025 (Poster)</strong>.</span></li>
+  <li><span class="modern-list-date">2026.08</span><span class="modern-list-content">🎉 <a href="https://arxiv.org/pdf/2609.05899" target="_blank" rel="noopener noreferrer">AlignDiff</a> accepted to <strong>EMNLP 2026 Findings</strong>. Thanks and congratulations to all collaborators!</span></li>
+  <li><span class="modern-list-date">2026.05</span><span class="modern-list-content">🎉 <a href="https://openreview.net/forum?id=laiK6TlhL2" target="_blank" rel="noopener noreferrer">UniRRM</a> accepted to <strong>ICML 2026</strong>. Thanks and congratulations to all collaborators!</span></li>
+  <li><span class="modern-list-date">2026.01</span><span class="modern-list-content">🎉 <a href="https://arxiv.org/abs/2602.09383v1" target="_blank" rel="noopener noreferrer">BiasScope</a> and <a href="https://arxiv.org/abs/2509.23753" target="_blank" rel="noopener noreferrer">ASFT</a> accepted to <strong>ICLR 2026</strong>. Thanks and congratulations to all collaborators!</span></li>
+  <li><span class="modern-list-date">2025.09</span><span class="modern-list-content">🎉 <a href="https://arxiv.org/abs/2508.03550" target="_blank" rel="noopener noreferrer">LAGER</a> accepted to <strong>NeurIPS 2025</strong>. Thanks and congratulations to all collaborators!</span></li>
 </ul>
 
 <h1 id="publications" class="section-title">📝 Publications</h1>
@@ -49,10 +49,18 @@
   <div class="paper-content">
     <div class="paper-title">AlignDiff: Exploiting Model-Intrinsic Information for Better Preference Data Selection</div>
     <div class="paper-authors"><strong>Peng Lai<sup>*</sup></strong>, He Zhu<sup>*</sup>, Zhiwen Ruan, Dongdong Zhang, Yun Chen, Peng Li, Furu Wei, Yang Liu, Guanhua Chen</div>
-    <div class="paper-meta"><span class="conf-badge">Findings of EMNLP 2026</span></div>
-    <div class="paper-links">
-      <a href="https://openreview.net/forum?id=4fclVIrUg2" class="paper-btn paper-btn-primary" target="_blank" rel="noopener noreferrer">Paper</a>
-      <a href="https://github.com/sustech-nlp/AlignDiff" class="paper-btn paper-btn-secondary" target="_blank" rel="noopener noreferrer">Code</a>
+    <div class="paper-footer">
+      <div class="paper-meta"><span class="conf-badge">Findings of EMNLP 2026</span></div>
+      <div class="paper-links">
+        <a href="https://arxiv.org/pdf/2609.05899" class="quick-link" target="_blank" rel="noopener noreferrer">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/><path d="M6 6h10M6 10h10"/></svg>
+          Paper
+        </a>
+        <a href="https://github.com/sustech-nlp/AlignDiff" class="quick-link" target="_blank" rel="noopener noreferrer">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          Code
+        </a>
+      </div>
     </div>
   </div>
 </div>
@@ -62,10 +70,18 @@
   <div class="paper-content">
     <div class="paper-title">UniRRM: Unified Reasoning Reward Models Across Languages and Evaluation Paradigms</div>
     <div class="paper-authors"><strong>Peng Lai</strong>, Yichao Du, Junchao Wu, Weibo Gao, Linan Yue, Longyue Wang, Weihua Luo, Derek F. Wong, Guanhua Chen</div>
-    <div class="paper-meta"><span class="conf-badge">ICML 2026</span><span class="ccf-badge">CCF-A</span></div>
-    <div class="paper-links">
-      <a href="https://openreview.net/pdf?id=laiK6TlhL2" class="paper-btn paper-btn-primary" target="_blank" rel="noopener noreferrer">Paper</a>
-      <a href="https://github.com/Laip11/UniRRM/tree/main" class="paper-btn paper-btn-secondary" target="_blank" rel="noopener noreferrer">Code</a>
+    <div class="paper-footer">
+      <div class="paper-meta"><span class="conf-badge">ICML 2026</span><span class="ccf-badge">CCF-A</span></div>
+      <div class="paper-links">
+        <a href="https://openreview.net/pdf?id=laiK6TlhL2" class="quick-link" target="_blank" rel="noopener noreferrer">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/><path d="M6 6h10M6 10h10"/></svg>
+          Paper
+        </a>
+        <a href="https://github.com/Laip11/UniRRM/tree/main" class="quick-link" target="_blank" rel="noopener noreferrer">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          Code
+        </a>
+      </div>
     </div>
   </div>
 </div>
@@ -75,10 +91,18 @@
   <div class="paper-content">
     <div class="paper-title">BiasScope: Towards Automated Detection of Bias in LLM-as-a-Judge Evaluation</div>
     <div class="paper-authors"><strong>Peng Lai<sup>*</sup></strong>, Zhihao Ou<sup>*</sup>, Yong Wang, Longyue Wang, Jian Yang, Yun Chen, Guanhua Chen</div>
-    <div class="paper-meta"><span class="conf-badge">ICLR 2026</span><span class="ccf-badge">CCF-A</span></div>
-    <div class="paper-links">
-      <a href="https://arxiv.org/abs/2602.09383v1" class="paper-btn paper-btn-primary" target="_blank" rel="noopener noreferrer">Paper</a>
-      <a href="https://github.com/sustech-nlp/BiasScope" class="paper-btn paper-btn-secondary" target="_blank" rel="noopener noreferrer">Code</a>
+    <div class="paper-footer">
+      <div class="paper-meta"><span class="conf-badge">ICLR 2026</span><span class="ccf-badge">CCF-A</span></div>
+      <div class="paper-links">
+        <a href="https://arxiv.org/abs/2602.09383v1" class="quick-link" target="_blank" rel="noopener noreferrer">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/><path d="M6 6h10M6 10h10"/></svg>
+          Paper
+        </a>
+        <a href="https://github.com/sustech-nlp/BiasScope" class="quick-link" target="_blank" rel="noopener noreferrer">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          Code
+        </a>
+      </div>
     </div>
   </div>
 </div>
@@ -88,10 +112,18 @@
   <div class="paper-content">
     <div class="paper-title">Beyond the Surface: Enhancing LLM-as-a-Judge Alignment with Human via Internal Representations</div>
     <div class="paper-authors"><strong>Peng Lai</strong>, Jianjie Zheng, Sijie Cheng, Yun Chen, Peng Li, Yang Liu, Guanhua Chen</div>
-    <div class="paper-meta"><span class="conf-badge">NeurIPS 2025</span><span class="ccf-badge">CCF-A</span></div>
-    <div class="paper-links">
-      <a href="https://arxiv.org/abs/2508.03550" class="paper-btn paper-btn-primary" target="_blank" rel="noopener noreferrer">Paper</a>
-      <a href="https://github.com/sustech-nlp/LAGER" class="paper-btn paper-btn-secondary" target="_blank" rel="noopener noreferrer">Code</a>
+    <div class="paper-footer">
+      <div class="paper-meta"><span class="conf-badge">NeurIPS 2025</span><span class="ccf-badge">CCF-A</span></div>
+      <div class="paper-links">
+        <a href="https://arxiv.org/abs/2508.03550" class="quick-link" target="_blank" rel="noopener noreferrer">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/><path d="M6 6h10M6 10h10"/></svg>
+          Paper
+        </a>
+        <a href="https://github.com/sustech-nlp/LAGER" class="quick-link" target="_blank" rel="noopener noreferrer">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          Code
+        </a>
+      </div>
     </div>
   </div>
 </div>
@@ -101,10 +133,18 @@
   <div class="paper-content">
     <div class="paper-title">Anchored Supervised Fine-Tuning</div>
     <div class="paper-authors">He Zhu<sup>*</sup>, Junyou Su<sup>*</sup>, <strong>Peng Lai<sup>*</sup></strong>, Ren Ma, Wenjia Zhang, Linyi Yang, Guanhua Chen</div>
-    <div class="paper-meta"><span class="conf-badge">ICLR 2026</span><span class="ccf-badge">CCF-A</span></div>
-    <div class="paper-links">
-      <a href="https://arxiv.org/abs/2509.23753" class="paper-btn paper-btn-primary" target="_blank" rel="noopener noreferrer">Paper</a>
-      <a href="https://github.com/zhuchichi56/ASFT" class="paper-btn paper-btn-secondary" target="_blank" rel="noopener noreferrer">Code</a>
+    <div class="paper-footer">
+      <div class="paper-meta"><span class="conf-badge">ICLR 2026</span><span class="ccf-badge">CCF-A</span></div>
+      <div class="paper-links">
+        <a href="https://arxiv.org/abs/2509.23753" class="quick-link" target="_blank" rel="noopener noreferrer">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/><path d="M6 6h10M6 10h10"/></svg>
+          Paper
+        </a>
+        <a href="https://github.com/zhuchichi56/ASFT" class="quick-link" target="_blank" rel="noopener noreferrer">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          Code
+        </a>
+      </div>
     </div>
   </div>
 </div>
@@ -124,33 +164,61 @@
 </div>
 
 <h1 id="internships" class="section-title">💻 Internships</h1>
-<div class="exp-card">
-  <div class="exp-header"><div class="exp-title">Research Intern</div><div class="exp-date">2026.01 - 2026.05</div></div>
-  <div class="exp-org">
-    <img class="company-logo" src="https://img.alicdn.com/imgextra/i3/O1CN01MFtVzX1U9b7T38r3V_!!6000000002475-2-tps-200-200.png_.webp" alt="Alibaba Token Hub logo" loading="lazy">
-    <span>Alibaba Token Hub</span>
+<div class="intern-grid">
+  <div class="intern-card">
+    <div class="intern-card-top">
+      <img class="intern-logo" src="https://img.alicdn.com/imgextra/i3/O1CN01MFtVzX1U9b7T38r3V_!!6000000002475-2-tps-200-200.png_.webp" alt="Alibaba Token Hub logo" loading="lazy">
+      <div class="intern-org">
+        <div class="intern-company">Alibaba Token Hub</div>
+        <div class="intern-dept">Mass AI</div>
+      </div>
+    </div>
+    <div class="intern-card-meta">
+      <span class="intern-role">Research Intern</span>
+      <span class="exp-date">2026.01 - 2026.05</span>
+    </div>
   </div>
-  <div class="exp-desc">Mass AI</div>
-</div>
-<div class="exp-card">
-  <div class="exp-header"><div class="exp-title">Research Intern</div><div class="exp-date">2025.10 - 2026.01</div></div>
-  <div class="exp-org">
-    <img class="company-logo" src="images/logo-alibaba-idc.png" alt="Alibaba International Digital Commerce logo" loading="lazy">
-    <span>Alibaba International Digital Commerce</span>
+  <div class="intern-card">
+    <div class="intern-card-top">
+      <img class="intern-logo" src="images/logo-alibaba-idc.png" alt="Alibaba International Digital Commerce logo" loading="lazy">
+      <div class="intern-org">
+        <div class="intern-company">Alibaba International Digital Commerce</div>
+        <div class="intern-dept">AI Business</div>
+      </div>
+    </div>
+    <div class="intern-card-meta">
+      <span class="intern-role">Research Intern</span>
+      <span class="exp-date">2025.10 - 2026.01</span>
+    </div>
   </div>
-  <div class="exp-desc">AI Business</div>
 </div>
 
 <h1 id="education" class="section-title">📖 Education</h1>
-<div class="exp-card">
-  <div class="exp-header"><div class="exp-title">Integrated M.Phil.-Ph.D. program</div><div class="exp-date">2024 - Present</div></div>
-  <div class="exp-org">Southern University of Science and Technology</div>
-  <div class="exp-desc">Department of Statistics and Data Science (Mathematics to Computer Science). Ph.D. student under the supervision of Prof. Guanhua Chen.</div>
-</div>
-<div class="exp-card">
-  <div class="exp-header"><div class="exp-title">B.Sc. in Statistics</div><div class="exp-date">2020 - 2024</div></div>
-  <div class="exp-org">Sichuan Normal University</div>
-  <div class="exp-desc">School of Mathematical Sciences</div>
+<div class="intern-grid">
+  <div class="intern-card">
+    <div class="intern-card-top">
+      <div class="intern-org">
+        <div class="intern-company">Southern University of Science and Technology</div>
+        <div class="intern-dept">Department of Statistics and Data Science (Mathematics to Computer Science). Advised by Prof. Guanhua Chen.</div>
+      </div>
+    </div>
+    <div class="intern-card-meta">
+      <span class="intern-role">Integrated M.Phil.-Ph.D.</span>
+      <span class="exp-date">2024 - Present</span>
+    </div>
+  </div>
+  <div class="intern-card">
+    <div class="intern-card-top">
+      <div class="intern-org">
+        <div class="intern-company">Sichuan Normal University</div>
+        <div class="intern-dept">School of Mathematical Sciences</div>
+      </div>
+    </div>
+    <div class="intern-card-meta">
+      <span class="intern-role">B.Sc. in Statistics</span>
+      <span class="exp-date">2020 - 2024</span>
+    </div>
+  </div>
 </div>
 
 <h1 id="honors" class="section-title">🎖 Honors and Awards</h1>
@@ -212,8 +280,8 @@
 </div>
 
 <h1 id="teaching" class="section-title">📚 Teaching Assistantships</h1>
-<ul class="modern-list">
-  <li><span class="modern-list-date">Fall 2025</span><span class="modern-list-content">Advanced Natural Language Processing (Graduate)</span></li>
-  <li><span class="modern-list-date">Spring 2025</span><span class="modern-list-content">Probability Theory and Mathematical Statistics (Undergraduate)</span></li>
-  <li><span class="modern-list-date">Fall 2024</span><span class="modern-list-content">Engineering Probability and Statistics (Undergraduate)</span></li>
+<ul class="modern-list teaching-list">
+  <li><span class="modern-list-content">Advanced Natural Language Processing (Graduate)</span><span class="modern-list-date">Fall 2025</span></li>
+  <li><span class="modern-list-content">Probability Theory and Mathematical Statistics (Undergraduate)</span><span class="modern-list-date">Spring 2025</span></li>
+  <li><span class="modern-list-content">Engineering Probability and Statistics (Undergraduate)</span><span class="modern-list-date">Fall 2024</span></li>
 </ul>

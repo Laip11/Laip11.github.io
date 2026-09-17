@@ -6,9 +6,6 @@
   <title>Peng Lai's Homepage</title>
   <meta name="description" content="Peng Lai personal homepage.">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
   <!-- GoatCounter analytics -->
   <script
     data-goatcounter="https://llllp.goatcounter.com/count"
@@ -16,8 +13,8 @@
     src="https://gc.zgo.at/count.js"></script>
   <style>
     :root {
-      --font-body: "DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
-      --font-heading: "Source Serif 4", Georgia, "Times New Roman", serif;
+      --font-body: "Times New Roman", Times, "Songti SC", SimSun, serif;
+      --font-heading: "Times New Roman", Times, "Songti SC", SimSun, serif;
       --primary-text: #0f172a;
       --secondary-text: #475569;
       --muted-text: #64748b;
@@ -195,44 +192,14 @@
       min-width: 0;
     }
 
-    .research-sidebar {
-      grid-area: 1 / 1;
-      position: sticky;
-      top: 76px;
-      width: 300px;
-      margin-left: max(calc(420px - 50vw), -324px);
-      min-width: 0;
-      padding: 20px;
-      background: rgba(255, 255, 255, 0.96);
-      border: 1px solid rgba(255, 255, 255, 0.95);
-      border-radius: 20px;
-      box-shadow:
-        0 0 0 1px rgba(203, 213, 225, 0.6),
-        0 16px 38px -8px rgba(15, 23, 42, 0.09);
+    .research-blog-section {
+      margin-top: 8px;
     }
 
-    .research-sidebar-kicker {
-      margin: 0 0 4px;
-      color: var(--accent-color);
-      font-size: 0.69rem;
-      font-weight: 700;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-    }
-
-    .research-sidebar-title {
-      margin: 0;
-      color: var(--primary-text);
-      font-family: var(--font-heading);
-      font-size: 1.28rem;
-      line-height: 1.3;
-    }
-
-    .research-sidebar-intro {
-      margin: 7px 0 15px;
-      color: var(--muted-text);
-      font-size: 0.78rem;
-      line-height: 1.55;
+    .research-blog-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
     }
 
     /* Profile Header */
@@ -448,6 +415,23 @@
       color: var(--primary-text);
     }
 
+    .teaching-list li {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .teaching-list .modern-list-content {
+      color: var(--primary-text);
+      font-weight: 600;
+    }
+
+    .teaching-list .modern-list-date {
+      margin-right: 0;
+      flex-shrink: 0;
+    }
+
     /* Experience Cards */
     .exp-card {
       background: #ffffff;
@@ -520,6 +504,86 @@
       margin-top: 2px;
     }
 
+    .intern-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      margin-bottom: 8px;
+    }
+
+    .intern-card {
+      background: #ffffff;
+      border: 1px solid var(--border-light);
+      border-radius: 12px;
+      padding: 14px 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 12px;
+      min-height: 108px;
+      transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+      box-shadow: 0 1px 2px rgba(15, 23, 42, 0.03);
+    }
+
+    .intern-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 18px -2px rgba(15, 23, 42, 0.08);
+      border-color: #cbd5e1;
+    }
+
+    .intern-card-top {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      min-width: 0;
+    }
+
+    .intern-logo {
+      width: 40px;
+      height: 40px;
+      object-fit: contain;
+      border-radius: 10px;
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      padding: 4px;
+      flex-shrink: 0;
+    }
+
+    .intern-org {
+      min-width: 0;
+    }
+
+    .intern-company {
+      font-family: var(--font-heading);
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--primary-text);
+      line-height: 1.3;
+    }
+
+    .intern-dept {
+      margin-top: 3px;
+      font-size: 0.8rem;
+      color: var(--muted-text);
+      line-height: 1.35;
+    }
+
+    .intern-card-meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .intern-role {
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--secondary-text);
+      line-height: 1.3;
+      min-width: 0;
+    }
+
     /* Mini Cards (Working Papers) */
     .mini-card {
       background: #ffffff;
@@ -560,24 +624,23 @@
 
     /* Paper Cards */
     .research-blog-card {
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) 220px;
+      display: block;
       overflow: hidden;
       background: #ffffff;
       border: 1px solid var(--border-light);
-      border-radius: 16px;
-      box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04);
+      border-radius: 12px;
+      box-shadow: 0 1px 2px rgba(15, 23, 42, 0.03);
       transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
     }
 
     .research-blog-card:hover {
       transform: translateY(-2px);
       border-color: #cbd5e1;
-      box-shadow: 0 10px 28px -5px rgba(15, 23, 42, 0.1);
+      box-shadow: 0 6px 18px -2px rgba(15, 23, 42, 0.08);
     }
 
     .research-blog-content {
-      padding: 22px 24px;
+      padding: 12px 16px;
     }
 
     .research-blog-meta,
@@ -589,9 +652,9 @@
     }
 
     .research-blog-meta {
-      margin-bottom: 9px;
+      margin: 0;
       color: var(--muted-text);
-      font-size: 0.78rem;
+      font-size: 0.76rem;
       font-weight: 600;
     }
 
@@ -600,10 +663,10 @@
     }
 
     .research-blog-title {
-      margin: 0;
+      margin: 0 0 6px;
       font-family: var(--font-heading);
-      font-size: 1.18rem;
-      line-height: 1.42;
+      font-size: 0.98rem;
+      line-height: 1.35;
       color: var(--primary-text);
     }
 
@@ -616,15 +679,15 @@
       text-decoration: none;
     }
 
-    .research-blog-summary {
-      margin: 10px 0 15px;
-      color: var(--secondary-text);
-      font-size: 0.9rem;
-      line-height: 1.65;
+    .research-blog-footer {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
     }
 
     .research-blog-tag {
-      padding: 3px 8px;
+      padding: 2px 8px;
       border-radius: 6px;
       background: #f1f5f9;
       color: #475569;
@@ -633,41 +696,10 @@
     }
 
     .research-blog-read {
-      display: inline-block;
-      margin-top: 14px;
+      margin-left: auto;
       color: var(--accent-color);
       font-size: 0.78rem;
       font-weight: 700;
-    }
-
-    .research-blog-archive {
-      margin: 12px 2px 0;
-      text-align: right;
-      font-size: 0.82rem;
-      font-weight: 600;
-    }
-
-    .research-sidebar .research-blog-card {
-      grid-template-columns: 1fr;
-      border-radius: 13px;
-      box-shadow: none;
-    }
-
-    .research-sidebar .research-blog-content {
-      padding: 15px;
-    }
-
-    .research-sidebar .research-blog-title {
-      font-size: 1.04rem;
-    }
-
-    .research-sidebar .research-blog-summary {
-      font-size: 0.83rem;
-    }
-
-    .research-sidebar .research-blog-archive {
-      text-align: left;
-      margin: 12px 1px 0;
     }
 
     .paper-card {
@@ -767,7 +799,8 @@
     }
 
     @media (max-width: 640px) {
-      .service-grid {
+      .service-grid,
+      .intern-grid {
         grid-template-columns: 1fr;
       }
     }
@@ -818,12 +851,19 @@
       font-weight: 600;
     }
 
+    .paper-footer {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+      margin-top: 2px;
+    }
+
     .paper-meta {
       display: flex;
       align-items: center;
       gap: 8px;
-      margin-top: 2px;
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
     }
 
     .conf-badge {
@@ -849,55 +889,9 @@
     }
 
     .paper-links {
-      margin-top: 3px;
       display: flex;
-      gap: 7px;
-    }
-
-    .paper-btn {
-      display: inline-flex;
       align-items: center;
-      padding: 3.5px 12px;
-      border: 1px solid #d8e0ea;
-      border-radius: 999px;
-      font-size: 0.79rem;
-      font-weight: 600;
-      color: #334155;
-      text-decoration: none;
-      background: #fff;
-      transition: all 0.18s ease;
-      gap: 5px;
-    }
-
-    .paper-btn:hover {
-      background: var(--accent-bg);
-      border-color: var(--accent-border);
-      color: var(--accent-color);
-      text-decoration: none;
-    }
-
-    .paper-btn-primary {
-      background: #0f172a;
-      border-color: #0f172a;
-      color: #ffffff;
-    }
-
-    .paper-btn-primary:hover {
-      background: #1e293b;
-      border-color: #1e293b;
-      color: #ffffff;
-    }
-
-    .paper-btn-secondary {
-      background: #fff;
-      border-color: var(--accent-border);
-      color: var(--accent-color);
-    }
-
-    .paper-btn-secondary:hover {
-      background: var(--accent-bg);
-      border-color: var(--accent-color);
-      color: var(--accent-color);
+      gap: 8px;
     }
 
     /* Publications Toolbar */
@@ -980,41 +974,6 @@
     }
 
     /* Responsive */
-    @media (max-width: 1439px) {
-      .page-layout {
-        gap: 18px;
-      }
-
-      .main-container,
-      .research-sidebar {
-        grid-area: auto;
-      }
-
-      .main-container {
-        order: 1;
-      }
-
-      .research-sidebar {
-        order: 2;
-        position: static;
-        width: auto;
-        margin-left: 0;
-        display: grid;
-        grid-template-columns: 180px minmax(0, 1fr);
-        column-gap: 18px;
-        align-items: center;
-      }
-
-      .research-sidebar .research-blog-card {
-        grid-column: 2;
-        grid-row: auto;
-      }
-
-      .research-sidebar .research-blog-archive {
-        align-self: start;
-      }
-    }
-
     @media (max-width: 768px) {
       .nav-layout {
         top: 10px;
@@ -1040,12 +999,6 @@
         margin: 14px auto 32px;
       }
 
-      .research-sidebar {
-        display: block;
-        padding: 18px;
-        border-radius: 16px;
-      }
-
       .profile-header {
         flex-direction: column;
         align-items: flex-start;
@@ -1063,14 +1016,6 @@
         flex: 100%;
         width: 100%;
         max-width: 100%;
-      }
-
-      .research-blog-card {
-        grid-template-columns: 1fr;
-      }
-
-      .research-sidebar .research-blog-card {
-        grid-template-columns: 1fr;
       }
 
       .nav-inner {
@@ -1101,6 +1046,7 @@
         <a href="#honors">Honors</a>
         <a href="#services">Services</a>
         <a href="#teaching">Teaching</a>
+        <a href="#blog">Blog</a>
       </div>
     </div>
     </nav>
@@ -1108,55 +1054,54 @@
 
   <!-- Responsive two-column academic homepage -->
   <div class="page-layout">
-      <aside id="blog" class="research-sidebar" aria-labelledby="blog-title">
-        <div class="research-sidebar-header">
-          <p class="research-sidebar-kicker">Research notes</p>
-          <h1 id="blog-title" class="research-sidebar-title">Research Blog</h1>
-          <p class="research-sidebar-intro">论文调研、方法谱系与交互式研究可视化。</p>
-        </div>
-        <div class="research-blog-card">
-          <div class="research-blog-content">
-            <div class="research-blog-meta">
-              <span class="research-blog-status">持续维护</span>
-              <span>90 篇</span>
-              <span>8 类</span>
-              <span>45+ min</span>
-            </div>
-            <h2 class="research-blog-title">
-              <a href="blog/posts/agentic-rl-credit-assignment/">Agentic RL 中的信用分配：方法谱系与选型指南</a>
-            </h2>
-            <p class="research-blog-summary">系统整理 Agentic RL 信用分配的方法谱系、横向比较与选型建议。</p>
-            <div class="research-blog-tags">
-              <span class="research-blog-tag">Agentic RL</span>
-              <span class="research-blog-tag">Credit Assignment</span>
-            </div>
-            <a class="research-blog-read" href="blog/posts/agentic-rl-credit-assignment/">阅读调研 →</a>
-          </div>
-        </div>
-        <div class="research-blog-card">
-          <div class="research-blog-content">
-            <div class="research-blog-meta">
-              <span class="research-blog-status">持续维护</span>
-              <span>230 篇</span>
-              <span>18 类</span>
-              <span>90+ min</span>
-            </div>
-            <h2 class="research-blog-title">
-              <a href="blog/posts/on-policy-distillation/">On-Policy Distillation 相关工作：从学生分布蒸馏到推理能力边界</a>
-            </h2>
-            <p class="research-blog-summary">面向 post-training 的 OPD 全面调研，覆盖稳定性、效率、自蒸馏、多教师、Agent 和多模态方向。</p>
-            <div class="research-blog-tags">
-              <span class="research-blog-tag">On-Policy Distillation</span>
-              <span class="research-blog-tag">LLM Post-Training</span>
-            </div>
-            <a class="research-blog-read" href="blog/posts/on-policy-distillation/">阅读调研 →</a>
-          </div>
-        </div>
-        <p class="research-blog-archive"><a href="blog/">查看全部调研 →</a></p>
-      </aside>
     <main class="main-container">
       <header class="profile-header" id="profile-header"></header>
       <div id="main-content"></div>
+      <section class="research-blog-section" aria-labelledby="blog">
+        <h1 id="blog" class="section-title">🔎 Research Blog</h1>
+        <div class="research-blog-list">
+          <div class="research-blog-card">
+            <div class="research-blog-content">
+              <h2 class="research-blog-title">
+                <a href="blog/posts/agentic-rl-credit-assignment/">Agentic RL 中的信用分配：方法谱系与选型指南</a>
+              </h2>
+              <div class="research-blog-footer">
+                <div class="research-blog-meta">
+                  <span class="research-blog-status">持续维护</span>
+                  <span>90 篇</span>
+                  <span>8 类</span>
+                  <span>45+ min</span>
+                </div>
+                <div class="research-blog-tags">
+                  <span class="research-blog-tag">Agentic RL</span>
+                  <span class="research-blog-tag">Credit Assignment</span>
+                </div>
+                <a class="research-blog-read" href="blog/posts/agentic-rl-credit-assignment/">阅读调研 →</a>
+              </div>
+            </div>
+          </div>
+          <div class="research-blog-card">
+            <div class="research-blog-content">
+              <h2 class="research-blog-title">
+                <a href="blog/posts/on-policy-distillation/">On-Policy Distillation 相关工作：从学生分布蒸馏到推理能力边界</a>
+              </h2>
+              <div class="research-blog-footer">
+                <div class="research-blog-meta">
+                  <span class="research-blog-status">持续维护</span>
+                  <span>230 篇</span>
+                  <span>18 类</span>
+                  <span>90+ min</span>
+                </div>
+                <div class="research-blog-tags">
+                  <span class="research-blog-tag">On-Policy Distillation</span>
+                  <span class="research-blog-tag">LLM Post-Training</span>
+                </div>
+                <a class="research-blog-read" href="blog/posts/on-policy-distillation/">阅读调研 →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   </div>
 
@@ -1170,10 +1115,11 @@
         "#main-content .lead",
         "#main-content .collab-callout",
         "#main-content .publications-toolbar",
-        ".research-sidebar .research-blog-card",
-        ".research-sidebar .research-blog-archive",
+        ".research-blog-section .section-title",
+        ".research-blog-card",
         "#main-content .paper-card",
         "#main-content .exp-card",
+        "#main-content .intern-card",
         "#main-content .mini-card",
         "#main-content .service-tile",
         "#main-content .modern-list li",
