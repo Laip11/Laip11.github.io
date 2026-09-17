@@ -5,7 +5,7 @@
   Statistics and Data Science at <strong>Southern University of Science and Technology</strong>, enrolled in an integrated M.Phil.-Ph.D.
   program (Mathematics to Computer Science), under the supervision of
   Prof. <a href="https://ghchen.me/" target="_blank" rel="noopener noreferrer">Guanhua Chen</a>.
-  I am currently doing a research internship at <strong>Alibaba Cloud</strong>.
+  I previously interned at <strong>Alibaba Token Hub</strong> and <strong>Alibaba International Digital Commerce</strong>.
 </p>
 
 <p>
@@ -125,11 +125,12 @@
 
 <h1 id="internships" class="section-title">💻 Internships</h1>
 <div class="exp-card">
-  <div class="exp-header"><div class="exp-title">Research Intern</div><div class="exp-date">2026.01 - Present</div></div>
+  <div class="exp-header"><div class="exp-title">Research Intern</div><div class="exp-date">2026.01 - 2026.05</div></div>
   <div class="exp-org">
-    <img class="company-logo" src="https://img.alicdn.com/imgextra/i3/O1CN01MFtVzX1U9b7T38r3V_!!6000000002475-2-tps-200-200.png_.webp" alt="Alibaba Cloud logo" loading="lazy">
-    <span>Alibaba Cloud</span>
+    <img class="company-logo" src="https://img.alicdn.com/imgextra/i3/O1CN01MFtVzX1U9b7T38r3V_!!6000000002475-2-tps-200-200.png_.webp" alt="Alibaba Token Hub logo" loading="lazy">
+    <span>Alibaba Token Hub</span>
   </div>
+  <div class="exp-desc">Mass AI</div>
 </div>
 <div class="exp-card">
   <div class="exp-header"><div class="exp-title">Research Intern</div><div class="exp-date">2025.10 - 2026.01</div></div>
@@ -137,6 +138,7 @@
     <img class="company-logo" src="images/logo-alibaba-idc.png" alt="Alibaba International Digital Commerce logo" loading="lazy">
     <span>Alibaba International Digital Commerce</span>
   </div>
+  <div class="exp-desc">AI Business</div>
 </div>
 
 <h1 id="education" class="section-title">📖 Education</h1>
