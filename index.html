@@ -6,6 +6,8 @@
   <title>Peng Lai's Homepage</title>
   <meta name="description" content="Peng Lai personal homepage.">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preload" as="image" href="images/bg-landscape.webp">
+  <link rel="preload" as="image" href="images/1.webp">
   <!-- GoatCounter analytics -->
   <script
     data-goatcounter="https://llllp.goatcounter.com/count"
@@ -61,7 +63,7 @@
       position: fixed;
       inset: 0;
       z-index: -1;
-      background-image: url("images/bg-landscape.jpg");
+      background-image: url("images/bg-landscape.webp");
       background-size: cover;
       background-position: center 40%;
       background-repeat: no-repeat;
@@ -1178,7 +1180,7 @@
     </main>
   </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="vendor/marked.min.js"></script>
   <script>
     function initScrollReveal() {
       const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -1467,12 +1469,18 @@
     async function loadFragment(path, mountNode, errorMessage, useMarked = true) {
       if (!mountNode) return;
       try {
-        const response = await fetch(path, { cache: "no-cache" });
+        const response = await fetch(path);
         if (!response.ok) {
           throw new Error(`Failed to load ${path}`);
         }
         const source = await response.text();
         mountNode.innerHTML = useMarked ? marked.parse(source) : source;
+        mountNode.querySelectorAll("img").forEach((img) => {
+          img.decoding = "async";
+          if (!img.classList.contains("profile-avatar") && !img.hasAttribute("loading")) {
+            img.loading = "lazy";
+          }
+        });
       } catch (error) {
         mountNode.innerHTML = `<p>${errorMessage}</p>`;
       }

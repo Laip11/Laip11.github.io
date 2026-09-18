@@ -45,7 +45,7 @@
 
 <div id="published-papers">
 <div class="paper-card" data-selected="true" data-author-rank="1" data-year="2026">
-  <div class="paper-image-container"><img src="images/aligndiff.png" alt="AlignDiff Framework Figure"></div>
+  <div class="paper-image-container"><img src="images/aligndiff.webp" alt="AlignDiff Framework Figure" width="640" height="246" loading="lazy" decoding="async"></div>
   <div class="paper-content">
     <div class="paper-title">AlignDiff: Exploiting Model-Intrinsic Information for Better Preference Data Selection</div>
     <div class="paper-authors"><strong>Peng Lai<sup>*</sup></strong>, He Zhu<sup>*</sup>, Zhiwen Ruan, Dongdong Zhang, Yun Chen, Peng Li, Furu Wei, Yang Liu, Guanhua Chen</div>
@@ -66,7 +66,7 @@
 </div>
 
 <div class="paper-card" data-selected="true" data-author-rank="1" data-year="2026">
-  <div class="paper-image-container"><img src="images/unirrm.png" alt="UniRRM Framework Figure"></div>
+  <div class="paper-image-container"><img src="images/unirrm.webp" alt="UniRRM Framework Figure" width="640" height="298" loading="lazy" decoding="async"></div>
   <div class="paper-content">
     <div class="paper-title">UniRRM: Unified Reasoning Reward Models Across Languages and Evaluation Paradigms</div>
     <div class="paper-authors"><strong>Peng Lai</strong>, Yichao Du, Junchao Wu, Weibo Gao, Linan Yue, Longyue Wang, Weihua Luo, Derek F. Wong, Guanhua Chen</div>
@@ -87,7 +87,7 @@
 </div>
 
 <div class="paper-card" data-selected="true" data-author-rank="1" data-year="2026">
-  <div class="paper-image-container"><img src="images/biasscope_fig.png" alt="BiasScope Framework Figure"></div>
+  <div class="paper-image-container"><img src="images/biasscope_fig.webp" alt="BiasScope Framework Figure" width="640" height="352" loading="lazy" decoding="async"></div>
   <div class="paper-content">
     <div class="paper-title">BiasScope: Towards Automated Detection of Bias in LLM-as-a-Judge Evaluation</div>
     <div class="paper-authors"><strong>Peng Lai<sup>*</sup></strong>, Zhihao Ou<sup>*</sup>, Yong Wang, Longyue Wang, Jian Yang, Yun Chen, Guanhua Chen</div>
@@ -108,7 +108,7 @@
 </div>
 
 <div class="paper-card" data-selected="true" data-author-rank="1" data-year="2025">
-  <div class="paper-image-container"><img src="images/lager_fig.png" alt="LAGER Framework Figure"></div>
+  <div class="paper-image-container"><img src="images/lager_fig.webp" alt="LAGER Framework Figure" width="640" height="350" loading="lazy" decoding="async"></div>
   <div class="paper-content">
     <div class="paper-title">Beyond the Surface: Enhancing LLM-as-a-Judge Alignment with Human via Internal Representations</div>
     <div class="paper-authors"><strong>Peng Lai</strong>, Jianjie Zheng, Sijie Cheng, Yun Chen, Peng Li, Yang Liu, Guanhua Chen</div>
@@ -129,7 +129,7 @@
 </div>
 
 <div class="paper-card" data-author-rank="3" data-year="2026">
-  <div class="paper-image-container"><img src="images/asft.png" alt="ASFT Figure"></div>
+  <div class="paper-image-container"><img src="images/asft.webp" alt="ASFT Figure" width="640" height="283" loading="lazy" decoding="async"></div>
   <div class="paper-content">
     <div class="paper-title">Anchored Supervised Fine-Tuning</div>
     <div class="paper-authors">He Zhu<sup>*</sup>, Junyou Su<sup>*</sup>, <strong>Peng Lai<sup>*</sup></strong>, Ren Ma, Wenjia Zhang, Linyi Yang, Guanhua Chen</div>
@@ -180,7 +180,7 @@
   </div>
   <div class="intern-card">
     <div class="intern-card-top">
-      <img class="intern-logo" src="images/logo-alibaba-idc.png" alt="Alibaba International Digital Commerce logo" loading="lazy">
+      <img class="intern-logo" src="images/logo-alibaba-idc.webp" alt="Alibaba International Digital Commerce logo" width="96" height="33" loading="lazy" decoding="async">
       <div class="intern-org">
         <div class="intern-company">Alibaba International Digital Commerce</div>
         <div class="intern-dept">AI Business</div>

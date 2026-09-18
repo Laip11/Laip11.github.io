@@ -1,4 +1,4 @@
-<img class="profile-avatar" src="images/1.jpg" alt="Peng Lai avatar">
+<img class="profile-avatar" src="images/1.webp" alt="Peng Lai avatar" width="256" height="256" fetchpriority="high" decoding="async">
 <div>
   <h1 class="profile-name">Peng Lai (赖鹏)</h1>
   <p class="profile-role">Ph.D. Student at SUSTech</p>
