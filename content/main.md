@@ -28,10 +28,10 @@
 
 <h1 id="news" class="section-title">🔥 News</h1>
 <ul class="modern-list">
-  <li><span class="modern-list-date">2026.08</span><span class="modern-list-content">🎉 <a href="https://arxiv.org/pdf/2609.05899" target="_blank" rel="noopener noreferrer">AlignDiff</a> accepted to <strong>EMNLP 2026 Findings</strong>. Thanks and congratulations to all collaborators!</span></li>
-  <li><span class="modern-list-date">2026.05</span><span class="modern-list-content">🎉 <a href="https://openreview.net/forum?id=laiK6TlhL2" target="_blank" rel="noopener noreferrer">UniRRM</a> accepted to <strong>ICML 2026</strong>. Thanks and congratulations to all collaborators!</span></li>
-  <li><span class="modern-list-date">2026.01</span><span class="modern-list-content">🎉 <a href="https://arxiv.org/abs/2602.09383v1" target="_blank" rel="noopener noreferrer">BiasScope</a> and <a href="https://arxiv.org/abs/2509.23753" target="_blank" rel="noopener noreferrer">ASFT</a> accepted to <strong>ICLR 2026</strong>. Thanks and congratulations to all collaborators!</span></li>
-  <li><span class="modern-list-date">2025.09</span><span class="modern-list-content">🎉 <a href="https://arxiv.org/abs/2508.03550" target="_blank" rel="noopener noreferrer">LAGER</a> accepted to <strong>NeurIPS 2025</strong>. Thanks and congratulations to all collaborators!</span></li>
+  <li><span class="modern-list-date">2026.08</span><span class="modern-list-content">🎉 <a href="https://arxiv.org/pdf/2609.05899" target="_blank" rel="noopener noreferrer">AlignDiff</a> accepted to <strong>EMNLP 2026 Findings</strong>. Congratulations to all coauthors!</span></li>
+  <li><span class="modern-list-date">2026.05</span><span class="modern-list-content">🎉 <a href="https://openreview.net/forum?id=laiK6TlhL2" target="_blank" rel="noopener noreferrer">UniRRM</a> accepted to <strong>ICML 2026</strong>. Congratulations to all coauthors!</span></li>
+  <li><span class="modern-list-date">2026.01</span><span class="modern-list-content">🎉 <a href="https://arxiv.org/abs/2602.09383v1" target="_blank" rel="noopener noreferrer">BiasScope</a> and <a href="https://arxiv.org/abs/2509.23753" target="_blank" rel="noopener noreferrer">ASFT</a> accepted to <strong>ICLR 2026</strong>. Congratulations to all coauthors!</span></li>
+  <li><span class="modern-list-date">2025.09</span><span class="modern-list-content">🎉 <a href="https://arxiv.org/abs/2508.03550" target="_blank" rel="noopener noreferrer">LAGER</a> accepted to <strong>NeurIPS 2025</strong>. Congratulations to all coauthors!</span></li>
 </ul>
 
 <h1 id="publications" class="section-title">📝 Publications</h1>
