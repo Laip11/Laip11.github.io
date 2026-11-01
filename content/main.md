@@ -28,6 +28,7 @@
 
 <h1 id="news" class="section-title">🔥 News</h1>
 <ul class="modern-list">
+  <li><span class="modern-list-date">2026.11</span><span class="modern-list-content">🎉 <a href="https://arxiv.org/abs/2606.09032" target="_blank" rel="noopener noreferrer">Bridging the Agent-World Gap</a> accepted to <strong>IEEE TSMC: Systems</strong> (JCR Q1). Congratulations to all coauthors!</span></li>
   <li><span class="modern-list-date">2026.08</span><span class="modern-list-content">🎉 <a href="https://arxiv.org/pdf/2609.05899" target="_blank" rel="noopener noreferrer">AlignDiff</a> accepted to <strong>EMNLP 2026 Findings</strong>. Congratulations to all coauthors!</span></li>
   <li><span class="modern-list-date">2026.05</span><span class="modern-list-content">🎉 <a href="https://openreview.net/forum?id=laiK6TlhL2" target="_blank" rel="noopener noreferrer">UniRRM</a> accepted to <strong>ICML 2026</strong>. Congratulations to all coauthors!</span></li>
   <li><span class="modern-list-date">2026.01</span><span class="modern-list-content">🎉 <a href="https://arxiv.org/abs/2602.09383v1" target="_blank" rel="noopener noreferrer">BiasScope</a> and <a href="https://arxiv.org/abs/2509.23753" target="_blank" rel="noopener noreferrer">ASFT</a> accepted to <strong>ICLR 2026</strong>. Congratulations to all coauthors!</span></li>
@@ -44,6 +45,27 @@
 </div>
 
 <div id="published-papers">
+<div class="paper-card" data-selected="true" data-author-rank="3" data-year="2026">
+  <div class="paper-image-container"><img src="images/twm_survey.webp" alt="Text World Model lifecycle figure" width="640" height="262" loading="lazy" decoding="async"></div>
+  <div class="paper-content">
+    <div class="paper-title">Bridging the Agent-World Gap: A Survey of Text World Models for LLM-based Agents</div>
+    <div class="paper-authors">Yixia Li, Hongru Wang<sup>*</sup>, <strong>Peng Lai<sup>*</sup></strong>, Zhiwen Ruan<sup>*</sup>, He Zhu<sup>*</sup>, Youxin Zhu, Ganlong Zhao, Minda Hu, Yun Chen, Sibei Yang, Peng Li, Jeff Z. Pan, Jia Pan, Guanhua Chen, Yang Liu, Guanbin Li</div>
+    <div class="paper-footer">
+      <div class="paper-meta"><span class="conf-badge">IEEE TSMC: Systems</span><span class="jcr-badge">JCR Q1</span></div>
+      <div class="paper-links">
+        <a href="https://arxiv.org/abs/2606.09032" class="quick-link" target="_blank" rel="noopener noreferrer">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/><path d="M6 6h10M6 10h10"/></svg>
+          Paper
+        </a>
+        <a href="https://github.com/sustech-nlp/awesome-text-world-models" class="quick-link" target="_blank" rel="noopener noreferrer">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          Code
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="paper-card" data-selected="true" data-author-rank="1" data-year="2026">
   <div class="paper-image-container"><img src="images/aligndiff.webp" alt="AlignDiff Framework Figure" width="640" height="246" loading="lazy" decoding="async"></div>
   <div class="paper-content">
@@ -153,13 +175,13 @@
 
 <h2 id="working-papers" class="section-title subsection-title">Working Papers</h2>
 <div class="mini-card">
-  <div class="mini-card-title">ROAM: Robust Organization of Atomic Memories for Agents through Semantic Relations</div>
-  <div class="mini-card-authors">Jianjie Zheng<sup>*</sup>, <strong>Peng Lai<sup>*</sup></strong>, Sijie Cheng, Jiehui Zhao, Lei Yang, Guanhua Chen</div>
+  <div class="mini-card-title">Moving Targets, Evolving Judges: A Survey of Adaptive Reward Systems for Self-Evolving Agents</div>
+  <div class="mini-card-authors"><strong>Peng Lai</strong>, Zhiwen Ruan, Yue Li, Jianjie Zheng, Youxin Zhu, Yun Chen, Guanhua Chen</div>
   <div class="mini-card-status"></div>
 </div>
 <div class="mini-card">
-  <div class="mini-card-title">Bridging the Agent-World Gap: Text World Models for LLM-based Agents</div>
-  <div class="mini-card-authors">Yixia Li, Hongru Wang<sup>*</sup>, <strong>Peng Lai<sup>*</sup></strong>, Zhiwen Ruan<sup>*</sup>, He Zhu<sup>*</sup>, Youxin Zhu, ..., Guanhua Chen, et al.</div>
+  <div class="mini-card-title">ROAM: Robust Organization of Atomic Memories for Agents through Semantic Relations</div>
+  <div class="mini-card-authors">Jianjie Zheng<sup>*</sup>, <strong>Peng Lai<sup>*</sup></strong>, Sijie Cheng, Jiehui Zhao, Lei Yang, Guanhua Chen</div>
   <div class="mini-card-status"></div>
 </div>
 <div class="mini-card">

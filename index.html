@@ -888,7 +888,8 @@
     }
 
     .conf-badge,
-    .ccf-badge {
+    .ccf-badge,
+    .jcr-badge {
       display: inline-flex;
       align-items: center;
       padding: 2.5px 9px;
@@ -935,8 +936,26 @@
       box-shadow: 0 3px 8px rgba(180, 83, 9, 0.12);
     }
 
+    .jcr-badge {
+      background: #ecfdf5;
+      color: #047857;
+      border: 1px solid #6ee7b7;
+      padding: 2.5px 8px;
+      font-size: 0.78rem;
+      font-weight: 700;
+    }
+
+    .jcr-badge:hover {
+      transform: translateY(-1px);
+      background: #d1fae5;
+      border-color: #34d399;
+      color: #065f46;
+      box-shadow: 0 3px 8px rgba(4, 120, 87, 0.12);
+    }
+
     .conf-badge:active,
-    .ccf-badge:active {
+    .ccf-badge:active,
+    .jcr-badge:active {
       transform: translateY(0);
       box-shadow: none;
     }
