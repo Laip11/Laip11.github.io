@@ -184,6 +184,11 @@
   <div class="mini-card-status"></div>
 </div>
 <div class="mini-card">
+  <div class="mini-card-title">SciSpark: A Benchmark for Popular Science Writing for Young Readers</div>
+  <div class="mini-card-authors">Yue Li<sup>*</sup>, <strong>Peng Lai<sup>*</sup></strong>, et al.</div>
+  <div class="mini-card-status"></div>
+</div>
+<div class="mini-card">
   <div class="mini-card-title">StatABench: Dataset and Framework for Evaluating Statistical Analysis Capabilities of LLMs</div>
   <div class="mini-card-authors">Youxin Zhu<sup>*</sup>, Yixuan Ding<sup>*</sup>, <strong>Peng Lai</strong>, Longyue Wang, Bingyi Jing, Guanhua Chen</div>
   <div class="mini-card-status"></div>
