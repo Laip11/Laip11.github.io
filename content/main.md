@@ -2,7 +2,7 @@
 
 <p class="lead">
   Here is <strong>Peng Lai (赖鹏)</strong>. I am currently a <strong>Ph.D. student</strong> in the Department of
-  Statistics and Data Science at <strong>Southern University of Science and Technology</strong>, enrolled in an integrated M.Phil.-Ph.D.
+  Statistics and Data Science at <strong>Southern University of Science and Technology (SUSTech)</strong>, enrolled in an integrated M.Phil.-Ph.D.
   program (Mathematics to Computer Science), under the supervision of
   Prof. <a href="https://ghchen.me/" target="_blank" rel="noopener noreferrer">Guanhua Chen</a>.
   I previously interned at <strong>Alibaba Token Hub</strong> and <strong>Alibaba International Digital Commerce</strong>.
@@ -254,7 +254,8 @@
 
 <h1 id="honors" class="section-title">🎖 Honors and Awards</h1>
 <ul class="modern-list">
-  <li><span class="modern-list-date">2025</span><span class="modern-list-content">Graduate Academic Scholarship (Special Class), <strong>Southern University of Science and Technology</strong> (Top 20%)</span></li>
+  <li><span class="modern-list-date">2026</span><span class="modern-list-content">Outstanding Ph.D. Student, <strong>SUSTech</strong> (Top 1 in the Department of Statistics and Data Science)</span></li>
+  <li><span class="modern-list-date">2025</span><span class="modern-list-content">Graduate Academic Scholarship (Special Class), <strong>SUSTech</strong> (Top 20%)</span></li>
   <li><span class="modern-list-date">2022</span><span class="modern-list-content">Sichuan Provincial First Prize, National College Student Market Research and Analysis Competition (Team Leader)</span></li>
   <li><span class="modern-list-date">2021</span><span class="modern-list-content">Sichuan Provincial First Prize, National College Student Mathematical Modeling Competition (Team Leader)</span></li>
 </ul>
@@ -301,18 +302,18 @@
   </div>
   <div class="service-tile">
     <div class="tile-header">
-      <span class="tile-conf-name">ACL ARR</span>
+      <span class="tile-conf-name">NAACL</span>
       <div class="tile-years">
-        <span class="tile-year-pill">2025<small>(Oct)</small></span>
+        <span class="tile-year-pill">2027</span>
       </div>
     </div>
-    <div class="tile-full-name">ACL Rolling Review</div>
+    <div class="tile-full-name">North American Chapter of the Association for Computational Linguistics</div>
   </div>
 </div>
 
 <h1 id="teaching" class="section-title">📚 Teaching Assistantships</h1>
 <ul class="modern-list teaching-list">
+  <li><span class="modern-list-content">Engineering Probability and Statistics (Undergraduate)</span><span class="modern-list-date">Fall 2026, Fall 2024</span></li>
   <li><span class="modern-list-content">Advanced Natural Language Processing (Graduate)</span><span class="modern-list-date">Fall 2025</span></li>
   <li><span class="modern-list-content">Probability Theory and Mathematical Statistics (Undergraduate)</span><span class="modern-list-date">Spring 2025</span></li>
-  <li><span class="modern-list-content">Engineering Probability and Statistics (Undergraduate)</span><span class="modern-list-date">Fall 2024</span></li>
 </ul>
