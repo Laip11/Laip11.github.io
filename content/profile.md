@@ -2,7 +2,7 @@
 <div>
   <h1 class="profile-name">Peng Lai (赖鹏)</h1>
   <p class="profile-role">Ph.D. Student at SUSTech</p>
-  <p class="profile-research"><span class="label-strong">Research:</span> Agent RL & Harness · Reward Modeling</p>
+  <p class="profile-research"><span class="label-strong">Research:</span> Agentic Learning · Reward Modeling</p>
   <div class="hobby-block">
     <p class="hobby-text"><span class="label-strong">Hobbies:</span> Singing · Workout · Competitive Gaming</p>
   </div>

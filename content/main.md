@@ -9,21 +9,20 @@
 </p>
 
 <p>
-  My research centers on <strong>agent harnesses and post-training</strong>, dedicated to empowering large language models to become <strong>closed-loop, self-evolving agents</strong> that continuously learn from complex environments and trustworthy feedback.
+  My research centers on <strong>agentic learning and reward modeling</strong>, dedicated to empowering large language models to become <strong>closed-loop, self-evolving agents</strong> that continuously learn from complex environments and trustworthy feedback.
 </p>
 
 <p>
-  To enable agents to autonomously solve complex, long-horizon tasks, my research systematically investigates three foundational pillars:
+  I study these as two connected problems:
 </p>
 
 <ul class="modern-list" style="margin-top: 8px; margin-bottom: 14px;">
-  <li><strong>Interaction & Harness:</strong> Developing verifiable agent harnesses, sandboxes, and interactive environments (e.g., text world models) to capture high-fidelity trajectories and facilitate reproducible rollouts.</li>
-  <li><strong>Supervision & Reward Modeling:</strong> Establishing trustworthy feedback mechanisms via LLM-as-a-judge, bias mitigation, and reasoning reward models.</li>
-  <li><strong>Policy Optimization & Credit Assignment:</strong> Advancing agent post-training by tackling the long-horizon <strong>credit assignment</strong> dilemma—mathematically and causally attributing sparse, delayed rewards to intermediate reasoning steps and tool invocations—complemented by principled data selection and fine-tuning strategies.</li>
+  <li><strong>Agentic learning:</strong> how an agent improves its behavior through interaction, when actions are many, outcomes arrive late, and it is unclear which steps deserve credit.</li>
+  <li><strong>Reward modeling:</strong> how to represent what counts as good behavior, so learning is guided by feedback one can trust.</li>
 </ul>
 
 <div class="collab-callout">
-  I am actively seeking research collaborations and intellectual discussions on <strong>Agent Harness & Benchmarking</strong>, <strong>Process Supervision</strong>, and <strong>Agent Reinforcement Learning</strong>. Feel free to reach out anytime!
+  I am actively seeking collaborations and conversations on <strong>agentic learning</strong>, <strong>reward modeling</strong>, and <strong>multimodal research</strong>. Feel free to reach out anytime!
 </div>
 
 <h1 id="news" class="section-title">🔥 News</h1>
@@ -206,7 +205,7 @@
     </div>
     <div class="intern-card-meta">
       <span class="intern-role">Research Intern</span>
-      <span class="exp-date">2026.01 - 2026.05</span>
+      <span class="exp-date">2026.02 - 2026.06</span>
     </div>
   </div>
   <div class="intern-card">
@@ -219,7 +218,7 @@
     </div>
     <div class="intern-card-meta">
       <span class="intern-role">Research Intern</span>
-      <span class="exp-date">2025.10 - 2026.01</span>
+      <span class="exp-date">2025.10 - 2026.02</span>
     </div>
   </div>
 </div>
