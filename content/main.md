@@ -253,10 +253,10 @@
 
 <h1 id="honors" class="section-title">🎖 Honors and Awards</h1>
 <ul class="modern-list">
-  <li><span class="modern-list-date">2026</span><span class="modern-list-content">Outstanding Ph.D. Student, <strong>SUSTech</strong> (Top 1 in the Department of Statistics and Data Science)</span></li>
-  <li><span class="modern-list-date">2025</span><span class="modern-list-content">Graduate Academic Scholarship (Special Class), <strong>SUSTech</strong> (Top 20%)</span></li>
-  <li><span class="modern-list-date">2022</span><span class="modern-list-content">Sichuan Provincial First Prize, National College Student Market Research and Analysis Competition (Team Leader)</span></li>
-  <li><span class="modern-list-date">2021</span><span class="modern-list-content">Sichuan Provincial First Prize, National College Student Mathematical Modeling Competition (Team Leader)</span></li>
+  <li><span class="modern-list-date">2026</span><span class="modern-list-content"><strong>Outstanding Ph.D. Student</strong>, SUSTech (Top 1 in the Department of Statistics and Data Science)</span></li>
+  <li><span class="modern-list-date">2025</span><span class="modern-list-content"><strong>Graduate Academic Scholarship (Special Class)</strong>, SUSTech (Top 20%)</span></li>
+  <li><span class="modern-list-date">2022</span><span class="modern-list-content"><strong>Sichuan Provincial First Prize</strong>, National College Student Market Research and Analysis Competition (Team Leader)</span></li>
+  <li><span class="modern-list-date">2021</span><span class="modern-list-content"><strong>Sichuan Provincial First Prize</strong>, National College Student Mathematical Modeling Competition (Team Leader)</span></li>
 </ul>
 
 <h1 id="services" class="section-title">🤝 Academic Services</h1>
