@@ -227,6 +227,7 @@
 <div class="intern-grid">
   <div class="intern-card">
     <div class="intern-card-top">
+      <img class="intern-logo" src="images/logo-sustech.webp" alt="Southern University of Science and Technology logo" width="40" height="40" loading="lazy" decoding="async">
       <div class="intern-org">
         <div class="intern-company">Southern University of Science and Technology</div>
         <div class="intern-dept">Department of Statistics and Data Science (Mathematics to Computer Science). Advised by Prof. Guanhua Chen.</div>
@@ -239,6 +240,7 @@
   </div>
   <div class="intern-card">
     <div class="intern-card-top">
+      <img class="intern-logo" src="images/logo-sicnu.webp" alt="Sichuan Normal University logo" width="40" height="40" loading="lazy" decoding="async">
       <div class="intern-org">
         <div class="intern-company">Sichuan Normal University</div>
         <div class="intern-dept">School of Mathematical Sciences</div>
@@ -267,7 +269,7 @@
       <span class="tile-conf-name">ICLR</span>
       <div class="tile-years">
         <span class="tile-year-pill">2027</span>
-        <span class="tile-year-pill">2026<small>(Workshop LLA)</small></span>
+        <span class="tile-year-pill">2026</span>
       </div>
     </div>
     <div class="tile-full-name">International Conference on Learning Representations</div>
@@ -285,7 +287,7 @@
     <div class="tile-header">
       <span class="tile-conf-name">COLM</span>
       <div class="tile-years">
-        <span class="tile-year-pill">2026<small>(Workshop LLA)</small></span>
+        <span class="tile-year-pill">2026</span>
       </div>
     </div>
     <div class="tile-full-name">Conference on Language Modeling</div>
