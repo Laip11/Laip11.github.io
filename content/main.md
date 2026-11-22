@@ -173,6 +173,7 @@
 </div>
 
 <h2 id="working-papers" class="section-title subsection-title">Working Papers</h2>
+<div class="working-list">
 <div class="mini-card">
   <div class="mini-card-title">Moving Targets, Evolving Judges: A Survey of Adaptive Reward Systems for Self-Evolving Agents</div>
   <div class="mini-card-authors"><strong>Peng Lai</strong>, Zhiwen Ruan, Yue Li, Jianjie Zheng, Youxin Zhu, Yun Chen, Guanhua Chen</div>
@@ -192,6 +193,7 @@
   <div class="mini-card-title">StatABench: Dataset and Framework for Evaluating Statistical Analysis Capabilities of LLMs</div>
   <div class="mini-card-authors">Youxin Zhu<sup>*</sup>, Yixuan Ding<sup>*</sup>, <strong>Peng Lai</strong>, Longyue Wang, Bingyi Jing, Guanhua Chen</div>
   <div class="mini-card-status"></div>
+</div>
 </div>
 
 <h1 id="internships" class="section-title">Internships</h1>
@@ -263,55 +265,7 @@
 </ul>
 
 <h1 id="services" class="section-title">Academic Services</h1>
-<h2 class="section-title subsection-title" style="margin-top: 2px; margin-bottom: 8px;">Conference Reviewer</h2>
-<div class="service-grid">
-  <div class="service-tile">
-    <div class="tile-header">
-      <span class="tile-conf-name">ICLR</span>
-      <div class="tile-years">
-        <span class="tile-year-pill">2027</span>
-        <span class="tile-year-pill">2026</span>
-      </div>
-    </div>
-    <div class="tile-full-name">International Conference on Learning Representations</div>
-  </div>
-  <div class="service-tile">
-    <div class="tile-header">
-      <span class="tile-conf-name">NeurIPS</span>
-      <div class="tile-years">
-        <span class="tile-year-pill">2026</span>
-      </div>
-    </div>
-    <div class="tile-full-name">Conference on Neural Information Processing Systems</div>
-  </div>
-  <div class="service-tile">
-    <div class="tile-header">
-      <span class="tile-conf-name">COLM</span>
-      <div class="tile-years">
-        <span class="tile-year-pill">2026</span>
-      </div>
-    </div>
-    <div class="tile-full-name">Conference on Language Modeling</div>
-  </div>
-  <div class="service-tile">
-    <div class="tile-header">
-      <span class="tile-conf-name">EMNLP</span>
-      <div class="tile-years">
-        <span class="tile-year-pill">2026</span>
-      </div>
-    </div>
-    <div class="tile-full-name">Empirical Methods in Natural Language Processing</div>
-  </div>
-  <div class="service-tile">
-    <div class="tile-header">
-      <span class="tile-conf-name">NAACL</span>
-      <div class="tile-years">
-        <span class="tile-year-pill">2027</span>
-      </div>
-    </div>
-    <div class="tile-full-name">North American Chapter of the Association for Computational Linguistics</div>
-  </div>
-</div>
+<p class="service-line"><strong>Conference Reviewer:</strong> ICLR (2026, 2027), NeurIPS (2026), COLM (2026), EMNLP (2026), NAACL (2027)</p>
 
 <h1 id="teaching" class="section-title">Teaching Assistantships</h1>
 <ul class="modern-list teaching-list">

@@ -26,25 +26,29 @@
       --font-heading: var(--font-body);
       --font-display: var(--font-body);
       --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-      --line: #ebedf0;
-      --line-strong: #d4d7dd;
-      --primary-text: #111827;
-      --secondary-text: #374151;
-      --muted-text: #6b7280;
-      --accent-color: #be123c;
-      --accent-hover: #e11d48;
-      --accent-bg: #fff1f2;
-      --accent-border: #fecdd3;
-      --link-color: #be123c;
-      --border-color: #c5d0dc;
-      --border-light: #e2e8f0;
-      --bg-page: #f5f6f8;
+      --line: #e8e8e8;
+      --sec-px: 30px;
+      --line-strong: #cfcfcf;
+      --primary-text: #111111;
+      --secondary-text: #333333;
+      --muted-text: #777777;
+      --accent-color: #1c1917;
+      --accent-hover: #000000;
+      --accent-bg: #f5f5f4;
+      --accent-border: #d6d3d1;
+      --accent-rgb: 28, 25, 23;
+      --band-tint: 245, 245, 244;
+      --bg-top: #ffffff;
+      --link-color: #333333;
+      --border-color: #cfcfcf;
+      --border-light: #e8e8e8;
+      --bg-page: #ffffff;
       --card-bg: #ffffff;
       --inset-bg: #ffffff;
       --card-inner-bg: #ffffff;
-      --callout-bg: #f8fafc;
-      --callout-border: #e2e8f0;
-      --callout-text: #3d4450;
+      --callout-bg: #ffffff;
+      --callout-border: #e8e8e8;
+      --callout-text: #333333;
       --max-width: 900px;
     }
 
@@ -64,7 +68,7 @@
       color: var(--secondary-text);
       line-height: 1.58;
       background-color: var(--bg-page);
-      background-image: linear-gradient(180deg, #e9edf3 0, var(--bg-page) 520px);
+      background-image: linear-gradient(180deg, var(--bg-top) 0, var(--bg-page) 520px);
       background-repeat: no-repeat;
       -webkit-font-smoothing: antialiased;
       min-height: 100vh;
@@ -84,7 +88,7 @@
       background: rgba(255, 255, 255, 0.92);
       -webkit-backdrop-filter: blur(10px);
       backdrop-filter: blur(10px);
-      border: 1px solid #e5e7eb;
+      border: 1px solid var(--border-light);
       border-radius: 14px;
       box-shadow: 0 4px 16px -8px rgba(15, 23, 42, 0.12);
       padding: 6px 10px;
@@ -191,7 +195,7 @@
     .content-section,
     .research-blog-section {
       background: var(--card-bg);
-      border: 1px solid #e5e7eb;
+      border: 1px solid var(--border-light);
       border-radius: 14px;
       box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04), 0 8px 24px -16px rgba(15, 23, 42, 0.12);
     }
@@ -319,7 +323,7 @@
       background: var(--accent-bg);
       color: var(--accent-color);
       transform: translateY(-1px);
-      box-shadow: 0 3px 8px rgba(190, 18, 60, 0.1);
+      box-shadow: 0 3px 8px rgba(var(--accent-rgb), 0.1);
       text-decoration: none;
     }
 
@@ -925,9 +929,9 @@
 
     .conf-badge:hover {
       transform: translateY(-1px);
-      background: #ffe4e6;
-      border-color: #fda4af;
-      box-shadow: 0 3px 8px rgba(190, 18, 60, 0.12);
+      background: var(--accent-bg);
+      border-color: var(--accent-color);
+      box-shadow: 0 3px 8px rgba(var(--accent-rgb), 0.12);
     }
 
     .ccf-badge {
@@ -1055,9 +1059,9 @@
     .main-container {
       padding: 0;
       background: var(--card-bg);
-      border: 1px solid var(--line);
+      border: 1px solid var(--border-light);
       border-radius: 8px;
-      box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04), 0 12px 32px -20px rgba(15, 23, 42, 0.18);
+      box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04), 0 12px 32px -22px rgba(15, 23, 42, 0.22);
       overflow: hidden;
     }
 
@@ -1073,8 +1077,18 @@
 
     .content-section,
     .research-blog-section {
-      padding: 18px 30px 20px;
-      border-top: 1px solid var(--line);
+      padding: 0 var(--sec-px) 22px;
+    }
+
+    /* Full-width tinted header band for each top-level section */
+    .content-section > h1.section-title,
+    .research-blog-section > .section-title:first-child {
+      margin: 0 calc(-1 * var(--sec-px)) 14px;
+      padding: 8px var(--sec-px);
+      background: linear-gradient(90deg, rgba(var(--band-tint), 0.95) 0%, rgba(var(--band-tint), 0.45) 40%, rgba(255, 255, 255, 0) 80%);
+      border-top: 1px solid var(--border-light);
+      border-bottom: none;
+      font-size: 1.22rem;
     }
 
     .profile-header {
@@ -1172,14 +1186,14 @@
     .collab-callout {
       border-radius: 4px;
       border-left-width: 3px;
-      background: #fafafa;
+      background: var(--callout-bg);
       box-shadow: none;
     }
 
     /* Dated lists: date column + content column */
     .dated-list li {
       display: grid;
-      grid-template-columns: 60px minmax(0, 1fr);
+      grid-template-columns: 72px minmax(0, 1fr);
       gap: 12px;
       padding-left: 0;
       margin-bottom: 4px;
@@ -1275,31 +1289,21 @@
     }
 
     .conf-badge {
-      background: var(--primary-text);
-      color: #ffffff;
-      border: 1px solid var(--primary-text);
+      background: var(--accent-bg);
+      color: var(--accent-color);
+      border: 1px solid var(--accent-border);
     }
 
-    .conf-badge:hover {
-      background: var(--accent-color);
-      border-color: var(--accent-color);
-      box-shadow: none;
-    }
-
-    .ccf-badge,
-    .ccf-badge:hover {
-      background: #ffffff;
+    .ccf-badge {
+      background: #fff7ed;
       color: #b45309;
-      border: 1px solid #f3d6a5;
-      box-shadow: none;
+      border: 1px solid #fcd34d;
     }
 
-    .jcr-badge,
-    .jcr-badge:hover {
-      background: #ffffff;
-      color: #047857;
-      border: 1px solid #b7e4cf;
-      box-shadow: none;
+    .jcr-badge {
+      background: #f5f3ff;
+      color: #6d28d9;
+      border: 1px solid #ddd6fe;
     }
 
     .paper-toggle,
@@ -1308,36 +1312,85 @@
     }
 
     .paper-toggle-btn.is-active {
-      color: #ffffff;
-      background: var(--primary-text);
-      box-shadow: none;
+      color: var(--accent-color);
+      background: var(--accent-bg);
+      box-shadow: inset 0 0 0 1px var(--accent-border);
     }
 
-    .paper-toggle-btn:hover:not(.is-active) {
-      background: #f3f4f6;
-      color: var(--primary-text);
+    /* Working papers: light hanging-bullet list */
+    .working-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding-top: 2px;
     }
 
-    /* Working papers */
-    .mini-card {
+    .working-list .mini-card {
+      position: relative;
       background: none;
       border: none;
-      border-left: 2px solid var(--accent-color);
       border-radius: 0;
       box-shadow: none;
-      padding: 1px 0 1px 12px;
-      margin-bottom: 9px;
+      padding: 0 0 0 18px;
+      margin: 0;
     }
 
-    .mini-card:hover {
+    .working-list .mini-card::before {
+      content: "";
+      position: absolute;
+      left: 3px;
+      top: 0.62em;
+      width: 6px;
+      height: 6px;
+      background: var(--accent-color);
+      transform: rotate(45deg);
+    }
+
+    .working-list .mini-card:hover {
       transform: none;
       box-shadow: none;
     }
 
+    .working-list .mini-card:hover .mini-card-title {
+      color: var(--accent-color);
+    }
+
     .mini-card-title {
+      font-size: 0.98rem;
       font-weight: 700;
       letter-spacing: 0;
+      line-height: 1.4;
       margin-bottom: 1px;
+      transition: color 0.18s ease;
+    }
+
+    .mini-card-authors {
+      font-size: 0.85rem;
+      color: var(--muted-text);
+    }
+
+    .role-tag {
+      display: inline-block;
+      margin-left: 6px;
+      padding: 0 5px;
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      font-weight: 600;
+      line-height: 1.5;
+      vertical-align: 1px;
+      color: var(--accent-color);
+      background: var(--accent-bg);
+      border: 1px solid var(--accent-border);
+      border-radius: 3px;
+    }
+
+    .mini-card-authors sup,
+    .paper-authors sup {
+      line-height: 0;
+    }
+
+    .mini-card-status:empty {
+      display: none;
     }
 
     /* Framed tiles: internships, education, services */
@@ -1363,6 +1416,25 @@
     .tile-conf-name {
       font-weight: 700;
       letter-spacing: 0;
+    }
+
+    .modern-list-date {
+      justify-self: start;
+      align-self: start;
+      margin-top: 3px;
+      padding: 0 6px;
+      line-height: 1.6;
+      font-weight: 600;
+      color: var(--accent-color);
+      background: var(--accent-bg);
+      border: 1px solid var(--accent-border);
+      border-radius: 4px;
+    }
+
+    .collab-callout {
+      background: var(--callout-bg);
+      border-color: var(--callout-border);
+      border-left-color: var(--accent-color);
     }
 
     .paper-image-container {
@@ -1426,11 +1498,546 @@
       font-family: var(--font-mono);
       font-size: 0.74rem;
       font-weight: 500;
-      color: var(--secondary-text);
-      background: #f5f5f5;
-      border: 1px solid var(--line);
+      color: var(--accent-color);
+      background: var(--accent-bg);
+      border: 1px solid var(--accent-border);
       border-radius: 3px;
       padding: 1px 6px;
+    }
+
+    /* ===== Monochrome academic style (Barron-like): no decorative color ===== */
+    body {
+      background: #ffffff;
+    }
+
+    a {
+      color: var(--link-color);
+      text-decoration: underline;
+      text-decoration-color: #b8b8b8;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 2px;
+      transition: text-decoration-color 0.15s ease, color 0.15s ease;
+    }
+
+    a:hover {
+      color: #000000;
+      text-decoration-color: #000000;
+    }
+
+    /* Navigation: plain text, active item underlined */
+    .site-nav {
+      background: rgba(255, 255, 255, 0.94);
+      border: none;
+      border-bottom: 1px solid var(--line);
+      border-radius: 0;
+      box-shadow: none;
+    }
+
+    .nav-layout {
+      top: 0;
+      margin-top: 0;
+    }
+
+    .nav-brand,
+    .nav-brand:hover,
+    .nav-brand svg {
+      color: var(--primary-text);
+      text-decoration: none;
+    }
+
+    .nav-links a {
+      color: var(--muted-text);
+      text-decoration: none;
+    }
+
+    .nav-links a:hover {
+      background: none;
+      color: var(--primary-text);
+    }
+
+    .nav-links a.active {
+      background: none;
+      color: var(--primary-text);
+      text-decoration: underline;
+      text-underline-offset: 5px;
+      text-decoration-color: var(--primary-text);
+    }
+
+    /* Page: no sheet, no cards */
+    .main-container {
+      background: none;
+      border: none;
+      border-radius: 0;
+      box-shadow: none;
+      overflow: visible;
+    }
+
+    .profile-header {
+      padding: 28px 0 18px;
+    }
+
+    .content-section,
+    .research-blog-section {
+      padding: 0 0 18px;
+    }
+
+    /* Section titles: bold text over a hairline */
+    .content-section > h1.section-title,
+    .research-blog-section > .section-title:first-child {
+      margin: 10px 0 12px;
+      padding: 0 0 5px;
+      background: none;
+      border-top: none;
+      border-bottom: 1px solid var(--line-strong);
+      font-size: 1.3rem;
+    }
+
+    .section-title::before {
+      display: none;
+    }
+
+    .subsection-title {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+
+    /* Profile */
+    .profile-avatar {
+      border: none;
+      box-shadow: none;
+    }
+
+    .profile-tagline,
+    .profile-tagline .prompt {
+      color: var(--muted-text);
+    }
+
+    .profile-tagline .cursor {
+      background: var(--muted-text);
+    }
+
+    /* Outlined monochrome buttons (profile links + paper links) */
+    .quick-links {
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .quick-link,
+    .paper-links .quick-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 2px 10px;
+      border: 1px solid var(--line-strong);
+      border-radius: 4px;
+      background: #ffffff;
+      box-shadow: none;
+      font-size: 0.85rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: var(--secondary-text);
+      text-decoration: none;
+      text-transform: none;
+    }
+
+    .quick-link svg {
+      display: inline-block;
+      color: var(--muted-text);
+    }
+
+    .quick-link:hover,
+    .paper-links .quick-link:hover {
+      border-color: var(--primary-text);
+      color: var(--primary-text);
+      background: #ffffff;
+      box-shadow: none;
+      transform: none;
+      text-decoration: none;
+    }
+
+    .quick-link:hover svg {
+      color: var(--primary-text);
+    }
+
+    /* Lists */
+    .modern-list li::before {
+      background: var(--muted-text);
+      opacity: 0.7;
+      width: 4px;
+      height: 4px;
+      top: 11px;
+    }
+
+    .modern-list-date,
+    .exp-date,
+    .tile-year-pill {
+      font-family: var(--font-body);
+      font-size: 0.92rem;
+      font-weight: 400;
+      color: var(--muted-text);
+      background: none;
+      border: none;
+      border-radius: 0;
+      padding: 0;
+      margin: 0;
+      line-height: inherit;
+    }
+
+    .dated-list li {
+      grid-template-columns: 64px minmax(0, 1fr);
+      align-items: baseline;
+    }
+
+    .dated-list .modern-list-date {
+      align-self: baseline;
+    }
+
+    .teaching-list li {
+      align-items: baseline;
+    }
+
+    .collab-callout {
+      background: none;
+      border: none;
+      border-left: 2px solid var(--line-strong);
+      border-radius: 0;
+      padding: 2px 0 2px 14px;
+      font-style: italic;
+    }
+
+    .collab-callout strong {
+      font-style: normal;
+    }
+
+    /* Publications */
+    .paper-card {
+      border-bottom: none;
+      padding: 10px 0;
+      align-items: flex-start;
+    }
+
+    .paper-image-container {
+      border: none;
+      border-radius: 0;
+    }
+
+    .paper-card:hover .paper-image-container img {
+      transform: none;
+    }
+
+    .paper-title:hover {
+      color: inherit;
+    }
+
+    .paper-footer {
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px 14px;
+      margin-top: 3px;
+    }
+
+    .paper-meta {
+      gap: 6px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .conf-badge,
+    .ccf-badge,
+    .jcr-badge,
+    .conf-badge:hover,
+    .ccf-badge:hover,
+    .jcr-badge:hover {
+      font-family: var(--font-body);
+      box-shadow: none;
+      transform: none;
+      letter-spacing: 0;
+    }
+
+    /* Venue: bold plain text */
+    .conf-badge,
+    .conf-badge:hover {
+      padding: 0;
+      background: none;
+      border: none;
+      border-radius: 0;
+      font-size: 0.95rem;
+      font-style: normal;
+      font-weight: 700;
+      color: var(--primary-text);
+    }
+
+    /* Tier (CCF-A / JCR Q1): light gray tag */
+    .ccf-badge,
+    .jcr-badge,
+    .ccf-badge:hover,
+    .jcr-badge:hover {
+      padding: 0 6px;
+      background: #efefef;
+      border: 1px solid #efefef;
+      border-radius: 3px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      line-height: 1.55;
+      color: #333333;
+    }
+
+    .paper-links {
+      gap: 6px;
+    }
+
+    .paper-links .quick-link {
+      padding: 1px 9px;
+      font-size: 0.82rem;
+    }
+
+    .paper-toggle {
+      border: none;
+      padding: 0;
+      gap: 0;
+      background: none;
+    }
+
+    .paper-toggle-btn,
+    .paper-toggle-btn:hover {
+      padding: 0 2px;
+      background: none;
+      border-radius: 0;
+      font-size: 0.9rem;
+      font-weight: 400;
+      color: var(--muted-text);
+      box-shadow: none;
+    }
+
+    .paper-toggle-btn + .paper-toggle-btn::before {
+      content: "/";
+      margin: 0 8px 0 4px;
+      color: var(--line-strong);
+    }
+
+    .paper-toggle-btn.is-active {
+      background: none;
+      box-shadow: none;
+      color: var(--primary-text);
+      font-weight: 700;
+    }
+
+    .nav-layout .site-nav {
+      border-radius: 0;
+      box-shadow: none;
+    }
+
+    /* Working papers: plain list */
+    .working-list {
+      gap: 8px;
+    }
+
+    .working-list .mini-card {
+      padding-left: 0;
+    }
+
+    .working-list .mini-card::before {
+      display: none;
+    }
+
+    .working-list .mini-card:hover .mini-card-title {
+      color: inherit;
+    }
+
+    /* Internships & education: one row per entry */
+    .intern-grid {
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+
+    .intern-card,
+    .intern-card:hover {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 0;
+      border: none;
+      border-radius: 0;
+      box-shadow: none;
+      background: none;
+      transform: none;
+    }
+
+    .intern-card-top {
+      align-items: center;
+      flex: 1;
+    }
+
+    .intern-logo {
+      width: 36px;
+      height: 36px;
+      border: none;
+      padding: 0;
+      border-radius: 0;
+    }
+
+    .intern-card-meta {
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: center;
+      gap: 0;
+      flex-shrink: 0;
+      text-align: right;
+    }
+
+    .intern-role {
+      font-weight: 400;
+      font-style: italic;
+      font-size: 0.9rem;
+    }
+
+    /* Services: single line */
+    .service-line {
+      margin: 0;
+    }
+
+    /* Teaching */
+    .teaching-list li {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+
+    .teaching-list .modern-list-content {
+      font-weight: 400;
+    }
+
+    @media (max-width: 640px) {
+      .intern-card,
+      .intern-card:hover {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2px;
+      }
+
+      .intern-card-meta {
+        flex-direction: row;
+        align-items: baseline;
+        gap: 10px;
+        padding-left: 48px;
+      }
+    }
+
+    /* ===== Monochrome interactions ===== */
+    /* Buttons invert on hover */
+    .quick-link,
+    .paper-links .quick-link {
+      transition: background 0.18s ease, color 0.18s ease, border-color 0.18s ease, transform 0.18s ease;
+    }
+
+    .quick-link:hover,
+    .paper-links .quick-link:hover {
+      background: var(--primary-text);
+      border-color: var(--primary-text);
+      color: #ffffff;
+      transform: translateY(-1px);
+    }
+
+    .quick-link:hover svg {
+      color: #ffffff;
+    }
+
+    .quick-link:active,
+    .paper-links .quick-link:active {
+      transform: translateY(0);
+    }
+
+    /* Rows highlight on hover: papers, working papers, internships, education */
+    .paper-card,
+    .working-list .mini-card {
+      margin-left: -12px;
+      margin-right: -12px;
+      padding-left: 12px;
+      padding-right: 12px;
+      border-radius: 0;
+      box-shadow: inset 0 0 0 transparent;
+      transition: box-shadow 0.2s ease;
+    }
+
+    .working-list .mini-card {
+      padding-top: 6px;
+      padding-bottom: 6px;
+    }
+
+    .working-list {
+      gap: 2px;
+    }
+
+    .paper-card:hover,
+    .working-list .mini-card:hover {
+      background: none;
+      box-shadow: inset 2px 0 0 var(--primary-text);
+    }
+
+    /* Paper figure zooms gently */
+    .paper-image-container {
+      overflow: hidden;
+      border-radius: 4px;
+    }
+
+    .paper-image-container img {
+      transition: transform 0.35s ease;
+    }
+
+    .paper-card:hover .paper-image-container img {
+      transform: scale(1.04);
+    }
+
+    /* Nav: underline slides in */
+    .nav-links a {
+      position: relative;
+      transition: color 0.18s ease;
+    }
+
+    .nav-links a::after {
+      content: "";
+      position: absolute;
+      left: 8px;
+      right: 8px;
+      bottom: 1px;
+      height: 1px;
+      background: var(--primary-text);
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.22s ease;
+    }
+
+    .nav-links a:hover::after,
+    .nav-links a.active::after {
+      transform: scaleX(1);
+    }
+
+    .nav-links a.active {
+      text-decoration: none;
+    }
+
+    /* Selected / All toggle */
+    .paper-toggle-btn {
+      transition: color 0.15s ease;
+    }
+
+    .paper-toggle-btn:hover:not(.is-active) {
+      color: var(--primary-text);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .quick-link:hover,
+      .paper-links .quick-link:hover,
+      .paper-card:hover .paper-image-container img {
+        transform: none;
+      }
+
+      .nav-links a::after {
+        transition: none;
+      }
     }
 
     @media (prefers-reduced-motion: reduce) {
@@ -1488,14 +2095,19 @@
 
       .main-container {
         padding: 0;
-        border-radius: 8px;
       }
 
-      .profile-header,
+      :root {
+        --sec-px: 16px;
+      }
+
+      .profile-header {
+        padding: 16px 16px 18px;
+      }
+
       .content-section,
       .research-blog-section {
-        padding: 16px 16px 18px;
-        border-radius: 0;
+        padding: 0 var(--sec-px) 18px;
       }
 
       .profile-name {
@@ -1533,6 +2145,16 @@
 
       .nav-inner {
         padding: 0 14px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .paper-card,
+      .working-list .mini-card {
+        margin-left: -8px;
+        margin-right: -8px;
+        padding-left: 8px;
+        padding-right: 8px;
       }
     }
   </style>
