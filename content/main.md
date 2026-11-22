@@ -1,4 +1,4 @@
-<h1 id="about-me" class="section-title">🌟 About Me</h1>
+<h1 id="about-me" class="section-title">About Me</h1>
 
 <p class="lead">
   Here is <strong>Peng Lai (赖鹏)</strong>. I am currently a <strong>Ph.D. student</strong> in the Department of
@@ -16,7 +16,7 @@
   I study these as two connected problems:
 </p>
 
-<ul class="modern-list" style="margin-top: 8px; margin-bottom: 14px;">
+<ul class="modern-list" style="margin-top: 4px; margin-bottom: 8px;">
   <li><strong>Agentic learning:</strong> how an agent improves its behavior through interaction, when actions are many, outcomes arrive late, and it is unclear which steps deserve credit.</li>
   <li><strong>Reward modeling:</strong> how to represent what counts as good behavior, so learning is guided by feedback one can trust.</li>
 </ul>
@@ -25,15 +25,16 @@
   I am actively seeking collaborations and conversations on <strong>agentic learning</strong>, <strong>reward modeling</strong>, and <strong>multimodal research</strong>. Feel free to reach out anytime!
 </div>
 
-<h1 id="news" class="section-title">🔥 News</h1>
-<ul class="modern-list">
+<h1 id="news" class="section-title">News</h1>
+<ul class="modern-list dated-list">
+  <li><span class="modern-list-date">2026.11</span><span class="modern-list-content">🎉 Our survey <a href="https://arxiv.org/abs/2606.09032" target="_blank" rel="noopener noreferrer">Bridging the Agent-World Gap: A Survey of Text World Models for LLM-based Agents</a> accepted to <strong>IEEE Transactions on Systems, Man, and Cybernetics: Systems</strong> (JCR Q1). Congratulations to all coauthors!</span></li>
   <li><span class="modern-list-date">2026.08</span><span class="modern-list-content">🎉 <a href="https://arxiv.org/pdf/2609.05899" target="_blank" rel="noopener noreferrer">AlignDiff</a> accepted to <strong>EMNLP 2026 Findings</strong>. Congratulations to all coauthors!</span></li>
   <li><span class="modern-list-date">2026.05</span><span class="modern-list-content">🎉 <a href="https://openreview.net/forum?id=laiK6TlhL2" target="_blank" rel="noopener noreferrer">UniRRM</a> accepted to <strong>ICML 2026</strong>. Congratulations to all coauthors!</span></li>
   <li><span class="modern-list-date">2026.01</span><span class="modern-list-content">🎉 <a href="https://arxiv.org/abs/2602.09383v1" target="_blank" rel="noopener noreferrer">BiasScope</a> and <a href="https://arxiv.org/abs/2509.23753" target="_blank" rel="noopener noreferrer">ASFT</a> accepted to <strong>ICLR 2026</strong>. Congratulations to all coauthors!</span></li>
   <li><span class="modern-list-date">2025.09</span><span class="modern-list-content">🎉 <a href="https://arxiv.org/abs/2508.03550" target="_blank" rel="noopener noreferrer">LAGER</a> accepted to <strong>NeurIPS 2025</strong>. Congratulations to all coauthors!</span></li>
 </ul>
 
-<h1 id="publications" class="section-title">📝 Publications</h1>
+<h1 id="publications" class="section-title">Publications</h1>
 <div class="publications-toolbar">
   <p class="muted-note">(<sup>*</sup> indicates equal contribution.)</p>
   <div class="paper-toggle" role="tablist" aria-label="Publication filter">
@@ -193,7 +194,7 @@
   <div class="mini-card-status"></div>
 </div>
 
-<h1 id="internships" class="section-title">💻 Internships</h1>
+<h1 id="internships" class="section-title">Internships</h1>
 <div class="intern-grid">
   <div class="intern-card">
     <div class="intern-card-top">
@@ -223,7 +224,7 @@
   </div>
 </div>
 
-<h1 id="education" class="section-title">📖 Education</h1>
+<h1 id="education" class="section-title">Education</h1>
 <div class="intern-grid">
   <div class="intern-card">
     <div class="intern-card-top">
@@ -253,16 +254,16 @@
   </div>
 </div>
 
-<h1 id="honors" class="section-title">🎖 Honors and Awards</h1>
-<ul class="modern-list">
+<h1 id="honors" class="section-title">Honors and Awards</h1>
+<ul class="modern-list dated-list">
   <li><span class="modern-list-date">2026</span><span class="modern-list-content"><strong>Outstanding Ph.D. Student</strong>, SUSTech (Top 1 in the Department of Statistics and Data Science)</span></li>
   <li><span class="modern-list-date">2025</span><span class="modern-list-content"><strong>Graduate Academic Scholarship (Special Class)</strong>, SUSTech (Top 20%)</span></li>
   <li><span class="modern-list-date">2022</span><span class="modern-list-content"><strong>Sichuan Provincial First Prize</strong>, National College Student Market Research and Analysis Competition (Team Leader)</span></li>
   <li><span class="modern-list-date">2021</span><span class="modern-list-content"><strong>Sichuan Provincial First Prize</strong>, National College Student Mathematical Modeling Competition (Team Leader)</span></li>
 </ul>
 
-<h1 id="services" class="section-title">🤝 Academic Services</h1>
-<h2 class="section-title subsection-title" style="margin-top: 18px; margin-bottom: 12px; font-size: 1.05rem; color: #1e293b;">Conference Reviewer</h2>
+<h1 id="services" class="section-title">Academic Services</h1>
+<h2 class="section-title subsection-title" style="margin-top: 2px; margin-bottom: 8px;">Conference Reviewer</h2>
 <div class="service-grid">
   <div class="service-tile">
     <div class="tile-header">
@@ -312,7 +313,7 @@
   </div>
 </div>
 
-<h1 id="teaching" class="section-title">📚 Teaching Assistantships</h1>
+<h1 id="teaching" class="section-title">Teaching Assistantships</h1>
 <ul class="modern-list teaching-list">
   <li><span class="modern-list-content">Engineering Probability and Statistics (Undergraduate)</span><span class="modern-list-date">Fall 2026, Fall 2024</span></li>
   <li><span class="modern-list-content">Advanced Natural Language Processing (Graduate)</span><span class="modern-list-date">Fall 2025</span></li>
